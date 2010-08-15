@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7FE97566121616AC00BDDE8B /* HigherOrderMessage */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* HigherOrderMessage */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* HigherOrderMessage */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 7FE9756D121616C000BDDE8B /* Code sense */;
+		executables = (
+			7FE97566121616AC00BDDE8B /* HigherOrderMessage */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					532,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					644,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					658,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 303531125;
+			PBXWorkspaceStateSaveDate = 303531125;
+		};
+		perUserProjectItems = {
+			7F9D2DC012179FF20007C9A3 /* PBXTextBookmark */ = 7F9D2DC012179FF20007C9A3 /* PBXTextBookmark */;
+			7F9D2E241217A6BD0007C9A3 /* PBXTextBookmark */ = 7F9D2E241217A6BD0007C9A3 /* PBXTextBookmark */;
+			7F9D2E3B1217B22A0007C9A3 /* PBXTextBookmark */ = 7F9D2E3B1217B22A0007C9A3 /* PBXTextBookmark */;
+			7F9D2E541217CBFB0007C9A3 /* PBXTextBookmark */ = 7F9D2E541217CBFB0007C9A3 /* PBXTextBookmark */;
+			7F9D2E551217CBFB0007C9A3 /* PBXTextBookmark */ = 7F9D2E551217CBFB0007C9A3 /* PBXTextBookmark */;
+			7F9D2E561217CBFB0007C9A3 /* PBXTextBookmark */ = 7F9D2E561217CBFB0007C9A3 /* PBXTextBookmark */;
+			7F9D2E581217CBFD0007C9A3 /* PBXTextBookmark */ = 7F9D2E581217CBFD0007C9A3 /* PBXTextBookmark */;
+			7FE975E212172B8600BDDE8B /* PBXTextBookmark */ = 7FE975E212172B8600BDDE8B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7FE9756C121616C000BDDE8B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 965}}";
+			sepNavSelRange = "{657, 0}";
+			sepNavVisRange = "{0, 742}";
+		};
+	};
+	32A70AAB03705E1F00C91783 /* HigherOrderMessage_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 965}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 178}";
+		};
+	};
+	7F9D2DC012179FF20007C9A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FE97572121633F200BDDE8B /* NSObject+HigherOrderMessage.h */;
+		name = "NSObject+HigherOrderMessage.h: 10";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 306;
+		vrLoc = 0;
+	};
+	7F9D2E241217A6BD0007C9A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FE97573121633F200BDDE8B /* NSObject+HigherOrderMessage.m */;
+		name = "NSObject+HigherOrderMessage.m: 19";
+		rLen = 0;
+		rLoc = 590;
+		rType = 0;
+		vrLen = 603;
+		vrLoc = 0;
+	};
+	7F9D2E3B1217B22A0007C9A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* HigherOrderMessage_Prefix.pch */;
+		name = "HigherOrderMessage_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 178;
+		vrLoc = 0;
+	};
+	7F9D2E541217CBFB0007C9A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FE9756B121616BF00BDDE8B /* HigherOrderMessage.h */;
+		name = "HigherOrderMessage.h: 25";
+		rLen = 0;
+		rLoc = 562;
+		rType = 0;
+		vrLen = 563;
+		vrLoc = 0;
+	};
+	7F9D2E551217CBFB0007C9A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FE9756F121616ED00BDDE8B /* HigherOrderMessage.m */;
+		name = "HigherOrderMessage.m: 16";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 1187;
+		vrLoc = 0;
+	};
+	7F9D2E561217CBFB0007C9A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.m */;
+		name = "main.m: 16";
+		rLen = 0;
+		rLoc = 480;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 0;
+	};
+	7F9D2E581217CBFD0007C9A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.m */;
+		name = "main.m: 18";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 0;
+	};
+	7FE97566121616AC00BDDE8B /* HigherOrderMessage */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HigherOrderMessage;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eflags = 1;
+			$es = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$rax = 1;
+			$rbp = 1;
+			$rbx = 1;
+			$rcx = 1;
+			$rdi = 1;
+			$rdx = 1;
+			$rip = 1;
+			$rsi = 1;
+			$rsp = 1;
+			$ss = 1;
+		};
+	};
+	7FE9756B121616BF00BDDE8B /* HigherOrderMessage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 965}}";
+			sepNavSelRange = "{562, 0}";
+			sepNavVisRange = "{0, 563}";
+		};
+	};
+	7FE9756C121616C000BDDE8B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7FE9756D121616C000BDDE8B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7FE9756F121616ED00BDDE8B /* HigherOrderMessage.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 965}}";
+			sepNavSelRange = "{386, 0}";
+			sepNavVisRange = "{0, 1187}";
+		};
+	};
+	7FE97572121633F200BDDE8B /* NSObject+HigherOrderMessage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 965}}";
+			sepNavSelRange = "{238, 0}";
+			sepNavVisRange = "{0, 306}";
+		};
+	};
+	7FE97573121633F200BDDE8B /* NSObject+HigherOrderMessage.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 299}}";
+			sepNavSelRange = "{282, 0}";
+			sepNavVisRange = "{263, 340}";
+		};
+	};
+	7FE975E212172B8600BDDE8B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FE975E312172B8600BDDE8B /* NSArray.h */;
+		name = "NSArray.h: 84";
+		rLen = 13;
+		rLoc = 4313;
+		rType = 0;
+		vrLen = 3834;
+		vrLoc = 1619;
+	};
+	7FE975E312172B8600BDDE8B /* NSArray.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSArray.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSArray.h;
+		sourceTree = "<absolute>";
+	};
+	8DD76F960486AA7600D96B5E /* HigherOrderMessage */ = {
+		activeExec = 0;
+		executables = (
+			7FE97566121616AC00BDDE8B /* HigherOrderMessage */,
+		);
+	};
+}
