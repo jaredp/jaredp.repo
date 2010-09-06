@@ -34,14 +34,24 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 305446699;
-			PBXWorkspaceStateSaveDate = 305446699;
+			PBXPerProjectTemplateStateSaveDate = 305449067;
+			PBXWorkspaceStateSaveDate = 305449067;
 		};
 		perUserProjectItems = {
-			7F44B54D1234BCCF00B3E868 /* PBXTextBookmark */ = 7F44B54D1234BCCF00B3E868 /* PBXTextBookmark */;
-			7F44B54E1234BCCF00B3E868 /* PBXTextBookmark */ = 7F44B54E1234BCCF00B3E868 /* PBXTextBookmark */;
-			7F44B5501234BCCF00B3E868 /* PBXTextBookmark */ = 7F44B5501234BCCF00B3E868 /* PBXTextBookmark */;
-			7F44B5631234BF2E00B3E868 /* PBXTextBookmark */ = 7F44B5631234BF2E00B3E868 /* PBXTextBookmark */;
+			7F44B54D1234BCCF00B3E868 = 7F44B54D1234BCCF00B3E868 /* PBXTextBookmark */;
+			7F44B54E1234BCCF00B3E868 = 7F44B54E1234BCCF00B3E868 /* PBXTextBookmark */;
+			7F44B5631234BF2E00B3E868 = 7F44B5631234BF2E00B3E868 /* PBXTextBookmark */;
+			7FB286791234C10500865DCB = 7FB286791234C10500865DCB /* PBXTextBookmark */;
+			7FF873701234C8800074952B /* PBXTextBookmark */ = 7FF873701234C8800074952B /* PBXTextBookmark */;
+			7FF873711234C8800074952B /* PBXTextBookmark */ = 7FF873711234C8800074952B /* PBXTextBookmark */;
+			7FF873731234C8800074952B /* PBXTextBookmark */ = 7FF873731234C8800074952B /* PBXTextBookmark */;
+			7FF8737C1234CA6B0074952B /* PBXTextBookmark */ = 7FF8737C1234CA6B0074952B /* PBXTextBookmark */;
+			7FF8737D1234CA6B0074952B /* PBXTextBookmark */ = 7FF8737D1234CA6B0074952B /* PBXTextBookmark */;
+			7FF8737E1234CA6B0074952B /* PBXTextBookmark */ = 7FF8737E1234CA6B0074952B /* PBXTextBookmark */;
+			7FF8737F1234CA6B0074952B /* PBXTextBookmark */ = 7FF8737F1234CA6B0074952B /* PBXTextBookmark */;
+			7FF8738B1234CA8E0074952B /* PBXTextBookmark */ = 7FF8738B1234CA8E0074952B /* PBXTextBookmark */;
+			7FF8738C1234CA8E0074952B /* PBXTextBookmark */ = 7FF8738C1234CA8E0074952B /* PBXTextBookmark */;
+			7FF8738D1234CA8E0074952B /* PBXTextBookmark */ = 7FF8738D1234CA8E0074952B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7F44B52A1234BB4B00B3E868 /* Source Control */;
 		userBuildSettings = {
@@ -50,8 +60,8 @@
 	08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {768, 965}}";
-			sepNavSelRange = "{390, 0}";
-			sepNavVisRange = "{0, 674}";
+			sepNavSelRange = "{543, 0}";
+			sepNavVisRange = "{0, 676}";
 		};
 	};
 	7F44B5251234BB2D00B3E868 /* JPObjectSwitch */ = {
@@ -100,14 +110,14 @@
 	};
 	7F44B52C1234BB5000B3E868 /* JPSwitch.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {768, 784}}";
-			sepNavSelRange = "{609, 0}";
-			sepNavVisRange = "{0, 794}";
+			sepNavIntBoundsRect = "{{0, 0}, {768, 965}}";
+			sepNavSelRange = "{707, 0}";
+			sepNavVisRange = "{0, 834}";
 		};
 	};
 	7F44B52F1234BB9B00B3E868 /* JPSwitch.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {768, 784}}";
+			sepNavIntBoundsRect = "{{0, 0}, {768, 965}}";
 			sepNavSelRange = "{255, 0}";
 			sepNavVisRange = "{0, 921}";
 		};
@@ -132,24 +142,139 @@
 		vrLen = 794;
 		vrLoc = 0;
 	};
-	7F44B5501234BCCF00B3E868 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
-		name = "JPObjectSwitch.m: 15";
-		rLen = 0;
-		rLoc = 390;
-		rType = 0;
-		vrLen = 674;
-		vrLoc = 0;
-	};
 	7F44B5631234BF2E00B3E868 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
 		name = "JPObjectSwitch.m: 15";
 		rLen = 0;
-		rLoc = 390;
+		rLoc = 392;
 		rType = 0;
-		vrLen = 674;
+		vrLen = 673;
+		vrLoc = 0;
+	};
+	7FB286791234C10500865DCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
+		name = "JPObjectSwitch.m: 18";
+		rLen = 0;
+		rLoc = 545;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 0;
+	};
+	7FF873701234C8800074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
+		name = "JPObjectSwitch.m: 13";
+		rLen = 3;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 0;
+	};
+	7FF873711234C8800074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FF873721234C8800074952B /* JPObjectSwitch.mi */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	7FF873721234C8800074952B /* JPObjectSwitch.mi */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc.preprocessed;
+		name = JPObjectSwitch.mi;
+		path = "/Users/Jared/Development/Git Repository/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/Objects-normal/x86_64/JPObjectSwitch.mi";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 1.10348e+06}}";
+			sepNavSelRange = "{2714832, 473}";
+			sepNavVisRange = "{2712546, 2791}";
+		};
+	};
+	7FF873731234C8800074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FF873741234C8800074952B /* JPObjectSwitch.mi */;
+		name = "JPObjectSwitch.mi: 85668";
+		rLen = 473;
+		rLoc = 2714832;
+		rType = 0;
+		vrLen = 2791;
+		vrLoc = 2712546;
+	};
+	7FF873741234C8800074952B /* JPObjectSwitch.mi */ = {
+		isa = PBXFileReference;
+		name = JPObjectSwitch.mi;
+		path = "/Users/Jared/Development/Git Repository/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/Objects-normal/x86_64/JPObjectSwitch.mi";
+		sourceTree = "<absolute>";
+	};
+	7FF8737C1234CA6B0074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7FF873721234C8800074952B /* JPObjectSwitch.mi */;
+		name = "JPObjectSwitch.mi: 85668";
+		rLen = 473;
+		rLoc = 2714832;
+		rType = 0;
+		vrLen = 2791;
+		vrLoc = 2712546;
+	};
+	7FF8737D1234CA6B0074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F44B52C1234BB5000B3E868 /* JPSwitch.h */;
+		name = "JPSwitch.h: 24";
+		rLen = 0;
+		rLoc = 707;
+		rType = 0;
+		vrLen = 834;
+		vrLoc = 0;
+	};
+	7FF8737E1234CA6B0074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
+		name = "JPObjectSwitch.m: 12";
+		rLen = 6;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 0;
+	};
+	7FF8737F1234CA6B0074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
+		name = "JPObjectSwitch.m: 19";
+		rLen = 0;
+		rLoc = 543;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 0;
+	};
+	7FF8738B1234CA8E0074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F44B52F1234BB9B00B3E868 /* JPSwitch.m */;
+		name = "JPSwitch.m: 14";
+		rLen = 0;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 0;
+	};
+	7FF8738C1234CA8E0074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
+		name = "JPObjectSwitch.m: 19";
+		rLen = 0;
+		rLoc = 543;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 0;
+	};
+	7FF8738D1234CA8E0074952B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
+		name = "JPObjectSwitch.m: 18";
+		rLen = 0;
+		rLoc = 543;
+		rType = 0;
+		vrLen = 676;
 		vrLoc = 0;
 	};
 	8DD76F960486AA7600D96B5E /* JPObjectSwitch */ = {

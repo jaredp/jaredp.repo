@@ -21,5 +21,6 @@ extern char JPSwitchDefaultCaseIndicator;
 void __JPSwitch(id selector, ...);
 #define JPSwitch(selector)	__JPSwitch(selector, ^
 #define JPCase(obj)			}, obj, ^{ JPSwitchCase
+#define JPStringCase(str)	JPCase(@#str)
 #define JPDefaultCase		}, &JPSwitchDefaultCaseIndicator, ^{ JPSwitchCase
 #define JPSwitchEnd			, &JPSwitchTermationIndicator)
