@@ -1,0 +1,93 @@
+TJPObjectSwitch
+v7
+r0
+t305445756.355490
+cCheck dependencies
+cProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPObjectSwitch_Prefix-cqbiazbqyyfkowaaobvomtjanuly/JPObjectSwitch_Prefix.pch.gch JPObjectSwitch_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/Objects-normal/x86_64/JPObjectSwitch.o /Users/Jared/Development/JPObjectSwitch/JPObjectSwitch.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Jared/Development/JPObjectSwitch/build/Debug/JPObjectSwitch normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C576D4700000000000000EE
+t1280798023
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C11730A0000000000B37440
+t1276211978
+s11760704
+
+N/Users/Jared/Development/JPObjectSwitch/JPObjectSwitch.m
+c000000004C8483AD00000000000000EA
+t1283752877
+s234
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Development/JPObjectSwitch/JPObjectSwitch_Prefix.pch
+c000000004C8483AD00000000000000AA
+t1283752877
+s170
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Development/JPObjectSwitch/build/Debug/JPObjectSwitch
+t1283752956
+s9304
+
+N/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/Objects-normal/x86_64/JPObjectSwitch.LinkFileList
+c000000004C8483F90000000000000085
+t1283752953
+s133
+
+N/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/Objects-normal/x86_64/JPObjectSwitch.o
+t1283752956
+s6972
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPObjectSwitch_Prefix-cqbiazbqyyfkowaaobvomtjanuly/JPObjectSwitch_Prefix.pch.gch
+t1283752956
+s41401104
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies305445753#305445753#0(0"0(0#1#0"8752993568#0"0#
+
+CCompileC build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/Objects-normal/x86_64/JPObjectSwitch.o /Users/Jared/Development/JPObjectSwitch/JPObjectSwitch.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s305445756.067641
+e305445756.234069
+r1
+xCompileC
+xbuild/JPObjectSwitch.build/Debug/JPObjectSwitch.build/Objects-normal/x86_64/JPObjectSwitch.o
+x/Users/Jared/Development/JPObjectSwitch/JPObjectSwitch.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Jared/Development/JPObjectSwitch/JPObjectSwitch.m305445756#305445756#0(0"0(0#0#56"/Users/Jared/Development/JPObjectSwitch/JPObjectSwitch.m8754450080#1621"    cd /Users/Jared/Development/JPObjectSwitch    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/JPObjectSwitch-generated-files.hmap -I/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/JPObjectSwitch-own-target-headers.hmap -I/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/JPObjectSwitch-all-target-headers.hmap -iquote /Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/JPObjectSwitch-project-headers.hmap -F/Users/Jared/Development/JPObjectSwitch/build/Debug -I/Users/Jared/Development/JPObjectSwitch/build/Debug/include -I/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/DerivedSources/x86_64 -I/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPObjectSwitch_Prefix-cqbiazbqyyfkowaaobvomtjanuly/JPObjectSwitch_Prefix.pch -c /Users/Jared/Development/JPObjectSwitch/JPObjectSwitch.m -o /Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/Objects-normal/x86_64/JPObjectSwitch.o0#
+
+CLd /Users/Jared/Development/JPObjectSwitch/build/Debug/JPObjectSwitch normal x86_64
+s305445756.234169
+e305445756.355440
+r1
+xLd
+x/Users/Jared/Development/JPObjectSwitch/build/Debug/JPObjectSwitch
+xnormal
+xx86_64
+lSLF07#2@71"Link /Users/Jared/Development/JPObjectSwitch/build/Debug/JPObjectSwitch305445756#305445756#0(0"0(0#0#0"8754387296#553"    cd /Users/Jared/Development/JPObjectSwitch    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Jared/Development/JPObjectSwitch/build/Debug -F/Users/Jared/Development/JPObjectSwitch/build/Debug -filelist /Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/Objects-normal/x86_64/JPObjectSwitch.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/Jared/Development/JPObjectSwitch/build/Debug/JPObjectSwitch0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPObjectSwitch_Prefix-cqbiazbqyyfkowaaobvomtjanuly/JPObjectSwitch_Prefix.pch.gch JPObjectSwitch_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s305445753.405286
+e305445756.067388
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPObjectSwitch_Prefix-cqbiazbqyyfkowaaobvomtjanuly/JPObjectSwitch_Prefix.pch.gch
+xJPObjectSwitch_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile JPObjectSwitch_Prefix.pch305445753#305445756#0(0"0(0#0#65"/Users/Jared/Development/JPObjectSwitch/JPObjectSwitch_Prefix.pch8702122528#1499"    cd /Users/Jared/Development/JPObjectSwitch    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/JPObjectSwitch-generated-files.hmap -I/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/JPObjectSwitch-own-target-headers.hmap -I/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/JPObjectSwitch-all-target-headers.hmap -iquote /Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/JPObjectSwitch-project-headers.hmap -F/Users/Jared/Development/JPObjectSwitch/build/Debug -I/Users/Jared/Development/JPObjectSwitch/build/Debug/include -I/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/DerivedSources/x86_64 -I/Users/Jared/Development/JPObjectSwitch/build/JPObjectSwitch.build/Debug/JPObjectSwitch.build/DerivedSources -c /Users/Jared/Development/JPObjectSwitch/JPObjectSwitch_Prefix.pch -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JPObjectSwitch_Prefix-cqbiazbqyyfkowaaobvomtjanuly/JPObjectSwitch_Prefix.pch.gch0#
+

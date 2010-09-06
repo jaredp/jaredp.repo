@@ -1,0 +1,161 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7F44B5251234BB2D00B3E868 /* JPObjectSwitch */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* JPObjectSwitch */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* JPObjectSwitch */,
+		);
+		codeSenseManager = 7F44B52B1234BB4B00B3E868 /* Code sense */;
+		executables = (
+			7F44B5251234BB2D00B3E868 /* JPObjectSwitch */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					590,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 305445677;
+			PBXWorkspaceStateSaveDate = 305445677;
+		};
+		perUserProjectItems = {
+			7F44B54D1234BCCF00B3E868 /* PBXTextBookmark */ = 7F44B54D1234BCCF00B3E868 /* PBXTextBookmark */;
+			7F44B54E1234BCCF00B3E868 /* PBXTextBookmark */ = 7F44B54E1234BCCF00B3E868 /* PBXTextBookmark */;
+			7F44B54F1234BCCF00B3E868 /* PBXTextBookmark */ = 7F44B54F1234BCCF00B3E868 /* PBXTextBookmark */;
+			7F44B5501234BCCF00B3E868 /* PBXTextBookmark */ = 7F44B5501234BCCF00B3E868 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7F44B52A1234BB4B00B3E868 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 965}}";
+			sepNavSelRange = "{390, 0}";
+			sepNavVisRange = "{0, 674}";
+		};
+	};
+	7F44B5251234BB2D00B3E868 /* JPObjectSwitch */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = JPObjectSwitch;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7F44B52A1234BB4B00B3E868 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7F44B52B1234BB4B00B3E868 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7F44B52C1234BB5000B3E868 /* JPSwitch.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 784}}";
+			sepNavSelRange = "{609, 0}";
+			sepNavVisRange = "{0, 794}";
+		};
+	};
+	7F44B52F1234BB9B00B3E868 /* JPSwitch.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 784}}";
+			sepNavSelRange = "{255, 0}";
+			sepNavVisRange = "{0, 921}";
+		};
+	};
+	7F44B54D1234BCCF00B3E868 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F44B52F1234BB9B00B3E868 /* JPSwitch.m */;
+		name = "JPSwitch.m: 14";
+		rLen = 0;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 0;
+	};
+	7F44B54E1234BCCF00B3E868 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F44B52C1234BB5000B3E868 /* JPSwitch.h */;
+		name = "JPSwitch.h: 22";
+		rLen = 0;
+		rLoc = 609;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 0;
+	};
+	7F44B54F1234BCCF00B3E868 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
+		name = "JPObjectSwitch.m: 23";
+		rLen = 0;
+		rLoc = 644;
+		rType = 0;
+		vrLen = 669;
+		vrLoc = 0;
+	};
+	7F44B5501234BCCF00B3E868 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* JPObjectSwitch.m */;
+		name = "JPObjectSwitch.m: 15";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 0;
+	};
+	8DD76F960486AA7600D96B5E /* JPObjectSwitch */ = {
+		activeExec = 0;
+		executables = (
+			7F44B5251234BB2D00B3E868 /* JPObjectSwitch */,
+		);
+	};
+}
