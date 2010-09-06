@@ -323,12 +323,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7F44B5501234BCCF00B3E868</string>
+										<string>7F44B5631234BF2E00B3E868</string>
 										<key>history</key>
 										<array>
 											<string>7F44B54D1234BCCF00B3E868</string>
 											<string>7F44B54E1234BCCF00B3E868</string>
-											<string>7F44B54F1234BCCF00B3E868</string>
+											<string>7F44B5501234BCCF00B3E868</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -386,9 +386,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>7F44B5511234BCCF00B3E868</string>
+				<string>7F44B5641234BF2E00B3E868</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>7F44B5521234BCCF00B3E868</string>
+				<string>7F44B5651234BF2E00B3E868</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -526,12 +526,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>7F44B55B1234BCCF00B3E868</string>
-		<string>7F44B55C1234BCCF00B3E868</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>7F44B53F1234BC3400B3E868</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/Jared/Development/JPObjectSwitch/JPObjectSwitch.xcodeproj</string>
+		<string>/Users/Jared/Development/Git Repository/JPObjectSwitch/JPObjectSwitch.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>307 135 1037 1043 0 0 1920 1178 </string>
@@ -572,8 +568,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -613,7 +607,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>7F44B53F1234BC3400B3E868</string>
-				<string>7F44B5401234BC3400B3E868</string>
+				<string>7F44B5661234BF2E00B3E868</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
