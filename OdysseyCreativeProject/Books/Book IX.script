@@ -1,0 +1,39 @@
+:start:
+BOOK IX
+
+Odysseus revealed his name and began to tell his story.
+
+"After Troy, we sailed to the island of the Kikones.  We attacked and gained plunder and women.  Then I told them that we must return to our ship.  They
+@stay, stayed, drunk, wine, stay, feast: stay
+@:leave
+
+:stay:
+While they continued to drink and butcher sheep for feasting, the Kikones returned in force, and drove us from their land.  We lost 6 men from each ship in the retreat back to sea.
+@:leave
+
+:leave:
+We left at once, and sailed along for 9 days, under a storm from Zeus, until we came upon the island of the lotus eaters.  They did not show us any ill will, but offered my men the lotus flower.  Those that ate it showed no will to return home, so I ordered my men not to eat it and we left once more.
+
+We next stopped at a barrier island before the land of the Cyclops.  Knowing the danger of the Cyclops, and the barrier island, Zeus' nymphs
+@goats, goat, sent, flushed, flush: goats
+@:mainland
+
+:goats:
+And the nymphs flushed goats from the mountains, a breakfast for my men.  I however, wanted to continue, and see what we could plunder from the island's inhabitants.  In the end, we
+@left, alone, away, sailed, sail: leave cyclops
+@:mainland
+
+:mainland:
+We crossed to the mainland, and seeing goods for the taking, my men suggested we take them as plunder and leave.  I felt that we should stay, and enjoy some Cyclopean hospitality.
+@take, plunder, left, alone, sail, sailed, ignored, leave cyclops: leave cyclops
+@:Cyclopean hospitality
+
+:leave cyclops:
+So we left the cyclops very well alone, and continued on our way away.  But there was no wind, and after a day at sea without much distance between us and the island, and we turned back for the night, and headed for the caves to see if their inhabitants obeyed the laws of Zeus.
+@:Cyclopean hospitality
+
+:Cyclopean hospitality:
+So we waited for the Cyclops.  When he returned, he asked us where our ship was.  I told him that it was destroyed, and feeling no further necessity for pretense, made a meal of some of my crew.  Later that night, we blinded him, but could not kill him because he was the only one strong enough to move the bolder trapping them.  The next mourning, we escaped on the bellies of his goats, for whom he ha opened the cave.  We left then, and in glee I yelled back to him that I, Odysseus, had blinded and defeated him, so that he may know my name.  He replied that this had been foretold, and cursed my name to Poseidon.
+
+THE END
+

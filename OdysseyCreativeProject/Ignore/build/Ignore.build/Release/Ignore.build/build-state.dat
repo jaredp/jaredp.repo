@@ -1,0 +1,384 @@
+TIgnore
+v7
+r0
+t314995162.643880
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Info.plist" Ignore-Info.plist
+cCopyStringsFile "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/English.lproj/MainMenu.xib"
+cProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-fatnqqfezoypqeabgaqjdudbpnvq/Ignore_Prefix.pch.gch Ignore_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gxckyqnenwwgmtdhfvqsnfkxbfuf/Ignore_Prefix.pch.gch Ignore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gixzwbseeuxumrakzmcsybggksid/Ignore_Prefix.pch.gch Ignore_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/main.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/IgnoreAppDelegate.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/i386/main.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/i386/IgnoreAppDelegate.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/Ignore" normal x86_64
+cCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/main.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/Ignore" normal i386
+cCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/IgnoreAppDelegate.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/Ignore" normal ppc
+cCreateUniversalBinary "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore" normal "x86_64 i386 ppc"
+cGenerateDSYMFile "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app.dSYM" "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore"
+cTouch "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004C23CD6E0000000000000957
+t1277414766
+s2391
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004CAA7406000000000008DF08
+t1286239238
+s581384
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/English.lproj/InfoPlist.strings
+c000000004CAFE0DC000000000000002D
+t1286594780
+s45
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/English.lproj/MainMenu.xib
+c000000004CAFE2920000000000031069
+t1286595218
+s200809
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.h
+c000000004CAFE1E40000000000000176
+t1286595044
+s374
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m
+c000000004CAFE2940000000000000194
+t1286595220
+s404
+i"IgnoreAppDelegate.h"
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/Ignore_Prefix.pch
+c000000004CAFE0DC000000000000008F
+t1286594780
+s143
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/Ignore
+t1293302362
+s18112
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/Ignore.LinkFileList
+c000000004D163A4F000000000000011F
+t1293302351
+s287
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/IgnoreAppDelegate.o
+t1293302362
+s15880
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/main.o
+t1293302361
+s4904
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/Ignore
+t1293302362
+s17820
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/Ignore.LinkFileList
+c000000004D163A4F000000000000011D
+t1293302351
+s285
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/IgnoreAppDelegate.o
+t1293302362
+s15836
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/main.o
+t1293302362
+s4936
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/Ignore
+t1293302362
+s14744
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/Ignore.LinkFileList
+c000000004D163A4F0000000000000123
+t1293302351
+s291
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/IgnoreAppDelegate.o
+t1293302361
+s22052
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/main.o
+t1293302361
+s5104
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app
+t1293302362
+s102
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app.dSYM
+t1293302362
+s102
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Info.plist
+t1293302351
+s883
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore
+t1293302362
+s58780
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/PkgInfo
+t1293302351
+s8
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1293302352
+s92
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Resources/English.lproj/MainMenu.nib
+t1293302353
+s37717
+
+N/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m
+c000000004CAFE0DC0000000000000104
+t1286594780
+s260
+i<Cocoa/Cocoa.h>
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-fatnqqfezoypqeabgaqjdudbpnvq/Ignore_Prefix.pch.gch
+t1293302358
+s52958992
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gixzwbseeuxumrakzmcsybggksid/Ignore_Prefix.pch.gch
+t1293302361
+s52823632
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gxckyqnenwwgmtdhfvqsnfkxbfuf/Ignore_Prefix.pch.gch
+t1293302359
+s55592752
+
+NIgnore-Info.plist
+c000000004CAFE0DC00000000000003EA
+t1286594780
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314995151#314995151#0(0"0(0#1#0"8683691776#0"0#
+
+CCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/i386/IgnoreAppDelegate.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314995161.926701
+e314995162.177833
+r1
+xCompileC
+xbuild/Ignore.build/Release/Ignore.build/Objects-normal/i386/IgnoreAppDelegate.o
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m314995161#314995162#0(0"0(0#0#89"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m8686069824#1849"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-generated-files.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-own-target-headers.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-all-target-headers.hmap" -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-project-headers.hmap" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/include" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources/i386" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources" -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gxckyqnenwwgmtdhfvqsnfkxbfuf/Ignore_Prefix.pch -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m" -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/IgnoreAppDelegate.o"0#
+
+CCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/i386/main.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314995161.731351
+e314995161.926576
+r1
+xCompileC
+xbuild/Ignore.build/Release/Ignore.build/Objects-normal/i386/main.o
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m314995161#314995161#0(0"0(0#0#76"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m8673535392#1823"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-generated-files.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-own-target-headers.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-all-target-headers.hmap" -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-project-headers.hmap" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/include" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources/i386" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources" -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gxckyqnenwwgmtdhfvqsnfkxbfuf/Ignore_Prefix.pch -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m" -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/IgnoreAppDelegate.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s314995162.240604
+e314995162.526659
+r1
+xCompileC
+xbuild/Ignore.build/Release/Ignore.build/Objects-normal/ppc/IgnoreAppDelegate.o
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m314995162#314995162#0(0"0(0#0#89"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m8685268384#1856"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-generated-files.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-own-target-headers.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-all-target-headers.hmap" -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-project-headers.hmap" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/include" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources/ppc" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources" -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gixzwbseeuxumrakzmcsybggksid/Ignore_Prefix.pch -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m" -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/IgnoreAppDelegate.o"0#
+
+CCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/main.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s314995162.156252
+e314995162.324940
+r1
+xCompileC
+xbuild/Ignore.build/Release/Ignore.build/Objects-normal/ppc/main.o
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m314995162#314995162#0(0"0(0#0#76"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m8697230464#1830"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-generated-files.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-own-target-headers.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-all-target-headers.hmap" -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-project-headers.hmap" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/include" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources/ppc" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources" -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gixzwbseeuxumrakzmcsybggksid/Ignore_Prefix.pch -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m" -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/main.o"0#
+
+CCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/IgnoreAppDelegate.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314995161.588476
+e314995161.999861
+r1
+xCompileC
+xbuild/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/IgnoreAppDelegate.o
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m314995161#314995161#0(0"0(0#0#89"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m8684835232#1855"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-generated-files.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-own-target-headers.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-all-target-headers.hmap" -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-project-headers.hmap" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/include" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources/x86_64" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources" -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-fatnqqfezoypqeabgaqjdudbpnvq/Ignore_Prefix.pch -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/IgnoreAppDelegate.m" -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/IgnoreAppDelegate.o"0#
+
+CCompileC build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/main.o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314995161.587383
+e314995161.731237
+r1
+xCompileC
+xbuild/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/main.o
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m314995161#314995161#0(0"0(0#0#76"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m8708392096#1829"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-generated-files.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-own-target-headers.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-all-target-headers.hmap" -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-project-headers.hmap" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/include" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources/x86_64" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources" -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-fatnqqfezoypqeabgaqjdudbpnvq/Ignore_Prefix.pch -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/main.m" -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/English.lproj/MainMenu.xib"
+s314995151.702491
+e314995153.949349
+r1
+xCompileXIB
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib314995151#314995153#0(0"0(0#0#96"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/English.lproj/MainMenu.xib8685114720#464"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s314995151.700240
+e314995152.653198
+r1
+xCopyStringsFile
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings314995151#314995152#0(0"0(0#0#101"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/English.lproj/InfoPlist.strings8685249312#432"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Resources/English.lproj"0#
+
+CCreateUniversalBinary "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore" normal "x86_64 i386 ppc"
+s314995162.580203
+e314995162.584424
+r1
+xCreateUniversalBinary
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@93"CreateUniversalBinary build/Release/Ignore.app/Contents/MacOS/Ignore normal "x86_64 i386 ppc"314995162#314995162#0(0"0(0#0#85"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/x86_64 i386 ppc8687133280#650"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    /usr/bin/lipo -create "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/Ignore" "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/Ignore" "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/Ignore" -output "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore"0#
+
+CGenerateDSYMFile "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app.dSYM" "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore"
+s314995162.584529
+e314995162.629915
+r1
+xGenerateDSYMFile
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app.dSYM
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore
+lSLF07#2@93"GenerateDSYMFile build/Release/Ignore.app.dSYM build/Release/Ignore.app/Contents/MacOS/Ignore314995162#314995162#0(0"0(0#0#116"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore8686538752#335"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    /Developer/usr/bin/dsymutil "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/MacOS/Ignore" -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app.dSYM"0#
+
+CLd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/Ignore" normal i386
+s314995162.177938
+e314995162.240483
+r1
+xLd
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/Ignore
+xnormal
+xi386
+lSLF07#2@141"Link /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/Ignore314995162#314995162#0(0"0(0#0#0"8687037408#744"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" -filelist "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/Ignore.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework WebKit -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/i386/Ignore"0#
+
+CLd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/Ignore" normal ppc
+s314995162.526757
+e314995162.580097
+r1
+xLd
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/Ignore
+xnormal
+xppc
+lSLF07#2@140"Link /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/Ignore314995162#314995162#0(0"0(0#0#0"8698061632#741"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" -filelist "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/Ignore.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework WebKit -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/ppc/Ignore"0#
+
+CLd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/Ignore" normal x86_64
+s314995161.999964
+e314995162.156132
+r1
+xLd
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/Ignore
+xnormal
+xx86_64
+lSLF07#2@143"Link /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/Ignore314995162#314995162#0(0"0(0#0#0"8685084448#750"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" -filelist "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/Ignore.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework WebKit -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Objects-normal/x86_64/Ignore"0#
+
+CProcessInfoPlistFile "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Info.plist" Ignore-Info.plist
+s314995151.673826
+e314995151.700136
+r1
+xProcessInfoPlistFile
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Info.plist
+xIgnore-Info.plist
+lSLF07#2@25"Process Ignore-Info.plist314995151#314995151#0(0"0(0#0#87"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/Ignore-Info.plist8687034080#410"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    builtin-infoPlistUtility Ignore-Info.plist -genpkginfo "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-fatnqqfezoypqeabgaqjdudbpnvq/Ignore_Prefix.pch.gch Ignore_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314995153.949628
+e314995158.540090
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-fatnqqfezoypqeabgaqjdudbpnvq/Ignore_Prefix.pch.gch
+xIgnore_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Ignore_Prefix.pch314995153#314995158#0(0"0(0#0#87"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/Ignore_Prefix.pch8686491776#1701"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-generated-files.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-own-target-headers.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-all-target-headers.hmap" -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-project-headers.hmap" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/include" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources/x86_64" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources" -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/Ignore_Prefix.pch" -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-fatnqqfezoypqeabgaqjdudbpnvq/Ignore_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gixzwbseeuxumrakzmcsybggksid/Ignore_Prefix.pch.gch Ignore_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s314995158.540255
+e314995161.587187
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gixzwbseeuxumrakzmcsybggksid/Ignore_Prefix.pch.gch
+xIgnore_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Ignore_Prefix.pch314995158#314995161#0(0"0(0#0#87"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/Ignore_Prefix.pch8697148576#1705"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-generated-files.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-own-target-headers.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-all-target-headers.hmap" -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-project-headers.hmap" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/include" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources/ppc" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources" -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/Ignore_Prefix.pch" -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gixzwbseeuxumrakzmcsybggksid/Ignore_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gxckyqnenwwgmtdhfvqsnfkxbfuf/Ignore_Prefix.pch.gch Ignore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s314995153.950617
+e314995159.068418
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gxckyqnenwwgmtdhfvqsnfkxbfuf/Ignore_Prefix.pch.gch
+xIgnore_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Ignore_Prefix.pch314995153#314995159#0(0"0(0#0#87"/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/Ignore_Prefix.pch8685888224#1697"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-generated-files.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-own-target-headers.hmap" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-all-target-headers.hmap" -iquote "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/Ignore-project-headers.hmap" "-F/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/include" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources/i386" "-I/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Ignore.build/Release/Ignore.build/DerivedSources" -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/Ignore_Prefix.pch" -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ignore_Prefix-gxckyqnenwwgmtdhfvqsnfkxbfuf/Ignore_Prefix.pch.gch0#
+
+CTouch "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app"
+s314995162.630007
+e314995162.643835
+r1
+xTouch
+x/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app
+lSLF07#2@100"Touch /Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app314995162#314995162#0(0"0(0#0#0"8685050720#198"    cd "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore"    /usr/bin/touch -c "/Users/Jared/Development/Git Repository/OdysseyCreativeProject/Ignore/build/Release/Ignore.app"0#
+

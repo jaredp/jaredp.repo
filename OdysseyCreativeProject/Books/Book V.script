@@ -1,0 +1,19 @@
+:start:
+BOOK V
+
+In the absence of Poseidon, the other gods conspired to return Odysseus to Ithaca.  Hermes was dispatched to Calypso to tell her to release Odysseus, and send him on his way.  Hermes told her that after 20 days and 20 nights, Odysseus would arrive at the island of the Phaiakians, a demigod people.  Calypso released Odysseus, who had been until then detained, and longing for home, to build a flatboat and set sail. 
+
+17 days after setting sail, Poseidon took notice of Odysseus, and brewed up  a storm.  Ino, seeing him, gave him a veil and bade him swim to shore.  Odysseus, unsure if Ino wished him dead for her own amusement, decided
+
+@stay, raft, boat, hold: stay
+@swim, shore, veil: swim
+@: swim
+
+:stay:
+And so Odysseus stayed on the raft, clinging to it, until at last Poseidon 
+broke it and Odysseus was forced to swim to shore.
+@:swim
+
+:swim:
+Odysseus swam, swam furiously until he was near death, and after days in the water he reached shore, holding on to cutting rocks for dear life.  Eventually, the river calms and he is able to collapse on the shore.
+
