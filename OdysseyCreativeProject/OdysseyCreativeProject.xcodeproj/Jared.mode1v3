@@ -272,6 +272,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>5</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -325,19 +327,19 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7F0B222412C67208001046D6</string>
+										<string>7F0B223712C70470001046D6</string>
 										<key>history</key>
 										<array>
 											<string>7F3A774D125C1AAE000973CE</string>
 											<string>7F3A779B125C2EDD000973CE</string>
 											<string>7F3A779D125C2EDD000973CE</string>
-											<string>7F3A77C8125C39FF000973CE</string>
 											<string>7F3A78A7125D4AAC000973CE</string>
-											<string>7FAB0935125E4D7D00AD104C</string>
 											<string>7F0E50F312601058004F0309</string>
-											<string>7F0E50F412601058004F0309</string>
 											<string>7F0E512F126014EA004F0309</string>
-											<string>7FA74D0112610555004EEF42</string>
+											<string>7F0B223312C70470001046D6</string>
+											<string>7F0B223412C70470001046D6</string>
+											<string>7F0B223512C70470001046D6</string>
+											<string>7F0B223612C70470001046D6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -395,9 +397,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>7F0B21F912C6712E001046D6</string>
+				<string>7F0B222E12C672D9001046D6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>7F0B21FA12C6712E001046D6</string>
+				<string>7F0B222F12C672D9001046D6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -535,10 +537,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>7F0B220312C6712E001046D6</string>
-		<string>7F0B220412C6712E001046D6</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>7FEB299D125B787C00DD1739</string>
 		<string>/Users/Jared/Development/Git Repository/OdysseyCreativeProject/OdysseyCreativeProject.xcodeproj</string>
 	</array>
@@ -581,8 +579,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -622,7 +618,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>7FEB299D125B787C00DD1739</string>
-				<string>7F0B21FB12C6712E001046D6</string>
+				<string>7F0B223012C672D9001046D6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
