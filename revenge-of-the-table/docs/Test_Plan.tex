@@ -1,0 +1,48 @@
+
+\chapter{Test Plan}
+
+\section{Example Test Programs}
+%fontsize=\footnotesize
+\subsection{Map, Filter, Join}
+RT Source:
+\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/MapsFiltersJoins/map_filter_join.rt}
+Java Source
+\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/MapsFiltersJoins/build/map_filter_join.java}
+
+
+\subsection{User Purchases}
+RT Source
+\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/UserPurchases/user_purchases.rt}
+Java Source
+\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/UserPurchases/build/user_purchases.java}
+
+\subsection{String Interpolation}
+RT Source
+\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/StringInterpolation/stringinterp.rt}
+Java Source
+\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/StringInterpolation/build/stringinterp.java}
+
+\section{Test Selection}
+The goal in our test selection process was to ensure coverage of all of the features of our language. While these 
+programs individually do not illustrate the language's full power or produce useful results, they demonstrate that 
+the translator generates the correct code.
+
+\section{Test Suite}
+
+\subsection{individualTest.sh}
+\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/individualTest.sh}
+
+\subsection{testAll.sh}
+\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/testAll.sh}
+
+\subsection{testClean.sh}
+\VerbatimInput[baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/testClean.sh}
+
+\subsection{Automation}
+The test process is completely automated. Running the testAll.sh script results in each of our 18 test cases being 
+compiled, run and the output compared against the verified output. Each test is run in parallel to improve the speed 
+of the testing process. The results of the comparison against verified output is stored in log.txt and are outputted to
+the terminal. Additionally, if a different test mechanism is needed for a particular test case, testAll.sh will look 
+for testScript.sh in the directory where the test resides. If testScript.sh exists, then the results are recorded in log.txt.
+
+

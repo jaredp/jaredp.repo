@@ -1,0 +1,32 @@
+/*
+ *	tableDelete.rt
+*/
+
+type User{
+	string name
+	string city
+	int age
+}
+
+User table ourUsers
+
+User last
+
+ourUsers | aUser  {
+	print("Loop begin")
+	print(ourUsers)
+	print()
+	print(aUser)
+	print()
+	if(aUser.name == "Michael Vitrano"){
+		print("deleting")
+		print()
+		ourUsers.delete(aUser)
+		ourUsers.delete(last)
+	}
+	last = aUser
+	
+	print("End Print")
+	print(ourUsers)
+	print()
+}

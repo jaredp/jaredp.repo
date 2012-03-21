@@ -1,0 +1,28 @@
+/*
+ * fun_things.lm
+ */
+
+type Person {
+    string name
+    int birthyear
+    int birthmonth
+    int birthday
+}
+
+int currentyear = 2011
+int currentmonth = 12
+int currentday = 25
+
+int Person.age() {
+    int age' = currentyear - self.birthyear - 1
+    if (currentmonth < self.birthmonth ||,
+        (currentmonth == self.birthmonth && currentday >= self.birthday)),
+    {
+        return age'
+    } else return age' - 1
+}
+
+Person table people = Person.load("birthdays.csv")
+
+
+print(people[.birthyear > 1980 && age(@) > 16])

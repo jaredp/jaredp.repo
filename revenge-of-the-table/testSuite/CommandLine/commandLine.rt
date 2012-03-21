@@ -1,0 +1,20 @@
+/*
+ * commandline.rt
+ */
+
+print(argc())
+
+int i
+
+for(i = 0; i < argc(); i = i + 1){
+	print(argv(i))
+}
+
+void getArgsInFunction() {
+    print(argc())
+    for(i = 0; i < argc(); i = i + 1){
+        print(argv(i))
+    }
+}
+
+getArgsInFunction()

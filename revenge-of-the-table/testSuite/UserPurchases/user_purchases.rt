@@ -1,0 +1,82 @@
+/*
+ * user_purchases.rt
+ */
+
+//define column names for the user type defined by user.csv
+//the columns are defined sequentially in left-to-right order
+type User {
+  string name
+  string addr
+  int age
+}
+
+//ourUsers is a table of users with the data from ourUsers.csv
+User table ourUsers
+
+//similar to user
+type Purchase {
+  string name
+  string item
+}
+
+//ourPurchases is a table of users with the data from ourPurchases.csv
+Purchase table ourPurchases
+
+//global int
+int v = 0
+
+type index {
+    int value
+}
+
+void changev() {
+  v = 15
+}
+
+void main() {
+  //change global v
+  v = 2
+
+  //user#purchase is obtained by joining a table of type user and a table of
+  //type purchase.
+  //it takes the cross product of ourUsers and ourPurchases and filters
+  //it by the boolean predicate in the brackets
+
+  User#Purchase table user_purchase = ourUsers[a.name:b.name]ourPurchases
+  print(user_purchase)
+
+  //this is a simple filter.  get all rows where users purchased a tank.
+  User#Purchase table tanks = user_purchase[.Purchase.item:"Tank"]
+  
+  print("\ncasting to component types:")
+  print(User(tanks))
+  
+  print("\nmanual casting:")
+  User table users_who_purchased_tanks = table: User
+  tanks | tank: users_who_purchased_tanks += User(tank.User.name, tank.addr, tank.age)
+  print( users_who_purchased_tanks ) 
+
+
+  print("\nmanual table print (via iteration)")
+  //pipe iteration
+  tanks | tank: print(tank)
+  
+  
+  print("\nindexing table...")
+  index#User#Purchase table indexedtanks = index|+|tanks
+  int i = 0
+  tanks|tank {
+    indexedtanks = indexedtanks + index(i)|+|tank
+    i = i + 1
+  }
+  print(indexedtanks)
+
+  //add one more user to our table of users
+  ourUsers = ourUsers + User("Matt", "New York", 23)
+
+  print("\nchecking global variables...")
+  changev()
+  print("$v should be 15... did it work? ${v == 15}!") //should print 15
+}
+
+main()

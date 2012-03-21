@@ -1,0 +1,17 @@
+/*
+ *	stringRTLib.rt
+*/
+
+
+string test = "this is a test of the built in string funcs"
+
+int i
+
+for(i=0; i < strlen(test); i = i + 1){
+	print(test.charAt(i))
+}
+
+
+print(test.substring(1))
+
+print(test.substring(0, 4))

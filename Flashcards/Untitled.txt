@@ -1,0 +1,11 @@
+IBOutlets
+IBActions
+if-else
+[methods]
+dictionaries
+strings
+
+file paths, bundles?
+ivars
+for..in
+arrays

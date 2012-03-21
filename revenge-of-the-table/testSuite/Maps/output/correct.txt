@@ -1,0 +1,52 @@
+|    User's name     | User's city | User's age | 
+|  Matthew Jesuele   |    10031    |     22     | 
+|  Michael Vitrano   |    10027    |     21     | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+
+|  User's name  | User's city | User's age | 
+|   Bob Slob    |  New York   |     15     | 
+|  Tony Eureka  | Los Angeles |     29     | 
+|   Jim Grimm   |   Compton   |     52     | 
+| Amir Mohammed |   Chicago   |     21     | 
+
+|   relation's u1    | relation's u2 | 
+|  Matthew Jesuele   |     10031     | 
+|  Michael Vitrano   |     10027     | 
+|   Jared Pochtar    |     10128     | 
+| Charles Williamson |     10024     | 
+|    User's name     | User's city | User's age | relation's u1 |   relation's u2    | 
+|  Matthew Jesuele   |    10031    |     22     |   Bob Slob    |  Matthew Jesuele   | 
+|  Michael Vitrano   |    10027    |     21     |   Bob Slob    |  Michael Vitrano   | 
+|   Jared Pochtar    |    10128    |     16     |   Bob Slob    |   Jared Pochtar    | 
+| Charles Williamson |    10024    |     27     |   Bob Slob    | Charles Williamson | 
+|  Matthew Jesuele   |    10031    |     22     |  Tony Eureka  |  Matthew Jesuele   | 
+|  Michael Vitrano   |    10027    |     21     |  Tony Eureka  |  Michael Vitrano   | 
+|   Jared Pochtar    |    10128    |     16     |  Tony Eureka  |   Jared Pochtar    | 
+| Charles Williamson |    10024    |     27     |  Tony Eureka  | Charles Williamson | 
+|  Matthew Jesuele   |    10031    |     22     |   Jim Grimm   |  Matthew Jesuele   | 
+|  Michael Vitrano   |    10027    |     21     |   Jim Grimm   |  Michael Vitrano   | 
+|   Jared Pochtar    |    10128    |     16     |   Jim Grimm   |   Jared Pochtar    | 
+| Charles Williamson |    10024    |     27     |   Jim Grimm   | Charles Williamson | 
+|  Matthew Jesuele   |    10031    |     22     | Amir Mohammed |  Matthew Jesuele   | 
+|  Michael Vitrano   |    10027    |     21     | Amir Mohammed |  Michael Vitrano   | 
+|   Jared Pochtar    |    10128    |     16     | Amir Mohammed |   Jared Pochtar    | 
+| Charles Williamson |    10024    |     27     | Amir Mohammed | Charles Williamson | 
+
+|   relation's u1    | relation's u2 | 
+|  Matthew Jesuele   |   Bob Slob    | 
+|  Matthew Jesuele   |  Tony Eureka  | 
+|  Matthew Jesuele   |   Jim Grimm   | 
+|  Matthew Jesuele   | Amir Mohammed | 
+|  Michael Vitrano   |   Bob Slob    | 
+|  Michael Vitrano   |  Tony Eureka  | 
+|  Michael Vitrano   |   Jim Grimm   | 
+|  Michael Vitrano   | Amir Mohammed | 
+|   Jared Pochtar    |   Bob Slob    | 
+|   Jared Pochtar    |  Tony Eureka  | 
+|   Jared Pochtar    |   Jim Grimm   | 
+|   Jared Pochtar    | Amir Mohammed | 
+| Charles Williamson |   Bob Slob    | 
+| Charles Williamson |  Tony Eureka  | 
+| Charles Williamson |   Jim Grimm   | 
+| Charles Williamson | Amir Mohammed | 

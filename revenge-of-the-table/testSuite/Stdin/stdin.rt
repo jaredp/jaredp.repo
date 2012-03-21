@@ -1,0 +1,6 @@
+/*
+ * 	stdin.rt
+*/
+
+print(stdin())
+

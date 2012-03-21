@@ -1,0 +1,29 @@
+| User's name | User's age | 
+|   Michael   |     21     | 
+|    Jared    |     16     | 
+
+| Product's itemName | Product's cost | 
+|        Soap        |      1.99      | 
+|     Chocolate      |      16.0      | 
+
+| User's name | User's age | 
+|   Michael   |     21     | 
+
+| User's name | User's age | Product's itemName | Product's cost | 
+|   Michael   |     21     |        Soap        |      1.99      | 
+|   Michael   |     21     |     Chocolate      |      16.0      | 
+|    Jared    |     16     |        Soap        |      1.99      | 
+|    Jared    |     16     |     Chocolate      |      16.0      | 
+
+| Purchased's cName | Purchased's pName | 
+|      Michael      |       Soap        | 
+|      Michael      |     Chocolate     | 
+|       Jared       |       Soap        | 
+|       Jared       |     Chocolate     | 
+
+| Purchased's cName | Purchased's pName | 
+|      Michael      |       Soap        | 
+|      Michael      |     Chocolate     | 
+|       Jared       |       Soap        | 
+|       Jared       |     Chocolate     | 
+

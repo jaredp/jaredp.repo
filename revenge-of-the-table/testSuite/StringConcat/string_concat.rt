@@ -1,0 +1,16 @@
+/*
+ * string_concat.rt
+ */
+
+string what_youd_expect = "what you'd expect"
+print("This should " + " print " + what_youd_expect)
+
+string not_what_youd_expect = "not " + what_youd_expect
+print("This is " + not_what_youd_expect)
+
+string stringMeAlong() {
+  string do_that = "string me along!"
+  return "Don't you " + do_that
+}
+
+print(stringMeAlong())

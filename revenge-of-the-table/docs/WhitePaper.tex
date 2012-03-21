@@ -1,0 +1,98 @@
+
+\chapter{Language White Paper}
+
+\section{Introduction}
+Return of the Table, RT for short, is a language intended to make working with tables in a programmatic 
+setting easier.  It is designed so that a programmer can use the full functionality of 
+tables for retrieving, storing, and manipulating data.
+
+Relational databases form the core of many information technology systems that 
+need to store large amounts of data in an efficient and organized manner. While 
+interacting with these databases with SQL is useful for efficiently accessing a 
+particular subset of data, there are many tasks that are either cumbersome or impossible. 
+For example, applying a function to each record in a relational table is a multistep process, 
+requiring the programmer to write a query to retrieve the relevant data, parse it, apply the 
+function and return the new data to the table. Further, there is no way to use SQL constructs 
+to check input validity using regular expressions.
+
+RT attempts to simplify the interaction with relational databases by making tables first-
+class objects. Users are able to load information from a database, manipulate it using the 
+familiar imperative programming paradigm and optionally commit the data back to the database.
+
+\section{DataTypes}
+The primitive datatypes in RT are drawn from the basic SQL datatypes of varchar, integer and real. RT
+names these string, int and float respectively. RT also includes a bool type. In addition to the four
+primitive types, RT allows the user to create User-Defined Types (UDTs), which are comprised of an arbitrary
+combination of RT primitive types. Further, there are Compound types, which are the concatenation of 
+UDTs.\\
+UDTs and Compound types are intended to mimic the schemas of tables in relational databases. In relational
+databases, tables consist of records adhering to the schema defined for the table. This paradigm is mimicked in
+RT, where tables consist of records of a single UDT. It should be noted that Records are also considered to be 
+tables with exactly one row of data. Below is an example of defining a UDT and creating a table of that with 
+Records of that type:
+
+\begin{verbatim}
+	type User{
+		string name
+		string city
+		int age
+		float income
+		bool active
+	}
+	
+	User table users = table: User("Michael", "North Brunswick", 21, 1000.50, false)
+	users = users +  User("Jared", "New York", 16, 1000000.50, true)
+	
+\end{verbatim}
+
+\subsection{Table Operations}
+RT includes a number of operations for working with Tables. These fall into 3 categories, Filters, Joins and Maps.
+The Filter operation takes one table and one boolean predicate as arguments and returns a new table
+consisting of the Records from the original table for which the predicate evaluates to true. Joins take two tables
+and a predicate, performs the cross product of the tables and returns filtered the results based on the predicate. 
+Note that the return type of a Join is the Compound of the two original table's types. Maps can take one or two 
+tables as well as an expression that returns a Record. The Map returns a table consisting of the Records returned 
+by the Record expression. In a Map with one table, the Record expression is evaluated for every Record in the  
+original table. In a Map with two tables, the Record expression is evaluated for every Record in the cross 
+product of the two original tables. The following is an example of the different table functions: 
+\begin{verbatim}
+	
+	type User{
+		string name
+		int age
+	}
+	
+	User table users = table: User("Michael", 21)
+	users = users +  User("Jared", 16)
+	
+	type Product{
+		string itemName
+		float cost
+	}
+	
+	Product table products = table: Product("Soap", 1.99)
+	products = products +  Product("Chocolate", 16)
+	
+	type Purchased{
+		string cName
+		string pName
+	}
+	
+	User table michael = users[.name:"Michael"] // filter
+	
+	User#Product table users_products = users[true]products // join
+	
+	// single table map
+	Purchased table purchases1 = users_products[Purchased(name, itemName)] 
+	
+	// double table map, produces the same result as purchases1
+	Purchased table purchases2 = users[Purchased(name, itemName)]products
+	
+\end{verbatim}
+
+\subsection{Other Features}
+RT compiles to Java code and therefore provides many of the operators that Java provides 
+for the RT primitive types. Additionally, there are RT libraries that facilitate printing 
+of primitives, Records and Tables as well as interfacing with stored data in comma separated
+value format.
+

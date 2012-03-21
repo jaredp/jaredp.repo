@@ -1,0 +1,168 @@
+Loop begin
+|    User's name     | User's city | User's age | 
+|  Matthew Jesuele   |    10031    |     22     | 
+|  Michael Vitrano   |    10027    |     21     | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+| Matthew Jesuele	| 10031	| 22	| 
+
+End Print
+|    User's name     | User's city | User's age | 
+|  Matthew Jesuele   |    10031    |     22     | 
+|  Michael Vitrano   |    10027    |     21     | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+Loop begin
+|    User's name     | User's city | User's age | 
+|  Matthew Jesuele   |    10031    |     22     | 
+|  Michael Vitrano   |    10027    |     21     | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+| Michael Vitrano	| 10027	| 21	| 
+
+deleting
+
+End Print
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+Loop begin
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+| Jared Pochtar	| 10128	| 16	| 
+
+End Print
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+Loop begin
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+| Charles Williamson	| 10024	| 27	| 
+
+End Print
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+Loop begin
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+| Bob Slob	| New York	| 15	| 
+
+End Print
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+Loop begin
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+| Tony Eureka	| Los Angeles	| 29	| 
+
+End Print
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+Loop begin
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+| Jim Grimm	| Compton	| 52	| 
+
+End Print
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+Loop begin
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+
+| Amir Mohammed	| Chicago	| 21	| 
+
+End Print
+|    User's name     | User's city | User's age | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+|      Bob Slob      |  New York   |     15     | 
+|    Tony Eureka     | Los Angeles |     29     | 
+|     Jim Grimm      |   Compton   |     52     | 
+|   Amir Mohammed    |   Chicago   |     21     | 
+

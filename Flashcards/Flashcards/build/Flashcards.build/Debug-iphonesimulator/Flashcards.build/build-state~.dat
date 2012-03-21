@@ -1,0 +1,276 @@
+TFlashcards
+v7
+r0
+t319128816.290037
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Info.plist" Flashcards-Info.plist
+cCompileXIB "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/MainWindow.xib"
+cCompileXIB "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/FlashcardsViewController.xib"
+cCpResource build/Debug-iphonesimulator/Flashcards.app/translation.txt translation.txt
+cProcessPCH /var/folders/oN/oNaCKOwZGAiLXgxUspSTyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Flashcards_Prefix-gyynydyyotmznhhbfgbkzhizhhlf/Flashcards_Prefix.pch.gch Flashcards_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/main.o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsAppDelegate.o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsViewController.o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards" normal i386
+cGenerateDSYMFile "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app.dSYM" "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards"
+cTouch "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsAppDelegate.h
+c000000004D554B0500000000000001F2
+t1297435397
+s498
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsAppDelegate.m
+c000000004D554B050000000000000AA5
+t1297435397
+s2725
+i"FlashcardsAppDelegate.h"
+i"FlashcardsViewController.h"
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsViewController.h
+c000000004D554D1C0000000000000142
+t1297435932
+s322
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsViewController.m
+c000000004D554D660000000000000648
+t1297436006
+s1608
+i"FlashcardsViewController.h"
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/FlashcardsViewController.xib
+c000000004D554D3E0000000000005C84
+t1297435966
+s23684
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Flashcards_Prefix.pch
+c000000004D554B0600000000000000BD
+t1297435398
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/MainWindow.xib
+c000000004D554B060000000000004E4D
+t1297435398
+s20045
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app
+t1297436016
+s272
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app.dSYM
+t1297436016
+s102
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards
+t1297436016
+s18036
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/FlashcardsViewController.nib
+t1297436011
+s2047
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Info.plist
+t1297436006
+s603
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/MainWindow.nib
+t1297436011
+s1129
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/PkgInfo
+t1297436006
+s8
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/translation.txt
+t1297436011
+s30207
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/Flashcards.LinkFileList
+c000000004D554D6600000000000001E7
+t1297436006
+s487
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsAppDelegate.o
+t1297436015
+s51180
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsViewController.o
+t1297436015
+s39400
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/main.o
+t1297436015
+s6348
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/main.m
+c000000004D554B06000000000000016D
+t1297435398
+s365
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/translation.txt
+c000000004D54C8AE00000000000075FF
+t1297402030
+s30207
+
+N/var/folders/oN/oNaCKOwZGAiLXgxUspSTyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Flashcards_Prefix-gyynydyyotmznhhbfgbkzhizhhlf/Flashcards_Prefix.pch.gch
+t1297436014
+s15453392
+
+NFlashcards-Info.plist
+c000000004D554B06000000000000038D
+t1297435398
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319128806#319128806#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsAppDelegate.o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319128814.959521
+e319128815.250597
+r1
+xCompileC
+xbuild/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsAppDelegate.o
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsAppDelegate.m319128814#319128815#0(0"0(0#0#92"/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsAppDelegate.m8612277472#2280"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-generated-files.hmap" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-own-target-headers.hmap" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-all-target-headers.hmap" -iquote "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-project-headers.hmap" "-F/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/include" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/DerivedSources/i386" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/DerivedSources" -include /var/folders/oN/oNaCKOwZGAiLXgxUspSTyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Flashcards_Prefix-gyynydyyotmznhhbfgbkzhizhhlf/Flashcards_Prefix.pch -c "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsAppDelegate.m" -o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsAppDelegate.o"0#
+
+CCompileC build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsViewController.o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319128815.214210
+e319128815.308511
+r1
+xCompileC
+xbuild/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsViewController.o
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsViewController.m319128815#319128815#0(0"0(0#0#95"/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsViewController.m8613589920#2286"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-generated-files.hmap" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-own-target-headers.hmap" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-all-target-headers.hmap" -iquote "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-project-headers.hmap" "-F/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/include" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/DerivedSources/i386" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/DerivedSources" -include /var/folders/oN/oNaCKOwZGAiLXgxUspSTyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Flashcards_Prefix-gyynydyyotmznhhbfgbkzhizhhlf/Flashcards_Prefix.pch -c "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Classes/FlashcardsViewController.m" -o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/FlashcardsViewController.o"0#
+
+CCompileC build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/main.o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s319128814.933767
+e319128815.214080
+r1
+xCompileC
+xbuild/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/main.o
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/main.m319128814#319128815#0(0"0(0#0#67"/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/main.m8612726784#2238"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-generated-files.hmap" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-own-target-headers.hmap" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-all-target-headers.hmap" -iquote "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-project-headers.hmap" "-F/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/include" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/DerivedSources/i386" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/DerivedSources" -include /var/folders/oN/oNaCKOwZGAiLXgxUspSTyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Flashcards_Prefix-gyynydyyotmznhhbfgbkzhizhhlf/Flashcards_Prefix.pch -c "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/main.m" -o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/FlashcardsViewController.xib"
+s319128806.641657
+e319128811.676720
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/FlashcardsViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@39"CompileXIB FlashcardsViewController.xib319128806#319128811#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#89"/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/FlashcardsViewController.xib8612683904#673"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/FlashcardsViewController.nib" "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/FlashcardsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/MainWindow.xib"
+s319128806.598699
+e319128811.667641
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319128806#319128811#0(0"0(0#0#75"/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/MainWindow.xib8612598432#645"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/MainWindow.nib" "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Flashcards.app/translation.txt translation.txt
+s319128811.667893
+e319128811.770715
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Flashcards.app/translation.txt
+xtranslation.txt
+lSLF07#2@20"Copy translation.txt319128811#319128811#0(0"0(0#0#76"/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/translation.txt8612419776#548"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/translation.txt" "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app"0#
+
+CGenerateDSYMFile "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app.dSYM" "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards"
+s319128816.094555
+e319128816.285589
+r1
+xGenerateDSYMFile
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app.dSYM
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Flashcards.app.dSYM build/Debug-iphonesimulator/Flashcards.app/Flashcards319128816#319128816#0(0"0(0#0#114"/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards8612308576#464"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards" -o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app.dSYM"0#
+
+CLd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards" normal i386
+s319128815.308634
+e319128816.094408
+r1
+xLd
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards
+xnormal
+xi386
+lSLF07#2@119"Link /Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards319128815#319128816#0(0"0(0#0#0"8612948960#1035"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator" "-F/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator" -filelist "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Objects-normal/i386/Flashcards.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Flashcards"0#
+
+CProcessInfoPlistFile "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Info.plist" Flashcards-Info.plist
+s319128806.349616
+e319128806.598464
+r1
+xProcessInfoPlistFile
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Info.plist
+xFlashcards-Info.plist
+lSLF07#2@29"Process Flashcards-Info.plist319128806#319128806#0(0"0(0#0#82"/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Flashcards-Info.plist8243129286314258432#560"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Flashcards-Info.plist -genpkginfo "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app/Info.plist"0#
+
+CProcessPCH /var/folders/oN/oNaCKOwZGAiLXgxUspSTyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Flashcards_Prefix-gyynydyyotmznhhbfgbkzhizhhlf/Flashcards_Prefix.pch.gch Flashcards_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319128811.770901
+e319128814.933467
+r1
+xProcessPCH
+x/var/folders/oN/oNaCKOwZGAiLXgxUspSTyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Flashcards_Prefix-gyynydyyotmznhhbfgbkzhizhhlf/Flashcards_Prefix.pch.gch
+xFlashcards_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Flashcards_Prefix.pch319128811#319128814#0(0"0(0#0#82"/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Flashcards_Prefix.pch8613620928#2103"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-generated-files.hmap" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-own-target-headers.hmap" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-all-target-headers.hmap" -iquote "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/Flashcards-project-headers.hmap" "-F/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/include" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/DerivedSources/i386" "-I/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Flashcards.build/Debug-iphonesimulator/Flashcards.build/DerivedSources" -c "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/Flashcards_Prefix.pch" -o /var/folders/oN/oNaCKOwZGAiLXgxUspSTyk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Flashcards_Prefix-gyynydyyotmznhhbfgbkzhizhhlf/Flashcards_Prefix.pch.gch0#
+
+CTouch "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app"
+s319128816.285705
+e319128816.289976
+r1
+xTouch
+x/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app
+lSLF07#2@109"Touch /Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app319128816#319128816#0(0"0(0#0#0"8612954720#329"    cd "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Jared/Dropbox/Devclub/Flashcards Appatizer/Flashcards/build/Debug-iphonesimulator/Flashcards.app"0#
+

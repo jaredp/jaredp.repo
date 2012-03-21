@@ -1,0 +1,10 @@
+/*
+ *	system.rt
+*/
+
+
+string test="ls -hr"
+
+string out = system(test)
+
+print(out)

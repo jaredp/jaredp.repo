@@ -1,0 +1,150 @@
+/*
+ *  customerStats.rt
+*/
+
+
+// defining types
+type Customer{
+	int Id
+	string name
+	string city
+	string state
+	int age
+}
+
+type Item{
+	int Id
+	string name
+	float cost
+}
+
+type Store{
+	int Id
+	string name
+}
+
+type Purchase{
+	int custId
+	int prodId
+	int locId
+}
+
+
+type Report{
+	int Id
+	string name
+	float totalPurchased
+	string favStore
+	float percAtFavStore
+	string favItem
+	float percOnFavItem
+}
+
+// loading tables using the automatic loading feacture
+Customer table custs
+
+Purchase table purchases
+
+Item table items
+
+Store table stores
+
+// joining customers, purchases and items when the id's match
+Customer#Purchase#Item table custs_purchases = (custs[a.Id : b.custId]purchases)[a.prodId:b.Id]items
+
+//function for calculating the total amount purchased in a table
+float totalCost(Customer#Purchase#Item table t) {
+		float total = 0.0
+		if(size(t) == 0){
+			return total
+		}
+		t | row {
+			total += row.cost
+		}
+		return total
+}
+
+// declaring the report variable which will accumulate the report data
+Report table reports = table: Report
+
+// generating the data by iterating through custs_purchases
+custs_purchases | record {
+
+	Customer#Purchase#Item table myPurch = custs_purchases[@.Customer.name : record.Customer.name]
+	
+	float totalPurchases = myPurch.totalCost()
+
+	// finding the favorite store and calculating the amount spent at that store
+	string favStore = ""
+	float totalAtFav = 0.0
+	stores | aStore {
+		
+		float tmp = (myPurch[@.locId : aStore.Id]).totalCost()
+
+		if(tmp > totalAtFav){
+				favStore = aStore.name
+				totalAtFav = tmp
+		}
+
+	}
+	
+	// calculating the percent at the favorite store	
+	float percAtFav = totalAtFav / totalPurchases
+
+	// finding the favorite item and calculating the amount spent on it
+	string favItem = ""
+	float totalOnFav = 0.0
+	
+	items | anItem {
+		float tmp = (myPurch[@.prodId : anItem.Id]).totalCost()
+		if(tmp > totalOnFav){
+				favItem = anItem.name
+				totalOnFav = tmp
+		}
+	}
+	
+	float percOnFav = totalOnFav / totalPurchases
+
+	// generating the new row on the report
+	reports += Report(record.Customer.Id, record.Customer.name, totalPurchases, favStore, percAtFav, favItem, percOnFav)
+
+}
+
+// sorted report accumulator
+Report table SortedReport = table: Report
+
+
+//checks whether a row has already been added to Sorted Report
+bool Report.notExists() {
+	SortedReport | elem {
+		if(elem.Id == self.Id){
+				return false
+		}
+	}
+		return true
+}
+
+// selection sort implemented for the reports based on total amount purchased
+// also removes any duplicates that happened during the join
+reports | outer { 
+	Report tmp = outer
+	reports | inner {
+		if(inner.totalPurchased > tmp.totalPurchased && inner.notExists()){
+			tmp = inner
+		}
+	}
+	if(tmp.notExists()){
+		SortedReport += tmp
+	}
+	reports.delete(tmp)
+}
+
+// printing report to console
+print(SortedReport)
+// saving report to csv
+SortedReport.commit("CustomerReport.csv")
+
+	
+
+
+

@@ -1,0 +1,513 @@
+\chapter{Language Reference Manual}                  
+
+\section{Introduction}
+RT, short for Return of the Table, is a language intended to make working with tables in a programmatic 
+setting easier.  It is designed so that a programmer can use the full functionality of 
+tables for retrieving, storing, and manipulating data.
+
+Relational databases form the core of many information technology systems that 
+need to store large amounts of data in an efficient and organized manner. While 
+interacting with these databases with SQL is useful for efficiently accessing a 
+particular subset of data, there are many tasks that are either cumbersome or impossible. 
+For example, applying a function to each record in a relational table is a multistep process, 
+requiring the programmer to write a query to retrieve the relevant data, parse it, apply the 
+function and return the new data to the table. Further, there is no way to use SQL constructs 
+to check input validity using regular expressions.
+
+RT attempts to simplify the interaction with relational databases by making tables first-
+class objects. Users are able to load information from a database, manipulate it using the 
+familiar imperative programming paradigm and optionally commit the data back to the database.
+
+\section{Basic Syntax}
+
+Spaces, tabs, and carriage returns constitute whitespace; they are 
+necessary to separate tokens but are not recognized in any other way by the compiler.  Newlines, typically
+considered whitespace, are not whitespace in the RT language; they are used to denote the end of an 
+expression-statement and other required points. The comma can be used in RT to break up long lines in 
+RT without signaling the end of an expression-statement
+
+\subsection{Comments}
+
+RT supports both single and mutli line comments. The characters \texttt{//} introduce a 
+single line comment;a single line comment is terminated by a newline. The \texttt{/*} characters 
+introduce a multi line comment; all subsequent text will be regarded as comments until the \texttt{*/} 
+character is found.  RT supports nested comments.
+
+\subsection{Keywords}
+The following are keywords in RT and are not to be used otherwise.
+\begin{table}[here]
+\centering
+\begin{tabular} {c c c c c c c c}
+int & null & string & float & bool & type & for & if \\ 
+else & while & table & true & false & void & do \\
+return & and & or
+\end{tabular}
+\end{table}
+
+\subsection{Identifiers}
+
+An identifier is anything beginning with a letter and continuing with any 
+combination of letters, numbers, primes, and underscores `\_'.  It can be used to 
+name variables, user defined types, or functions.
+
+\subsection{Literals}
+
+Any sequence of digits is an integer literal.  Any set of two sequences of digits 
+separated by a decimal point `.' is a floating-point literal.  Any sequence of 
+characters enclosed by double quotes is a string literal.
+
+\subsection{String Literals}
+
+String literals may have any number of interpolations in them.  An interpolation is an expression
+inside a string, which is cast to a string and concatenated to the part of the string before it,
+and then the following string and any other interpolations are concatenated to that.  The \$ symbol
+denotes a string interpolation.  The standard form of a string interpolation is 
+
+\"string content \${interpolated expression} more string content\"
+The interpolated expression can be any RT expression that can be cast to a string.  There is an abbreviated
+form, which is simply \"\$stringvariable\", where the braces are omitted.  In this form the \$ is followed
+by an identifier which is assumed to be a variable representing a string.  It cannot include a member access.
+
+\subsection{Variables}
+A declaration specifies the interpretation given to an identifier, but does not necessarily
+reserve storage associated with it.  Declarations have the form:
+\begin{center}
+\textsl{datatype identifier}\\*
+\end{center}
+Where \textsl{datatype} is a valid RT datatype as described below, and
+\textsl{identifier} is a legal identifier as described above.
+
+
+\section{Datatypes}
+
+\subsection{Primitive Types}
+There are four primitive datatypes in RT: \texttt{int}, \texttt{float}, \texttt{string}, \texttt{bool}. 
+For the remainder of this Reference Manual, \texttt{int} and \texttt{float} will be refered to as 
+Arithmetic types.
+
+\subsection{User-Defined Types}
+User-defined types, (UDT), consist of a sequence of primitive types. The syntax for specifying a 
+UDT using the \texttt{type} keyword is as follows:\\
+\hspace*{2.25 in}\texttt{type} \textsl{type-name}\texttt{\{}\\*
+\hspace*{2.5 in}\textbf{member-declaration-list}\\*
+\hspace*{2.25 in}\texttt{\}}
+Compound types are UDTs assembled as the concatenation of the members of the component UDTs. The syntax
+for declaring a Compound UDT is as follows:
+\begin{center}
+	\textsl{type1\#type2\#type3}
+\end{center}
+There can be an arbitrary number of component UDT types in a Compound type. Compound types containing two or more
+of the same UDT are allowed, but it is only possible to access the first instance of the UDT in the type. There are
+no constructors for compound types and they must be created using Maps or Joins, which are described below.
+
+\subsection{Records}
+Records are instances of a UDT. They can be constructed using the following
+syntax:\\
+\begin{center}
+	\textsl{type-name(expr1, expr2, ... , exprN)}
+\end{center}
+Where the return type for each \textsl{(expr)} matches that of the corresponding member of the
+UDT.  Records are passed by reference and their references are preserved across joins.  For example,
+A member set in a record that is the product of a join is the same member in the component record that donated
+it's members to the joined record.
+
+\subsection{Tables}
+Tables are typed according to a UDT and comprised of collection of Records of the same
+type.
+
+\section{Operators}
+RT has numerous operators defined over primitive and user-defined datatypes.
+
+\subsection{Assignment Operator =}
+Assignment is performed as follows:
+\begin{center}
+\textsl{id = expression}
+\end{center}
+Where the return type of \textsl{expression} matches that of \textsl{id}, and the left hand side is either
+a non-captured variable, or a member access (even off of a non-variable, such as a function return).
+
+\subsection{Comparison Operators}
+Comparison operators return a \texttt{bool} according to the definitions below. 
+\subsubsection{Equality Operator ==}
+\begin{center}
+\textsl{expression1 == expression2}
+\end{center}
+Tests the equality of the two operand expressions and returns a bool. For primitive types, 
+tests whether the literal value of each \textsl{expression} is equivalent. The equality 
+test is deep and the operator will recursively check nested user-defined types. For table 
+types, tests whether the expressions refer to the same table in memory. Use of this operator 
+for comparison of primitive and table types will result in a compile time error.
+
+\subsubsection{Not Equal Operator !=}
+\begin{center}
+\textsl{expression1 != expression2}
+\end{center}
+Tests the inequality of the two operand expressions and returns a bool. For primitive types, 
+tests whether the literal value of each \textsl{expression} is not equivalent. The inequality 
+test is deep and the operator will recursively check nested user-defined types. For table 
+types, tests whether the expressions refer to the same table in memory. Use of this operator 
+for comparison of primitive and table types will result in a compile time error.
+
+\subsubsection{Inequality Operators \textgreater , \textless , \textgreater= , \textless=}
+\begin{center}
+\textsl{expression1 \textgreater \hspace{1pt} expression2}
+\textsl{expression1 \textless  \hspace{1pt} expression2}\\*
+\textsl{expression1 \textgreater= expression2}
+\textsl{expression1 \textless= expression2}
+\end{center}
+These operators are defined only for expressions with arithmetic types. Tests whether 
+\textsl{expression1} is greater than, less than, greater than or equal to, or less than 
+or equal to \textsl{expression2} respectively. Use of this operator on expressions with 
+non-Arithmetic types will result in a compile time error.
+
+\subsection{Integer/Floating Point Operations +, -, *, /}
+\begin{center}
+\textsl{expression1 + expression2}
+\textsl{expression1 - expression2}\\*
+\textsl{expression1 * expression2}
+\textsl{expression1 / expression2}
+\end{center}
+These operators are defined only for expressions with arithmetic types. Integers will 
+automatically be promoted to floating points if the other operand is a float. These operations 
+will return an \texttt{int} if both operands are of type \texttt{int} and will return type 
+\texttt{float} otherwise. These operations will return \textsl{expression1} plus, minus, times, or
+divided by \textsl{expression2} respectively. All remainders will be ingored in integer division. 
+Use of these operators on expressions with non-Arithmetic types will result in a compile time type error.
+
+\subsection{Compound Integer/Floating Point Operations +=, -=, *=, /=}
+\begin{center}
+\textsl{id += expression}
+\textsl{id -= expression}\\*
+\textsl{id *= expression}
+\textsl{id /= expression}
+\end{center}
+These operators are defined only for expressions with arithmetic types. These operators perform an 
+operation on the value stored in \textsl{id} and the value returned by \textsl{expression} and stores the value
+in the variable identified by \textsl{id}. If the type of \textsl{id} is \textsl{int} then the type of  \textsl{expression} 
+must also be \textsl{int}.  If the type of \textsl{id} is \textsl{float} then the type of  \textsl{expression} can be \textsl{int} or \textsl{float}.  
+
+\subsection{String Operators}
+
+\subsubsection{String Concatenation Operator + }
+\begin{center}
+\textsl{expression1 + expression2}
+\end{center}
+This returns a new string that is a concatenation of the strings represented by 
+\textsl{expression1} and \textsl{expression2}.
+
+\subsubsection{Compound String Concatenation Operator += }
+\begin{center}
+\textsl{id += expression}
+\end{center}
+This concatenates the string stored in \textsl{id} and returned by \textsl{expression} and stores it in 
+the variable identified by \textsl{id}.
+
+\subsection{Record Operators}
+
+\subsubsection{Column Access}
+\begin{center}
+\textsl{expr.id}
+\textsl{expr.id.id}
+\end{center}
+Accessing the data from a record is done with the \textsl{.} notation. If \textsl{expr} refers to a non-record,
+the compiler reports an error.  If the later of the notations is used, the first id after the expression refers to
+the type the member was defined on.  This is redundant for records of a non-tuple type, but is useful for unambiguously
+referring to members of join products which might be named the same thing, but on different component types.  
+Each user defined type cannot have duplicately named members.  The last id after the '.' refers to the member name.  In
+RT, members of user defined types (UDTs) are interchangeably called members, elements, or columns.
+
+\subsection{Table Operators}
+
+\subsubsection{Append Operator +}
+\begin{center}
+\textsl{expr1 + expr2}
+\end{center}
+Returns a table with the contents of the table returned by \textsl{expr2} appended to the contents of the table
+returned by \textsl{expr1}. \textsl{expr1} or \textsl{expr2} can be of Table or Record type.
+
+\subsubsection{Head Operator !}
+\begin{center}
+\textsl{!expr1}
+\end{center}
+Returns the first record of the table returned by \textsl{expr1}.
+
+\subsubsection{Pipe Operator $|$}
+\begin{center}
+\textsl{expr} $|$ \textsl{id} \textsl{stmt}
+\end{center}
+Iterates over the rows of the table returned by \textsl{expr}.  In each iteration, the current row is bound to the
+name \textsl{id} inside of stmt.
+
+\subsubsection{Filter Operator}
+\begin{center}
+\textsl{expr[bool-expr]}
+\end{center}
+Returns a new table comprised of the Records in the table returned by \textsl{expr} for which 
+\textsl{bool-expr} evaluates to \textsl{true} . There is a compile-time error if \textsl{expr} is not a table
+or if \textsl{bool-expr} does bot return boolean value. The \textsl{@} symbol can be used to represent the current
+Record being iterated on in \textsl{bool-expr}. The \textsl{:} can be used to represent equality in the \textsl{bool-expr}.
+
+\subsubsection{Join Operator}
+\begin{center}
+\textsl{expr1[bool-expr]expr2}
+\end{center}
+Returns a new table which is the cross product of the tables specified by \textsl{expr1}
+and \textsl{expr2}, filtered by the boolean predicate bool. There is a compile-time error if \textsl{expr1} 
+or \textsl{expr2} are not tables or if \textsl{bool-expr} does bot return boolean value. Joins between two tables
+of the same UDT will result in a compile time error. The identifier \textsl{a} can be used to reference current
+Record being joined from the table resulting from \textsl{expr1} and \textsl{b} can be used to reference current
+Record being joined from the table resulting from \textsl{expr2}. Any variables named \textsl{a} or \textsl{b}will
+not be accessible in \textsl{bool-expr}. The \textsl{:} can be used to represent equality in the \textsl{bool-expr}.
+
+\subsubsection{Unconditional Join Operator$|+|$}
+\begin{center}
+\textsl{expr1$|+|$expr2}
+\end{center}
+This equivalent to a Join where the \textsl{bool-expr} is always true.  This is useful for appending tables 'horizontally,'
+or appending the columns of one on another.
+
+\subsubsection{Maps}
+\begin{center}
+\textsl{expr1[record-expr]}
+\textsl{expr1[record-expr]expr2}
+\end{center}
+Each statement returns a new table comprised of the Records that are returned by \textsl{record-expr}. In the first
+map shown above, \textsl{record-expr} is evaluated for every Record in the table returned by \textsl{expr1}.
+In the second map, \textsl{record-expr}is evaluated for every Record in the cross product of the tables returned by
+\textsl{expr1} and \textsl{expr2}. In the single table Map, the \textsl{@} symbol can be used to represent the current
+Record being iterated on in \textsl{bool-expr}. in a double table Map, the identifier \textsl{a} can be used to reference current
+Record being joined from the table resulting from \textsl{expr1} and \textsl{b} can be used to reference current
+Record being joined from the table resulting from \textsl{expr2}. Any variables named \textsl{a} or \textsl{b}will
+not be accessible in \textsl{bool-expr}.
+
+\subsubsection{Conditional Maps}
+\begin{center}
+\textsl{expr1[bool-expr ? record-expr]}
+\textsl{expr1[bool-expr ? record-expr]expr2}
+\end{center}
+Conditional Maps are equivalent to Maps except that the Record returned by \textsl{bool-expr} are only added 
+to the returned table if \textsl{bool-expr} is true. The \textsl{:} can be used to represent equality in the \textsl{bool-expr}.
+
+\section{Casting}
+\subsection{Primitive Casting}
+\begin{center}
+\textsl{new-type: expr}
+\end{center}
+This syntax returns the result of \textsl{expr} interpreted as type \textsl{new-type}. \textsl{int} and 
+\textsl{float} types can can be casted from one to the other. Any decimal part of a \textsl{float} will be 
+truncated. Any type can be converted to the \textsl{string} type. It is possible to convert a \textsl{string} 
+to an \textsl{int}, \textsl{float} or \textsl{bool}. However, if the string is not of the proper format, there 
+will be a runtime error.
+\subsection{Table Casting}
+\begin{center}
+\textsl{table: record-expr}
+\end{center}
+This syntax returns a table with the same type as the record returned by \textsl{record-expr} with the 
+that record as its only entry.
+
+\section{Statements}
+
+\subsection{Expression statements}
+Most statements are expression statements, which consist of a single expression (which
+may be empty) followed by a newline. Any side effects of the expression are completed before the next
+statement is executed.
+
+\subsection{Compound statements}
+So that several statements can be used where one is expected, the compound statement
+(also known as a "block"; see the section on blocks in RT below) is provided.  A
+compound statement is simply comprised of a list of newline-separated statements, with
+curly braces enclosing the entire list:
+\begin{center}
+\textsl{\{stmt\_list\}}
+\end{center}
+where (insert grammar rule for statement lists here).
+
+The body of a function definition is a compound statement.
+
+\subsection{If-else statements}
+If-else statements choose one of several flows of control:
+\begin{center}
+\texttt{if} (\textsl{expr}) \textsl{stmt}\\
+\texttt{if} (\textsl{expr}) \texttt{else} \textsl{stmt}
+\end{center}
+
+In both forms of the \texttt{if} statement, the expression, which must have
+arithmetic or boolean type, is evaluated, including all side effects, and if it
+compares unequal to 0 or \texttt{false}, then the first substatement is executed.
+In the \texttt{if-else} statement, the second substatement is executed if the expression
+compares equal to 0 or \texttt{false}.
+
+\subsection{Iteration statements}
+Iteration statements specify looping.  RT has two looping constructs: the
+\texttt{while} loop and the \texttt{for} loop.
+
+\subsubsection{do...while}
+\begin{center}
+\texttt{do stmt while(expr)}
+\texttt{do while(expr) stmt}
+\end{center}
+In the \texttt{do... while} statement, the \textsl{stmt} is executed so long as the
+value of the \textsl{expr} remains unequal \texttt{false}. In the first example above, the test, 
+including all side-effects from the expression, occurs after each execution of \textsl{stmt}. In 
+the second example, the test, including all side-effects from the expression, occurs before each 
+execution of \textsl{stmt}.
+
+\subsubsection{for}
+\begin{center}
+\texttt{do}(\textsl{expression1; expression2; expression3}) \textsl{statement}
+\end{center}
+In the \texttt{for} statement, the first expression is evaluated once, and thus specifies
+initialization for the loop.  There is no restriction on its type.  The second expression
+must have arithmetic or boolean type; it is evaluated before each iteration, and if it
+becomes unequal to 0 or \texttt{false}, the \texttt{for} is terminated.  The third
+expression is evaluated after each iteration, and thus specifies a re-initialization
+for the loop.  There is no restriction on its type.  Side-effects from each expression
+are completed immediately after its evaluation.  the statement
+\begin{center}
+\texttt{for}(\textsl{expression1; expression2; expression3}) \textsl{statement}
+\end{center}
+
+is equivalent to
+
+\begin{verbatim}
+expression1
+while (expression2) {
+    statement
+    expression3
+}
+\end{verbatim}
+
+Any of the three expressions may be dropped.  A missing second expression makes the test
+equivalent to testing a non-zero, non-false element.
+
+\section{Function Definitions}
+Function definitions have the form:
+\begin{verbatim}
+ReturnType function_name(TypeA parameter1, TypeB parameter2) {
+    //function body
+    return expr
+}
+\end{verbatim}
+A type error is generated at compile time if expr is not of type ReturnType.
+
+A function which returns void may omit the return statement.
+\section{Scope}
+
+\subsection{Namespaces}
+Identifiers in RT fall into two namespaces which do not interfere with each 
+other: in addition to the global namespace, every user-defined type creates a 
+separate namespace for its members, so that the same name may appear in 
+several different user-defined types.
+
+\subsection{Blocks}
+Blocks in RT are delimited with curly braces and are required as the bodies of 
+function declarations, if statements, loop constructs, and pipe iteration; they can 
+also be declared as wished by the programmer.  There is an implicit outer block 
+containing the entire program.
+
+\subsection{Lexical scope of identifiers}
+The lexical scope of an object or function begins at the end of its declarator 
+and persists to the end of the block in which it appears. The scope of a 
+parameter of a function begins at the start of the block defining the function 
+and persists to the end of the block.  The scope of a user-defined type name 
+begins at its appearance in a type specifier and persists to the end of the block.
+
+\section{Standard Library}
+
+\subsection{print}
+\begin{center}
+\textsl{print(expr)}
+\textsl{print()}
+\end{center}
+The print function outputs the results of \textsl(expr) to the console. Print with no 
+argument puts a newline to the terminal.
+
+\subsection{stdin}
+\begin{center}
+\textsl{stdin()}
+\end{center}
+The stdin function gets keyboard input from the user and returns the input as a \textsl{string}
+
+\subsection{setWorkingDir}
+\begin{center}
+\textsl{setWorkingDir(string-expr)}
+\textsl{setWorkingDir()}
+\end{center}
+The setWorkingDir function changes the path where the program will load or commit tables from and to. 
+Calling setWorkingDir with no argument changes the working directory to original working directory when 
+the program was called.
+
+\subsection{system}
+\begin{center}
+\textsl{system(string-expr)}
+\end{center}
+The system function executes the command returned by \textsl{string-expr}.
+
+\subsection{argc and argv}
+\begin{center}
+\textsl{argc()}
+\textsl{argv(int-expr)}
+\end{center}
+Argc returns an integer equal to number of command line arguments passed to the program. 
+Argv returns the string of the command line argument at the index returned by \textsl(int-expr).
+
+\subsection{Table Functions}
+\subsection{commit}
+\begin{center}
+\textsl{commit(table-expr, string-expr)}
+\end{center}
+The commit function stores the table returned by \textsl{table-expr} in the file named in 
+\textsl{string-expr} in the comma separated value format. If the commit was successful, the 
+table committed is returned.
+
+\subsubsection{th}
+\begin{center}
+\textsl{(int-expr).th(table-expr)}
+\end{center}
+The th function returns the record at index equal to \textsl{int-expr} from the table returned by 
+\textsl{table-expr}. A \textsl{null} is returned if the there was no record at the given index.
+
+\subsubsection{size}
+\begin{center}
+\textsl{table-expr.size()}
+\end{center}
+The size function returns number of rows in the table returned by \textsl{table-expr}.
+
+\subsubsection{delete}
+\begin{center}
+\textsl{(table-expr).delete(record-expr)}
+\end{center}
+The delete function removes the record returned by \textsl{record-expr} from the table returned by 
+\textsl{table-expr}.
+
+\subsubsection{tl}
+\begin{center}
+\textsl{(table-expr).tl()}
+\end{center}
+The tl function returns the tail the table returned by \textsl{table-expr}.
+
+\subsection{String Fucntions}
+
+\subsubsection{strlen}
+\begin{center}
+\textsl{(string-expr).strlen()}
+\end{center}
+The strlen function returns the length of the string returned by \textsl{string-expr}.
+
+\subsubsection{substring}
+\begin{center}
+\textsl{(string-expr).substring(int-expr)}
+\textsl{(string-expr).substring(int-expr1, int-expr2)}
+\end{center}
+The substring function with one argument returns the substring of the string returned by \textsl{string-expr}
+starting at index equal to \textsl{int-expr}. With two arguments, the substring returned starts at \textsl{int-expr1} 
+and ending at \textsl{int-expr2}.
+
+\subsubsection{charAt}
+\begin{center}
+\textsl{(string-expr).chatAt(int-expr))}
+\end{center}
+The charAt function returns a string of a single character that was at index \textsl{int-expr} from 
+the string returned by \textsl{string-expr}.
+
+

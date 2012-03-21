@@ -1,0 +1,49 @@
+          
+\chapter{Lessons Learned}
+
+\section{Michael's Lessons}
+Beyond being an exercise in writing a compiler, this project was the first opportunity 
+for us, as students, to work on the development of a large scale software project in a 
+medium sized group. The most important lesson that I learned from the project related 
+both to compiler writing specifically and also team software development in general. 
+It is of the utmost importance that groups working on a large project create a specification 
+which they want their product to adhere to and stick to it, with as little variation as 
+possible. From the compiler’s point of view, this is important because it forces the team 
+to think before they act and carefully plan out the language’s desired functions and syntax. 
+A specification that is well thought out will both be more useful to the end user and easier 
+for the team to implement. One of the largest difficulties that the team faced was our 
+inability to settle on a specification, both a set of functions and a syntax that represented 
+what we wanted to do with La Mesa. As a result, we spent far too much time discussing 
+what our language would look like rather than implementing functionality. The other aspect 
+of specifying our language that our group could have done a better job with was having a 
+better understanding of the ways in which the different aspects of the project fit together. 
+For example, one of the areas which I was responsible for were the Java libraries that our 
+language would use to generate the Table functionality that our language provided. Due to 
+poor communication amongst the group, I had to rewrite the libraries twice to adhere to 
+the way in which code would be generated. This was time that could have been better spent 
+implementing other core features in the compiler. \\
+In addition, after forking the project, it became clear that the biggest lesson that I've 
+learned while doing this project is the importance of working with people that you both 
+trust to get something done and respect them enough to let them do it. Although we were 
+only half the size of the original group, Jared and I were much more efficient than when 
+working with the larger group because we were able to divide the work and trust that the 
+other would get his part done correctly and on time. 
+
+\section{Jared's Lessons}
+I learned a lot about working on a group software project in this class, and it was exciting to have the opportunity to work on a difficult, college-level project.  Like the others, I wish that we had done more coding earlier in the semester and not put off so many decisions until later.  On a positive note, I really enjoyed learning OCaml and plan to continue with functional programming.
+
+I learned especially how important it should have been to have a coherent vision for a language.  Without it, we had a difficult time figuring out the details of the language, as we didn't really have an idea of what we wanted it to do.  
+
+I learned that making compilers in ocaml, while fun, generally is a fairly standard procedure.  Once we had a good AST and translator, adding new features was mostly a matter of adding to the parser, and things that would support the parser, including whatever code was necessary to generate the java.  For example, the majority of the AST could be represented as function calls, including casts, unary, and binary operations.  Therefore, with a the function translation implemented, most functionality could have been implemented in the parser and built in functions.  I very much appreciated this because of the ability to very easily add features in very little time by focusing work on the parser, which was actually a bit addicting.
+
+\section{Recommendations to Future Groups}
+\begin{table}[here]
+\begin{tabular} {l}
+Start Early! \\
+Don't be afraid to nail down your language specifications before starting your scanner and parser \\
+Don't just choose the people next to you when looking for a group, find people you will be happy working with \\
+As you get closer to completion, pick an endpoint and stick to it \\
+Become very comfortable with your version control system and commit often to avoid conflicts \\
+\end{tabular}
+\end{table}
+

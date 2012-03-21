@@ -1,0 +1,15 @@
+/*
+ * relational_operators.lm
+ */
+int a = 0
+print(1 < 2) //true
+print(3*4 > 3*3) //true
+print(true != true) //false
+print(7.8 < 8) //true
+print(7.8 >= 7.8) //true
+print((a = 2) > 3) //false
+print(a == 2) //true
+print((a=4) == 4) //true
+print(8*8 > 8*6) //true
+print(10 <= 10) //true
+print(10 <= 9) //false

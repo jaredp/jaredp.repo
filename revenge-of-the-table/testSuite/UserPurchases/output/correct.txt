@@ -1,0 +1,33 @@
+|    User's name     | User's addr | User's age |  Purchase's name   |       Purchase's item       | 
+|  Matthew Jesuele   |    10031    |     22     |  Matthew Jesuele   | Washington Heights Rowhouse | 
+|  Michael Vitrano   |    10027    |     21     |  Michael Vitrano   |        Ford Mustang         | 
+|   Jared Pochtar    |    10128    |     16     |   Jared Pochtar    |  Upper East Side Penthouse  | 
+|   Jared Pochtar    |    10128    |     16     |   Jared Pochtar    |            Tank             | 
+| Charles Williamson |    10024    |     27     | Charles Williamson |  Upper West Side Penthouse  | 
+|    Tony Eureka     | Los Angeles |     29     |    Tony Eureka     |   Hollywood Hills Mansion   | 
+|     Jim Grimm      |   Compton   |     52     |     Jim Grimm      |         Candy Cane          | 
+|   Amir Mohammed    |   Chicago   |     21     |   Amir Mohammed    |         Sugar Plums         | 
+|   Amir Mohammed    |   Chicago   |     21     |   Amir Mohammed    |            Tank             | 
+|   Amir Mohammed    |   Chicago   |     21     |   Amir Mohammed    |            iPad             | 
+
+casting to component types:
+|  User's name  | User's addr | User's age | 
+| Jared Pochtar |    10128    |     16     | 
+| Amir Mohammed |   Chicago   |     21     | 
+
+manual casting:
+|  User's name  | User's addr | User's age | 
+| Jared Pochtar |    10128    |     16     | 
+| Amir Mohammed |   Chicago   |     21     | 
+
+manual table print (via iteration)
+| Jared Pochtar	| 10128	| 16	| Jared Pochtar	| Tank	| 
+| Amir Mohammed	| Chicago	| 21	| Amir Mohammed	| Tank	| 
+
+indexing table...
+| index's value |  User's name  | User's addr | User's age | Purchase's name | Purchase's item | 
+|       0       | Jared Pochtar |    10128    |     16     |  Jared Pochtar  |      Tank       | 
+|       1       | Amir Mohammed |   Chicago   |     21     |  Amir Mohammed  |      Tank       | 
+
+checking global variables...
+15 should be 15... did it work? true!

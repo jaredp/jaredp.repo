@@ -1,0 +1,18 @@
+/*
+ *	commit.rt
+*/
+
+
+type User{
+	string name
+	string city
+	int age
+}
+
+User table ourUsers
+
+setWorkingDir("output/")
+
+ourUsers.commit("trial.txt")
+
+

@@ -1,0 +1,71 @@
+/*  BooleanLogic.lm
+ *  This tests LaMesa's boolean Logic.
+ *
+*/
+
+int n = 5
+bool error_flag
+
+if(n != 5) {
+  error_flag = true
+}
+string alpha = "alpha"
+string beta = "beta"
+
+print(alpha)
+
+string compound = alpha + beta
+
+print(compound)
+
+if(alpha + beta == compound) {
+  error_flag = false
+} else {
+  error_flag = true
+}
+
+print(error_flag)
+
+float m = 2.0
+
+do while( n > 0 ){
+	
+  if ( m < 100.0) {
+    m = m * m
+		print(m)
+  } else if( m <= 256.0) {
+    m = m * 4.0
+		print(m)
+  } else {
+    m = m + 1.0
+		print(m)
+  }
+  n = n - 1
+	print(n)
+}
+
+	print(m)
+
+  m = 137.5
+  compound = alpha + alpha
+
+	print(compound)
+	
+for( n = 5; n > 0; n = n - 1) {
+
+  if ( compound == alpha + alpha || n == 2) {
+    m = m - 37.5
+    compound = beta + beta
+		print(m)
+		print(compound)
+  }
+  if ( compound == beta + beta && n == 4) {
+    m = m + 100.0
+    compound = alpha + alpha
+		print(m)
+		print(compound)
+  }
+	print(n)
+}
+
+

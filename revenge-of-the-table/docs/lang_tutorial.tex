@@ -1,0 +1,34 @@
+       
+\chapter{Language Tutorial}
+
+\section{Running the Compiler}
+To compile an RT program the following command is run:
+\begin{verbatim}
+	./rtc.sh <source-file> <optional destination> <optional debug>
+\end{verbatim}
+Running the rtc.sh script requires that a source-file is given. If no destination is provided, the compiled .class
+is placed in the present working directory. If the debug flag is raised, the intermediate .java file is 
+also placed into either the present working directory or the destination depending on whether one 
+is provided.
+
+\section{Hello World!}
+The most basic RT program will define a User-Defined type, create a table of this type, add data and 
+print that data to the user. Defining a UDT is done with the \textsl{type} keyword as show in the example
+program below:
+\VerbatimInput[frame=single,baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/HelloWorld/HelloWorld.rt}
+Next, we will declare a Record of type \textsl{Hello\_world} named \textsl{greeting} containing the string \"Hello, World!\". 
+We then instantiate an empty \textsl{Hello\_world} table named \textsl{hellos} and append \textsl{greeting}. 
+We also append an annoymous \textsl{Hello\_world} to \textsl{hellos} before we print the table in the last 
+line of the program.
+
+\section{Running Hello World}
+
+To run a compiled .class, the following command is executed:
+\begin{verbatim}
+	./rt.sh <class-file> <optional args ... >
+\end{verbatim}
+Running the rt.sh script links the compiled .class file against the RtLib and runs executes it. 
+Command line arguments can be passed to the program by appending them to the end of the call
+to the script. \\
+The output of HelloWorld.rt is:
+\VerbatimInput[frame=single,baselinestretch=1,fontsize=\footnotesize,numbers=left]{../testSuite/HelloWorld/output/correct.txt}

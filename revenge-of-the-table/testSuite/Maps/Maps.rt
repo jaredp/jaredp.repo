@@ -1,0 +1,42 @@
+type User { 
+			string name 
+			string city
+			int age
+}
+type relation { 
+		string u1 
+		string u2 
+}
+User table users1
+User table users2
+
+relation User.getRel() {
+ return relation(self.name, self.city)
+}
+
+print(users1)
+print()
+print(users2)
+print()
+
+relation table r1 = users1[getRel(@)]
+
+print(r1)
+
+relation table r2 = users1[relation(a.name, b.name)]users2
+
+User#relation table weird = users2[ ! (b |+| relation(a.name, b.name))]users1
+
+print(weird)
+
+
+int b = 15
+
+relation#User table r3 = r1[a.u2 : b.name]users2
+
+
+print()
+print(r2)
+
+
+

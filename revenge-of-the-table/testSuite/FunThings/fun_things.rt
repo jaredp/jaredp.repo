@@ -1,0 +1,60 @@
+/*
+ * fun_things.rt
+ */
+
+type Fun {
+    int f
+    float k
+    string s
+}
+
+type Thing {
+  string this
+  string is
+  string fun
+}
+
+int a = 2*3+1 //7
+
+Fun table thisIsFun() {
+
+  int bigNumber = 1000000
+  print("This is fun to me.")
+  a = bigNumber
+
+  bool of = true
+  float fl = 3.23
+  
+  Fun f = Fun(a, fl, "s")
+  
+  if (bigNumber > 100) {
+    print(f.s)
+    f.s = "almost done"
+  }
+  
+  Fun table ret = table: Fun(a, fl, "s"),
+                       + Fun(0, 42.0, " is the meaning of life"),
+                       + Fun(73, 9.8, "gravity")
+  return ret 
+}
+
+float float.print_and_wrap() {
+    print(self)
+   	return self
+}
+
+int main() {
+
+  print(a-6) // 1
+
+  float match = 95.0
+  print((Fun(3, 95.0, "oh yea!"))+thisIsFun()[.k!=match][.f<300])
+
+  print(a) //should print 1000000
+
+  return 100
+}
+
+int int.timesten() = self * 10
+
+print(main().timesten) //should print 1000

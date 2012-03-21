@@ -1,0 +1,18 @@
+|    User's name     | User's city | User's age | 
+|  Matthew Jesuele   |    10031    |     22     | 
+|  Michael Vitrano   |    10027    |     21     | 
+|   Jared Pochtar    |    10128    |     16     | 
+| Charles Williamson |    10024    |     27     | 
+
+|  User's name  | User's city | User's age | 
+|   Bob Slob    |  New York   |     15     | 
+|  Tony Eureka  | Los Angeles |     29     | 
+|   Jim Grimm   |   Compton   |     52     | 
+| Amir Mohammed |   Chicago   |     21     | 
+
+|   relation's u1    | relation's u2 | 
+|  Matthew Jesuele   |     10031     | 
+|  Michael Vitrano   |     10027     | 
+|   Jared Pochtar    |     10128     | 
+| Charles Williamson |     10024     | 
+

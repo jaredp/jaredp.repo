@@ -1,0 +1,26 @@
+
+type User {
+  string name
+  string addr
+  int age
+}
+
+User table ourUsers
+
+User table ourUsers2
+
+print(ourUsers)
+
+print("")
+
+print(ourUsers2)
+
+ourUsers = ourUsers + ourUsers2
+
+print("")
+
+print(ourUsers)
+
+print("")
+
+print(ourUsers2)

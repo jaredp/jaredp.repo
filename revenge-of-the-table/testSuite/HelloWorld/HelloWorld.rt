@@ -1,0 +1,14 @@
+
+type Hello_world {
+	string howdy
+}
+
+Hello_world greeting = Hello_world("Hello, World!")
+
+Hello_world table hellos = table: Hello_world
+
+hellos = hellos + greeting
+
+hellos = hellos + Hello_world("Isn't this wonderful?")
+
+print(hellos)

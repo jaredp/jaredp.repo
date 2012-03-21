@@ -1,0 +1,23 @@
+\chapter{Architectural Design}
+
+\section{Block Diagram}
+\begin{center}
+\includegraphics[height=100mm]{arch_diagram.jpg}
+\end{center}
+
+\section{Command Line Interface}
+To compile an RT program the following command is run:
+\begin{verbatim}
+	./rtc.sh <source-file> <optional destination> <optional debug>
+\end{verbatim}
+Running the rtc.sh script requires that a source-file is given. If no destination is provided, the compiled .class
+is placed in the present working directory. If the debug flag is raised, the intermediate .java file is 
+also placed into either the present working directory or the destination depending on whether one 
+is provided.\\
+To run the compiled .class, the following command is executed:
+\begin{verbatim}
+	./rt.sh <class-file> <optional args ... >
+\end{verbatim}
+Running the rt.sh script links the compiled .class file against the RtLib and runs executes it. 
+Command line arguments can be passed to the program by appending them to the end of the call
+to the script.

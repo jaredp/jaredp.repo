@@ -1,0 +1,53 @@
+/*
+ * map_filter_join.rt
+*/
+
+
+type User{
+	string name
+	int age
+}
+
+User table users = table: User("Michael", 21)
+users = users +  User("Jared", 16)
+
+print(users)
+print()
+
+type Product{
+	string itemName
+	float cost
+}
+
+Product table products = table: Product("Soap", 1.99)
+products = products +  Product("Chocolate", 16.0)
+
+type Purchased{
+	string cName
+	string pName
+}
+
+print(products)
+print()
+
+User table michael = users[.name:"Michael"] // filter
+
+print(michael)
+print()
+
+User#Product table users_products = users[true]products // join
+
+print(users_products)
+print()
+
+// single table map
+Purchased table purchases1 = users_products[Purchased(.name, .itemName)] 
+
+print(purchases1)
+print()
+
+// double table map, produces the same result as purchases1
+Purchased table purchases2 = users[Purchased(name, itemName)]products
+
+print(purchases2)
+print()

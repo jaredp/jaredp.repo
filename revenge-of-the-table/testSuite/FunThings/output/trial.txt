@@ -1,0 +1,9 @@
+1
+This is fun to me.
+s
+| Fun's f | Fun's k |         Fun's s         | 
+|    3    |  95.0   |         oh yea!         | 
+|    0    |  42.0   |  is the meaning of life | 
+|   73    |   9.8   |         gravity         | 
+1000000
+1000

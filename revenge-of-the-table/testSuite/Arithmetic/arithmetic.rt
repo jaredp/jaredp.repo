@@ -1,0 +1,23 @@
+/*
+ * arithmetic.rt
+ */
+
+
+print(1*2+3/4) //2
+print(1.0/1) //1.0
+print(5+5*5.0) //30.0
+print(1.25 - 1.00) //.25
+print(50-1.0) //49.0
+print(3/2 - 1 < 0) //false
+
+int a = 0
+print(9*8*7*6*5*a) //0
+print((a=2)+2) //4
+
+
+print(a+=5) // 7
+print((a-=5)) // 2
+print((a*=4)) // 8
+print(a/=4) // 2
+
+

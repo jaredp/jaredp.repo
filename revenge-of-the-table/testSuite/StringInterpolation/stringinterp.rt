@@ -1,0 +1,17 @@
+/*
+ * string_concat.lm
+ */
+
+print("hello
+	something\n\"qouted\"\\`'
+	4 + 5 = ${4 + 5}!
+	some more stuff
+	")
+
+string s = ""
+int i = 3
+do {
+	print("${s+="hello, "}i is $i \n")
+} while (i < 10) {
+	i = i + 1
+}
