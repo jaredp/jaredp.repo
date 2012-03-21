@@ -1,0 +1,202 @@
+TRecords
+v7
+r0
+t326612192.907201
+cCheck dependencies
+cProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch Records_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o /Users/Jared/Dropbox/Development/Records/Records.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o /Users/Jared/Dropbox/Development/Records/JPModelObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Jared/Dropbox/Development/Records/build/Debug/Records normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D5B397F0000000000B3E980
+t1297824127
+s11790720
+
+N/Users/Jared/Dropbox/Development/Records/JPModelObject.h
+c000000004DC767710000000000000114
+t1304913777
+s276
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/Development/Records/JPModelObject.m
+c000000004DC767A300000000000006D0
+t1304913827
+s1744
+i"JPModelObject.h"
+
+N/Users/Jared/Dropbox/Development/Records/Records.m
+c000000004DC77D600000000000000245
+t1304919392
+s581
+i<Foundation/Foundation.h>
+i"JPModelObject.h"
+
+N/Users/Jared/Dropbox/Development/Records/Records_Prefix.pch
+c000000004DC75E61000000000000009C
+t1304911457
+s156
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/Records/build/Debug/Records
+t1304919392
+s16016
+
+N/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o
+t1304918985
+s16888
+
+N/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.LinkFileList
+c000000004DC762C300000000000000E8
+t1304912579
+s232
+
+N/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.mi
+t2
+s0
+
+N/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o
+t1304919392
+s9772
+
+N/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch
+t1304912581
+s41429776
+
+N/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cpobxvwdgaaeyqcrwwobggjleslg/Records_Prefix.pch.pth
+t1304918621
+s6576144
+
+C<C0005:'CompileC Records.o':P8:W0>
+s326611424.558483
+e326611424.739468
+r0
+xCompileC
+xbuild/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o
+x/Users/Jared/Dropbox/Development/Records/Records.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Jared/Dropbox/Development/Records/Records.m:28:2: error: unterminated function-like macro invocation
+o         open foo close
+o         ^
+o/Users/Jared/Dropbox/Development/Records/Records.m:25:14: note: instantiated from:
+o #define open preproc(
+o              ^
+o1 error generated.
+lSLF07#2@58"Compile /Users/Jared/Dropbox/Development/Records/Records.m326611424#326611424#0(284"/Users/Jared/Dropbox/Development/Records/Records.m:28:2: error: unterminated function-like macro invocation         open foo close         ^/Users/Jared/Dropbox/Development/Records/Records.m:25:14: note: instantiated from: #define open preproc(              ^1 error generated.1(4@43"Unterminated function-like macro invocation326611424#0#108#1(13@69"Instantiated from: /Users/Jared/Dropbox/Development/Records/Records.m326611424#143#83#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326611384#25#14#0#0#18"instantiated from:0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326611384#28#2#0#0#43"unterminated function-like macro invocation0(0#0#50"/Users/Jared/Dropbox/Development/Records/Records.m8711280704#1431"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -include /Users/Jared/Dropbox/Development/Records/Records_Prefix.pch -fpch-preprocess -E /Users/Jared/Dropbox/Development/Records/Records.m -o /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.mi1#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326612192#326612192#0(0"0(0#1#0"8760031936#0"0#
+
+CCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o /Users/Jared/Dropbox/Development/Records/JPModelObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s326611785.797647
+e326611786.005307
+r1
+xCompileC
+xbuild/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o
+x/Users/Jared/Dropbox/Development/Records/JPModelObject.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Jared/Dropbox/Development/Records/JPModelObject.m: In function '-[JPModelObject forwardInvocation:]':
+o/Users/Jared/Dropbox/Development/Records/JPModelObject.m:46: warning: unused variable 'numargs'
+lSLF07#2@64"Compile /Users/Jared/Dropbox/Development/Records/JPModelObject.m326611785#326611786#0(205"/Users/Jared/Dropbox/Development/Records/JPModelObject.m: In function '-[JPModelObject forwardInvocation:]':/Users/Jared/Dropbox/Development/Records/JPModelObject.m:46: warning: unused variable 'numargs'1(22@25"Unused variable 'numargs'326611785#109#96#0(6@56"/Users/Jared/Dropbox/Development/Records/JPModelObject.m326606627#46#0#46#0#19"unused variable '*'0(0#0#56"/Users/Jared/Dropbox/Development/Records/JPModelObject.m8755590912#1490"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch -c /Users/Jared/Dropbox/Development/Records/JPModelObject.m -o /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o0#
+
+CCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o /Users/Jared/Dropbox/Development/Records/JPModelObject.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s326611602.340175
+e326611602.466032
+r1
+xCompileC
+xbuild/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o
+x/Users/Jared/Dropbox/Development/Records/JPModelObject.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Jared/Dropbox/Development/Records/JPModelObject.m:46:6: warning: unused variable 'numargs' [-Wunused-variable]
+o         int numargs = [[anInvocation methodSignature] numberOfArguments];
+o             ^
+o1 warning generated.
+lSLF07#2@64"Compile /Users/Jared/Dropbox/Development/Records/JPModelObject.m326611602#326611602#0(229"/Users/Jared/Dropbox/Development/Records/JPModelObject.m:46:6: warning: unused variable 'numargs' [-Wunused-variable]         int numargs = [[anInvocation methodSignature] numberOfArguments];             ^1 warning generated.1(22@25"Unused variable 'numargs'326611602#0#118#0(6@56"/Users/Jared/Dropbox/Development/Records/JPModelObject.m326606627#46#6#0#0#17"unused variable *0(0#0#56"/Users/Jared/Dropbox/Development/Records/JPModelObject.m8760288128#1526"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cpobxvwdgaaeyqcrwwobggjleslg/Records_Prefix.pch -c /Users/Jared/Dropbox/Development/Records/JPModelObject.m -o /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o0#
+
+CCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o /Users/Jared/Dropbox/Development/Records/Records.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s326612192.611933
+e326612192.893489
+r1
+xCompileC
+xbuild/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o
+x/Users/Jared/Dropbox/Development/Records/Records.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Jared/Dropbox/Development/Records/Records.m326612192#326612192#0(0"0(0#0#50"/Users/Jared/Dropbox/Development/Records/Records.m8759869728#1478"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch -c /Users/Jared/Dropbox/Development/Records/Records.m -o /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o0#
+
+CCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o /Users/Jared/Dropbox/Development/Records/Records.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s326611709.968200
+e326611710.082635
+r1
+xCompileC
+xbuild/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o
+x/Users/Jared/Dropbox/Development/Records/Records.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@58"Compile /Users/Jared/Dropbox/Development/Records/Records.m326611709#326611710#0(0"0(0#0#50"/Users/Jared/Dropbox/Development/Records/Records.m8760226720#1514"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cpobxvwdgaaeyqcrwwobggjleslg/Records_Prefix.pch -c /Users/Jared/Dropbox/Development/Records/Records.m -o /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o0#
+
+CLd /Users/Jared/Dropbox/Development/Records/build/Debug/Records normal x86_64
+s326612192.893633
+e326612192.907152
+r1
+xLd
+x/Users/Jared/Dropbox/Development/Records/build/Debug/Records
+xnormal
+xx86_64
+lSLF07#2@65"Link /Users/Jared/Dropbox/Development/Records/build/Debug/Records326612192#326612192#0(0"0(0#0#0"8760365856#530"    cd /Users/Jared/Dropbox/Development/Records    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Jared/Dropbox/Development/Records/build/Debug -F/Users/Jared/Dropbox/Development/Records/build/Debug -filelist /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/Jared/Dropbox/Development/Records/build/Debug/Records0#
+
+CProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch Records_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s326605379.805583
+e326605381.400679
+r1
+xProcessPCH
+x/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch
+xRecords_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Records_Prefix.pch326605379#326605381#0(0"0(0#0#59"/Users/Jared/Dropbox/Development/Records/Records_Prefix.pch8823796808475829248#1376"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -c /Users/Jared/Dropbox/Development/Records/Records_Prefix.pch -o /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cpobxvwdgaaeyqcrwwobggjleslg/Records_Prefix.pch.pth Records_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s326611420.718772
+e326611421.277356
+r1
+xProcessPCH
+x/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cpobxvwdgaaeyqcrwwobggjleslg/Records_Prefix.pch.pth
+xRecords_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@29"Precompile Records_Prefix.pch326611420#326611421#0(0"0(0#0#59"/Users/Jared/Dropbox/Development/Records/Records_Prefix.pch8711244704#1412"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -c /Users/Jared/Dropbox/Development/Records/Records_Prefix.pch -o /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cpobxvwdgaaeyqcrwwobggjleslg/Records_Prefix.pch.pth0#
+

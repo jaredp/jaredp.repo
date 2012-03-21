@@ -1,0 +1,16 @@
+00000000000000000000000000000000 7d88fe9ccdd8a1b96a7a5e6e5c23490b ffffffffffffffffffffffffffffffff 0 /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Release-iphoneos/FTS.build/com.apple.build-tools.platform.validate
+00000000000000000000000000000000 6d2440288922efa75f7edddfdddc3e4d ffffffffffffffffffffffffffffffff 102 /Users/Jared/Dropbox/Development/FTS/build/Release-iphoneos/FTS.app.dSYM
+f714e931d0198a4d05613242552f387b ee786a2a9b958fce6540550455ed1416 ffffffffffffffffffffffffffffffff 374 /Users/Jared/Dropbox/Development/FTS/build/Release-iphoneos/FTS.app
+000000004c3936d200000000000073f4 5bbed95839b806681c74a158fa71a758 ffffffffffffffffffffffffffffffff 2044 /Users/Jared/Dropbox/Development/FTS/build/Release-iphoneos/FTS.app/FTSViewController.nib
+000000004c329adf0000000000004ce1 767741df2a66d5207ec249f089644f52 ffffffffffffffffffffffffffffffff 1115 /Users/Jared/Dropbox/Development/FTS/build/Release-iphoneos/FTS.app/MainWindow.nib
+00000000000000000000000000000000 6db169e36b2f86d6e9f01892cac3c2d1 ffffffffffffffffffffffffffffffff 8 /Users/Jared/Dropbox/Development/FTS/build/Release-iphoneos/FTS.app/PkgInfo
+00000000000000000000000000000000 6db169e36b2f86d6e9f01892cac3c2d1 ffffffffffffffffffffffffffffffff 917 /Users/Jared/Dropbox/Development/FTS/build/Release-iphoneos/FTS.app/Info.plist
+00000000000000000000000000000000 0917be8cccb29114eb0145705ba171f5 ffffffffffffffffffffffffffffffff 485 /Users/Jared/Dropbox/Development/FTS/build/Release-iphoneos/FTS.app/ResourceRules.plist
+7192608aac1e07400c21a37a0ee5879b a258afb0a360635c80f73ce0737e190a ffffffffffffffffffffffffffffffff 37804 /Users/Jared/Dropbox/Development/FTS/build/Release-iphoneos/FTS.app/FTS
+961a176f5628dc807c189343b94b7ca2 6e391fbf37acadc0b18452c241b2b8c2 ffffffffffffffffffffffffffffffff 24524 /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Release-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o
+961a176f1a4757707c189343b94b02ee aa0792f5fe8f5e9db209d27a4968df55 ffffffffffffffffffffffffffffffff 23044 /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Release-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o
+961a176f5644b3417c189343b94b4954 1e4ba19ec6161e8b1749bac8c4885e2f ffffffffffffffffffffffffffffffff 10356 /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Release-iphoneos/FTS.build/Objects-normal/armv7/Log.o
+961a176f5672d17c7c189343b94b4db4 996a659a0c3e1d3e8a0a28923e18c849 ffffffffffffffffffffffffffffffff 44636 /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Release-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o
+961a176f561a0d497c189343b94b58e9 0f7321ec224b96591e2b993a2cd9dad0 ffffffffffffffffffffffffffffffff 46140 /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Release-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o
+961a176f51eeead97c189343b94b464c 3dfe0828c6a47a3a8cc428a2d20b16b3 ffffffffffffffffffffffffffffffff 7904 /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Release-iphoneos/FTS.build/Objects-normal/armv7/main.o
+000000004c32a4c20000000000001a75 961a176f56764a897c189343b94b43d5 ffffffffffffffffffffffffffffffff 9228948 /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzopnmhqqeyynzehhybhdhxiovgs/FTS_Prefix.pch.gch

@@ -1,0 +1,15 @@
+<div class="comments">
+    {% for comment in post.comments.select_related %}
+        <p class="comment">
+            <b>{{ comment.by }} said </b> {{ comment.html|safe }}
+            <br />
+            <span class="comment-timestamp">{{ comment.timestamp|timesince }} ago</span>
+        </p>
+    {% endfor %}
+    <hr />
+    <form action="comment/{{post.pk}}/" method="post">
+        {% csrf_token %}
+        <input type="text" name="comment" placeholder="comment..." />
+        <input type="submit" />
+    </form>
+</div>

@@ -1,0 +1,25 @@
+#header {
+    background-image: url('header-compressed.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 3em;
+    
+    color: white;
+    font-weight: bold;
+}
+
+#header * a {
+    color: inherit;
+
+    text-decoration: none;
+    text-shadow: black 2px 2px 2px;
+}
+
+#homelink a {
+    font-size: 2em;
+    margin: 0;
+}
+
+a:visited {
+    color: #00F;
+}

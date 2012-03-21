@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block head %}
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss/" />
+
+{% endblock head %}
+
+{% block content %}
+
+{% if course_filter %}
+<h1>{{ course_filter }}</h1>
+
+<style>
+
+input[type="radio"]+label {
+    background-color: #0F0;
+
+    display: inline-block;
+    text-align: center;
+    
+    margin: 3px;
+    padding: 0.5em;
+    width: 150px;
+}
+
+input[type="radio"]+label:hover {
+    background-color: #0FF;
+}
+
+input[type="radio"]+label:active {
+    background-color: #990;
+}
+
+input[type="radio"]:checked+label { 
+    font-weight: bold; 
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+textarea {
+    height: 20em;
+    margin: 1em;
+}
+
+</style>
+
+<form method="post" action="new_post/">
+{% csrf_token %}
+    <textarea name="content" class="pagewidth"></textarea> <br />
+    
+    <input type="radio" name="due" value="push"     id="nextclass" />         <label for="nextclass"> Next Class              </label>
+    <input type="radio" name="due" value="add"      id="add" />               <label for="add">       Next Class Overwrite    </label>
+    <input type="radio" name="due" value="append"   id="append" checked />    <label for="append">    Next Available Class    </label>
+    <input type="radio" name="due" value="date"     id="date" />              <label for="date">      Specific Date           </label>
+    
+    <br />
+    
+    <input type="radio" name="type" value="push"     id="hw" checked />        <label for="hw"> Homework                      </label>
+    <input type="radio" name="type" value="push"     id="test" />              <label for="test"> Test                        </label>
+    <input type="radio" name="type" value="push"     id="project" />           <label for="project"> Project                  </label>
+    <input type="radio" name="type" value="push"     id="none" />              <label for="none"> None                        </label>
+
+    <br />
+    
+    <input type="submit" value="Post" style="float: right"/>
+</form>
+
+{% endif %}
+
+<div class="homeworks">
+
+{% load humanize %}
+{% regroup homeworks by date.date as homeworks_by_date %}
+{% for date in homeworks_by_date %}
+<div class="day">
+    <h3 class="date">{{ date.grouper|naturalday:"l \t\h\e jS"|capfirst }}</h3>
+    <ol class="homeworks_for_date">
+        {% include "BBCore/post_list.html" with posts=date.list %}
+    </ol>
+</div>
+{% endfor %}
+</div>
+
+</div>
+{% comment %}
+<div class="course_documents">
+<h2>Docs</h2>
+{% include "BBCore/post_list.html" with posts=docs %}
+</div>
+{% endcomment %}
+{% endblock content %}

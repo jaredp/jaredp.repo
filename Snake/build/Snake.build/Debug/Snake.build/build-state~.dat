@@ -1,0 +1,214 @@
+TSnake
+v7
+r0
+t288397407.512247
+cCheck dependencies
+cProcessInfoPlistFile /Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Info.plist Snake-Info.plist
+cCopyStringsFile /Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Jared/Development/Snake/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Snake_Prefix-bhqgldzvhubgjpacobfswesnrelt/Snake_Prefix.pch.gch Snake_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/main.o /Users/Jared/Development/Snake/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/SnakeAppDelegate.o /Users/Jared/Development/Snake/SnakeAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/GameView.o /Users/Jared/Development/Snake/GameView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Jared/Development/Snake/English.lproj/InfoPlist.strings
+c000000004B805F14000000000000002D
+t1266704148
+s45
+
+N/Users/Jared/Development/Snake/English.lproj/MainMenu.xib
+c000000004B806018000000000002D73B
+t1266704408
+s186171
+
+N/Users/Jared/Development/Snake/GameView.h
+c000000004B8060B70000000000000149
+t1266704567
+s329
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Development/Snake/GameView.m
+c000000004B8060DA00000000000001C8
+t1266704602
+s456
+i"GameView.h"
+
+N/Users/Jared/Development/Snake/SnakeAppDelegate.h
+c000000004B805F14000000000000013F
+t1266704148
+s319
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Development/Snake/SnakeAppDelegate.m
+c000000004B805F140000000000000172
+t1266704148
+s370
+i"SnakeAppDelegate.h"
+
+N/Users/Jared/Development/Snake/Snake_Prefix.pch
+c000000004B805F14000000000000008D
+t1266704148
+s141
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Development/Snake/build/Debug/Snake.app
+t2
+s0
+
+N/Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Info.plist
+t1266704602
+s880
+
+N/Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/MacOS/Snake
+t2
+s0
+
+N/Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/PkgInfo
+t1266704602
+s8
+
+N/Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1266704603
+s92
+
+N/Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Resources/English.lproj/MainMenu.nib
+t1266704603
+s36067
+
+N/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/GameView.o
+t2
+s0
+
+N/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/Snake.LinkFileList
+c000000004B8060DA0000000000000130
+t1266704602
+s304
+
+N/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/SnakeAppDelegate.o
+t1266704607
+s21040
+
+N/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/main.o
+t1266704607
+s4984
+
+N/Users/Jared/Development/Snake/main.m
+c000000004B805F140000000000000105
+t1266704148
+s261
+i<Cocoa/Cocoa.h>
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Snake_Prefix-bhqgldzvhubgjpacobfswesnrelt/Snake_Prefix.pch.gch
+t1266704607
+s54212368
+
+NSnake-Info.plist
+c000000004B805F1400000000000003EA
+t1266704148
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies288397402#288397402#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/GameView.o /Users/Jared/Development/Snake/GameView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s288397407.359321
+e288397407.512163
+r0
+xCompileC
+xbuild/Snake.build/Debug/Snake.build/Objects-normal/x86_64/GameView.o
+x/Users/Jared/Development/Snake/GameView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Jared/Development/Snake/GameView.m: In function '-[GameView initWithFrame:]':
+o/Users/Jared/Development/Snake/GameView.m:18: error: expected expression before '{' token
+lSLF07#2@49"Compile /Users/Jared/Development/Snake/GameView.m288397407#288397407#0(175"/Users/Jared/Development/Snake/GameView.m: In function '-[GameView initWithFrame:]':/Users/Jared/Development/Snake/GameView.m:18: error: expected expression before '{' token1(4@36"Expected expression before '{' token288397407#85#90#0(6@41"/Users/Jared/Development/Snake/GameView.m288397402#18#0#18#0#19"expected * before *0(0#0#41"/Users/Jared/Development/Snake/GameView.m4300885448#1330"    cd /Users/Jared/Development/Snake    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-generated-files.hmap -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-own-target-headers.hmap -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-all-target-headers.hmap -iquote /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-project-headers.hmap -F/Users/Jared/Development/Snake/build/Debug -I/Users/Jared/Development/Snake/build/Debug/include -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/DerivedSources/x86_64 -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Snake_Prefix-bhqgldzvhubgjpacobfswesnrelt/Snake_Prefix.pch -c /Users/Jared/Development/Snake/GameView.m -o /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/GameView.o1#
+
+CCompileC build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/SnakeAppDelegate.o /Users/Jared/Development/Snake/SnakeAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s288397407.193957
+e288397407.390706
+r1
+xCompileC
+xbuild/Snake.build/Debug/Snake.build/Objects-normal/x86_64/SnakeAppDelegate.o
+x/Users/Jared/Development/Snake/SnakeAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Jared/Development/Snake/SnakeAppDelegate.m288397407#288397407#0(0"0(0#0#49"/Users/Jared/Development/Snake/SnakeAppDelegate.m4300885448#1346"    cd /Users/Jared/Development/Snake    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-generated-files.hmap -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-own-target-headers.hmap -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-all-target-headers.hmap -iquote /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-project-headers.hmap -F/Users/Jared/Development/Snake/build/Debug -I/Users/Jared/Development/Snake/build/Debug/include -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/DerivedSources/x86_64 -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Snake_Prefix-bhqgldzvhubgjpacobfswesnrelt/Snake_Prefix.pch -c /Users/Jared/Development/Snake/SnakeAppDelegate.m -o /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/SnakeAppDelegate.o0#
+
+CCompileC build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/main.o /Users/Jared/Development/Snake/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s288397407.193036
+e288397407.359221
+r1
+xCompileC
+xbuild/Snake.build/Debug/Snake.build/Objects-normal/x86_64/main.o
+x/Users/Jared/Development/Snake/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/Jared/Development/Snake/main.m288397407#288397407#0(0"0(0#0#37"/Users/Jared/Development/Snake/main.m4300885448#1322"    cd /Users/Jared/Development/Snake    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-generated-files.hmap -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-own-target-headers.hmap -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-all-target-headers.hmap -iquote /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-project-headers.hmap -F/Users/Jared/Development/Snake/build/Debug -I/Users/Jared/Development/Snake/build/Debug/include -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/DerivedSources/x86_64 -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Snake_Prefix-bhqgldzvhubgjpacobfswesnrelt/Snake_Prefix.pch -c /Users/Jared/Development/Snake/main.m -o /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/Jared/Development/Snake/English.lproj/MainMenu.xib
+s288397402.958877
+e288397403.499109
+r1
+xCompileXIB
+x/Users/Jared/Development/Snake/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib288397402#288397403#0(0"0(0#0#57"/Users/Jared/Development/Snake/English.lproj/MainMenu.xib4300885448#301"    cd /Users/Jared/Development/Snake    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Jared/Development/Snake/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s288397402.945168
+e288397403.193139
+r1
+xCopyStringsFile
+x/Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings288397402#288397403#0(0"0(0#0#62"/Users/Jared/Development/Snake/English.lproj/InfoPlist.strings4300885448#347"    cd /Users/Jared/Development/Snake    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Resources/English.lproj0#
+
+CLd /Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/MacOS/Snake normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Info.plist Snake-Info.plist
+s288397402.909636
+e288397402.945063
+r1
+xProcessInfoPlistFile
+x/Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Info.plist
+xSnake-Info.plist
+lSLF07#2@24"Process Snake-Info.plist288397402#288397402#0(0"0(0#0#47"/Users/Jared/Development/Snake/Snake-Info.plist31525614006435940#280"    cd /Users/Jared/Development/Snake    builtin-infoPlistUtility Snake-Info.plist -genpkginfo /Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Jared/Development/Snake/build/Debug/Snake.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Snake_Prefix-bhqgldzvhubgjpacobfswesnrelt/Snake_Prefix.pch.gch Snake_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s288397403.499350
+e288397407.192892
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Snake_Prefix-bhqgldzvhubgjpacobfswesnrelt/Snake_Prefix.pch.gch
+xSnake_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Snake_Prefix.pch288397403#288397407#0(0"0(0#0#47"/Users/Jared/Development/Snake/Snake_Prefix.pch4300885448#1238"    cd /Users/Jared/Development/Snake    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-generated-files.hmap -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-own-target-headers.hmap -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-all-target-headers.hmap -iquote /Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/Snake-project-headers.hmap -F/Users/Jared/Development/Snake/build/Debug -I/Users/Jared/Development/Snake/build/Debug/include -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/DerivedSources/x86_64 -I/Users/Jared/Development/Snake/build/Snake.build/Debug/Snake.build/DerivedSources -c /Users/Jared/Development/Snake/Snake_Prefix.pch -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Snake_Prefix-bhqgldzvhubgjpacobfswesnrelt/Snake_Prefix.pch.gch0#
+
+CTouch /Users/Jared/Development/Snake/build/Debug/Snake.app
+r0
+

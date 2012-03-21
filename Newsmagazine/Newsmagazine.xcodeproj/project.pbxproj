@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* NewsmagazineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NewsmagazineAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* NewsmagazineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* NewsmagazineViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* NewsmagazineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* NewsmagazineViewController.m */; };
+		7F3EAFA5133B03C60098B6D3 /* Hutchinson App.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EAFA4133B03C60098B6D3 /* Hutchinson App.png */; };
+		7F4081B213356318001E0E62 /* KBDAwareTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4081B113356318001E0E62 /* KBDAwareTextView.m */; };
+		7F458E8C133B0F6A00A844DC /* CityHall_AandJAdams.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E74133B0F6A00A844DC /* CityHall_AandJAdams.png */; };
+		7F458E8D133B0F6A00A844DC /* CityHall_BenFranklin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E75133B0F6A00A844DC /* CityHall_BenFranklin.png */; };
+		7F458E8E133B0F6A00A844DC /* CityHall_JOtisJr.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E76133B0F6A00A844DC /* CityHall_JOtisJr.png */; };
+		7F458E8F133B0F6A00A844DC /* CityHall_JWilkes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E77133B0F6A00A844DC /* CityHall_JWilkes.png */; };
+		7F458E90133B0F6A00A844DC /* CityHall_Rivington.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E78133B0F6A00A844DC /* CityHall_Rivington.png */; };
+		7F458E91133B0F6A00A844DC /* CityHall_Sewall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E79133B0F6A00A844DC /* CityHall_Sewall.png */; };
+		7F458E92133B0F6A00A844DC /* CityHall_TGage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E7A133B0F6A00A844DC /* CityHall_TGage.png */; };
+		7F458E93133B0F6A00A844DC /* CityHall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E7B133B0F6A00A844DC /* CityHall.png */; };
+		7F458E94133B0F6A00A844DC /* Evidence.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E7C133B0F6A00A844DC /* Evidence.png */; };
+		7F458E95133B0F6A00A844DC /* Port_BRush.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E7D133B0F6A00A844DC /* Port_BRush.png */; };
+		7F458E96133B0F6A00A844DC /* Port_JosephGalloway.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E7E133B0F6A00A844DC /* Port_JosephGalloway.png */; };
+		7F458E97133B0F6A00A844DC /* Port_TGage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E7F133B0F6A00A844DC /* Port_TGage.png */; };
+		7F458E98133B0F6A00A844DC /* Port.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E80133B0F6A00A844DC /* Port.png */; };
+		7F458E99133B0F6A00A844DC /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E81133B0F6A00A844DC /* Start.png */; };
+		7F458E9A133B0F6A00A844DC /* Tavern_DanielLeonard.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E82133B0F6A00A844DC /* Tavern_DanielLeonard.png */; };
+		7F458E9B133B0F6A00A844DC /* Tavern_Hancock.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E83133B0F6A00A844DC /* Tavern_Hancock.png */; };
+		7F458E9C133B0F6A00A844DC /* Tavern_JGalloway.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E84133B0F6A00A844DC /* Tavern_JGalloway.png */; };
+		7F458E9D133B0F6A00A844DC /* Tavern_JohnAdams.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E85133B0F6A00A844DC /* Tavern_JohnAdams.png */; };
+		7F458E9E133B0F6A00A844DC /* Tavern_PaulRev.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E86133B0F6A00A844DC /* Tavern_PaulRev.png */; };
+		7F458E9F133B0F6A00A844DC /* Tavern_SamAdams.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E87133B0F6A00A844DC /* Tavern_SamAdams.png */; };
+		7F458EA0133B0F6A00A844DC /* Tavern.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E88133B0F6A00A844DC /* Tavern.png */; };
+		7F458EA1133B0F6A00A844DC /* TheEnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E89133B0F6A00A844DC /* TheEnd.png */; };
+		7F458EA2133B0F6A00A844DC /* ThomasIsDead.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E8A133B0F6A00A844DC /* ThomasIsDead.png */; };
+		7F458EA3133B0F6A00A844DC /* TrashCan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F458E8B133B0F6A00A844DC /* TrashCan.png */; };
+		7F56FF02132DB920000E7359 /* giants.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F56FF01132DB920000E7359 /* giants.png */; };
+		7FC26A68133B75D1000B6037 /* script.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7FC26A67133B75D1000B6037 /* script.txt */; };
+		7FDBE38C132B336800355793 /* TextScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBE38B132B336800355793 /* TextScript.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* NewsmagazineAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsmagazineAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* NewsmagazineAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsmagazineAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Newsmagazine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newsmagazine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* NewsmagazineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsmagazineViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* NewsmagazineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsmagazineViewController.h; path = Classes/NewsmagazineViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* NewsmagazineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsmagazineViewController.m; path = Classes/NewsmagazineViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Newsmagazine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Newsmagazine_Prefix.pch; sourceTree = "<group>"; };
+		7F3EAFA4133B03C60098B6D3 /* Hutchinson App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hutchinson App.png"; sourceTree = "<group>"; };
+		7F4081B013356318001E0E62 /* KBDAwareTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBDAwareTextView.h; sourceTree = "<group>"; };
+		7F4081B113356318001E0E62 /* KBDAwareTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBDAwareTextView.m; sourceTree = "<group>"; };
+		7F458E74133B0F6A00A844DC /* CityHall_AandJAdams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityHall_AandJAdams.png; sourceTree = "<group>"; };
+		7F458E75133B0F6A00A844DC /* CityHall_BenFranklin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityHall_BenFranklin.png; sourceTree = "<group>"; };
+		7F458E76133B0F6A00A844DC /* CityHall_JOtisJr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityHall_JOtisJr.png; sourceTree = "<group>"; };
+		7F458E77133B0F6A00A844DC /* CityHall_JWilkes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityHall_JWilkes.png; sourceTree = "<group>"; };
+		7F458E78133B0F6A00A844DC /* CityHall_Rivington.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityHall_Rivington.png; sourceTree = "<group>"; };
+		7F458E79133B0F6A00A844DC /* CityHall_Sewall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityHall_Sewall.png; sourceTree = "<group>"; };
+		7F458E7A133B0F6A00A844DC /* CityHall_TGage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityHall_TGage.png; sourceTree = "<group>"; };
+		7F458E7B133B0F6A00A844DC /* CityHall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityHall.png; sourceTree = "<group>"; };
+		7F458E7C133B0F6A00A844DC /* Evidence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Evidence.png; sourceTree = "<group>"; };
+		7F458E7D133B0F6A00A844DC /* Port_BRush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Port_BRush.png; sourceTree = "<group>"; };
+		7F458E7E133B0F6A00A844DC /* Port_JosephGalloway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Port_JosephGalloway.png; sourceTree = "<group>"; };
+		7F458E7F133B0F6A00A844DC /* Port_TGage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Port_TGage.png; sourceTree = "<group>"; };
+		7F458E80133B0F6A00A844DC /* Port.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Port.png; sourceTree = "<group>"; };
+		7F458E81133B0F6A00A844DC /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
+		7F458E82133B0F6A00A844DC /* Tavern_DanielLeonard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tavern_DanielLeonard.png; sourceTree = "<group>"; };
+		7F458E83133B0F6A00A844DC /* Tavern_Hancock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tavern_Hancock.png; sourceTree = "<group>"; };
+		7F458E84133B0F6A00A844DC /* Tavern_JGalloway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tavern_JGalloway.png; sourceTree = "<group>"; };
+		7F458E85133B0F6A00A844DC /* Tavern_JohnAdams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tavern_JohnAdams.png; sourceTree = "<group>"; };
+		7F458E86133B0F6A00A844DC /* Tavern_PaulRev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tavern_PaulRev.png; sourceTree = "<group>"; };
+		7F458E87133B0F6A00A844DC /* Tavern_SamAdams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tavern_SamAdams.png; sourceTree = "<group>"; };
+		7F458E88133B0F6A00A844DC /* Tavern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tavern.png; sourceTree = "<group>"; };
+		7F458E89133B0F6A00A844DC /* TheEnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TheEnd.png; sourceTree = "<group>"; };
+		7F458E8A133B0F6A00A844DC /* ThomasIsDead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThomasIsDead.png; sourceTree = "<group>"; };
+		7F458E8B133B0F6A00A844DC /* TrashCan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrashCan.png; sourceTree = "<group>"; };
+		7F56FF01132DB920000E7359 /* giants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giants.png; sourceTree = "<group>"; };
+		7FC26A67133B75D1000B6037 /* script.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = script.txt; sourceTree = "<group>"; };
+		7FDBE38A132B336800355793 /* TextScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextScript.h; sourceTree = "<group>"; };
+		7FDBE38B132B336800355793 /* TextScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextScript.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Newsmagazine-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Newsmagazine-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* NewsmagazineAppDelegate.h */,
+				1D3623250D0F684500981E51 /* NewsmagazineAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Newsmagazine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				7F5E484A13359FA500BE9C93 /* MainViewController */,
+				7F4081AF133562D4001E0E62 /* KBDAwareTextView */,
+				7F462EC7132DC8AC00EB1859 /* Script Engine */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Newsmagazine_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FC26A67133B75D1000B6037 /* script.txt */,
+				7F458E72133B0F2000A844DC /* Assets */,
+				7F3EAFA4133B03C60098B6D3 /* Hutchinson App.png */,
+				7F56FF01132DB920000E7359 /* giants.png */,
+				2899E5210DE3E06400AC0155 /* NewsmagazineViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Newsmagazine-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F4081AF133562D4001E0E62 /* KBDAwareTextView */ = {
+			isa = PBXGroup;
+			children = (
+				7F4081B013356318001E0E62 /* KBDAwareTextView.h */,
+				7F4081B113356318001E0E62 /* KBDAwareTextView.m */,
+			);
+			name = KBDAwareTextView;
+			sourceTree = "<group>";
+		};
+		7F458E72133B0F2000A844DC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7F458E74133B0F6A00A844DC /* CityHall_AandJAdams.png */,
+				7F458E75133B0F6A00A844DC /* CityHall_BenFranklin.png */,
+				7F458E76133B0F6A00A844DC /* CityHall_JOtisJr.png */,
+				7F458E77133B0F6A00A844DC /* CityHall_JWilkes.png */,
+				7F458E78133B0F6A00A844DC /* CityHall_Rivington.png */,
+				7F458E79133B0F6A00A844DC /* CityHall_Sewall.png */,
+				7F458E7A133B0F6A00A844DC /* CityHall_TGage.png */,
+				7F458E7B133B0F6A00A844DC /* CityHall.png */,
+				7F458E7C133B0F6A00A844DC /* Evidence.png */,
+				7F458E7D133B0F6A00A844DC /* Port_BRush.png */,
+				7F458E7E133B0F6A00A844DC /* Port_JosephGalloway.png */,
+				7F458E7F133B0F6A00A844DC /* Port_TGage.png */,
+				7F458E80133B0F6A00A844DC /* Port.png */,
+				7F458E81133B0F6A00A844DC /* Start.png */,
+				7F458E82133B0F6A00A844DC /* Tavern_DanielLeonard.png */,
+				7F458E83133B0F6A00A844DC /* Tavern_Hancock.png */,
+				7F458E84133B0F6A00A844DC /* Tavern_JGalloway.png */,
+				7F458E85133B0F6A00A844DC /* Tavern_JohnAdams.png */,
+				7F458E86133B0F6A00A844DC /* Tavern_PaulRev.png */,
+				7F458E87133B0F6A00A844DC /* Tavern_SamAdams.png */,
+				7F458E88133B0F6A00A844DC /* Tavern.png */,
+				7F458E89133B0F6A00A844DC /* TheEnd.png */,
+				7F458E8A133B0F6A00A844DC /* ThomasIsDead.png */,
+				7F458E8B133B0F6A00A844DC /* TrashCan.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		7F462EC7132DC8AC00EB1859 /* Script Engine */ = {
+			isa = PBXGroup;
+			children = (
+				7FDBE38A132B336800355793 /* TextScript.h */,
+				7FDBE38B132B336800355793 /* TextScript.m */,
+			);
+			name = "Script Engine";
+			sourceTree = "<group>";
+		};
+		7F5E484A13359FA500BE9C93 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* NewsmagazineViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* NewsmagazineViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Newsmagazine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Newsmagazine" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				7F462FCA132DCE7400EB1859 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Newsmagazine;
+			productName = Newsmagazine;
+			productReference = 1D6058910D05DD3D006BFB54 /* Newsmagazine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Newsmagazine" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Newsmagazine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* NewsmagazineViewController.xib in Resources */,
+				7F56FF02132DB920000E7359 /* giants.png in Resources */,
+				7F3EAFA5133B03C60098B6D3 /* Hutchinson App.png in Resources */,
+				7F458E8C133B0F6A00A844DC /* CityHall_AandJAdams.png in Resources */,
+				7F458E8D133B0F6A00A844DC /* CityHall_BenFranklin.png in Resources */,
+				7F458E8E133B0F6A00A844DC /* CityHall_JOtisJr.png in Resources */,
+				7F458E8F133B0F6A00A844DC /* CityHall_JWilkes.png in Resources */,
+				7F458E90133B0F6A00A844DC /* CityHall_Rivington.png in Resources */,
+				7F458E91133B0F6A00A844DC /* CityHall_Sewall.png in Resources */,
+				7F458E92133B0F6A00A844DC /* CityHall_TGage.png in Resources */,
+				7F458E93133B0F6A00A844DC /* CityHall.png in Resources */,
+				7F458E94133B0F6A00A844DC /* Evidence.png in Resources */,
+				7F458E95133B0F6A00A844DC /* Port_BRush.png in Resources */,
+				7F458E96133B0F6A00A844DC /* Port_JosephGalloway.png in Resources */,
+				7F458E97133B0F6A00A844DC /* Port_TGage.png in Resources */,
+				7F458E98133B0F6A00A844DC /* Port.png in Resources */,
+				7F458E99133B0F6A00A844DC /* Start.png in Resources */,
+				7F458E9A133B0F6A00A844DC /* Tavern_DanielLeonard.png in Resources */,
+				7F458E9B133B0F6A00A844DC /* Tavern_Hancock.png in Resources */,
+				7F458E9C133B0F6A00A844DC /* Tavern_JGalloway.png in Resources */,
+				7F458E9D133B0F6A00A844DC /* Tavern_JohnAdams.png in Resources */,
+				7F458E9E133B0F6A00A844DC /* Tavern_PaulRev.png in Resources */,
+				7F458E9F133B0F6A00A844DC /* Tavern_SamAdams.png in Resources */,
+				7F458EA0133B0F6A00A844DC /* Tavern.png in Resources */,
+				7F458EA1133B0F6A00A844DC /* TheEnd.png in Resources */,
+				7F458EA2133B0F6A00A844DC /* ThomasIsDead.png in Resources */,
+				7F458EA3133B0F6A00A844DC /* TrashCan.png in Resources */,
+				7FC26A68133B75D1000B6037 /* script.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F462FCA132DCE7400EB1859 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* NewsmagazineAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* NewsmagazineViewController.m in Sources */,
+				7FDBE38C132B336800355793 /* TextScript.m in Sources */,
+				7F4081B213356318001E0E62 /* KBDAwareTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Newsmagazine_Prefix.pch;
+				INFOPLIST_FILE = "Newsmagazine-Info.plist";
+				PRODUCT_NAME = Newsmagazine;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Newsmagazine_Prefix.pch;
+				INFOPLIST_FILE = "Newsmagazine-Info.plist";
+				PRODUCT_NAME = Newsmagazine;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Newsmagazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Newsmagazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,552 @@
+TFTS
+v7
+r0
+t302473033.328200
+cCheck dependencies
+cProcessInfoPlistFile /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/Info.plist FTS-Info.plist
+cCompileXIB /Users/Jared/Dropbox/FTS/MainWindow.xib
+cCompileXIB /Users/Jared/Dropbox/FTS/FTSViewController.xib
+cProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch.gch FTS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/main.o /Users/Jared/Dropbox/FTS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSAppDelegate.o /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSViewController.o /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Log.o /Users/Jared/Dropbox/FTS/Classes/Log.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Interpreter.o /Users/Jared/Dropbox/FTS/Classes/Interpreter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Tokenizer.o /Users/Jared/Dropbox/FTS/Tokenizer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS normal i386
+cGenerateDSYMFile /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app.dSYM /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS
+cTouch /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BD236930000000000000110
+t1272067731
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/objc/runtime.h
+c000000004BD1FE3C00000000000053F9
+t1272053308
+s21497
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/signal.h
+c000000004748A13300000000000014F0
+t1195942195
+s5360
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C2005E10000000000000132
+t1277167073
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/objc/runtime.h
+c000000004BFDF9F400000000000053F9
+t1274935796
+s21497
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/signal.h
+c000000004A5C14A700000000000014F0
+t1247548583
+s5360
+
+N/Users/Jared/Dropbox/FTS/Classes/../Tokenizer.h
+c000000004C3540DC0000000000000576
+t1278558428
+s1398
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/FTS/Classes/../main.m
+c000000004C329ADF000000000000016C
+t1278384863
+s364
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.h
+c000000004C329ADF00000000000001CE
+t1278384863
+s462
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m
+c000000004C5727E3000000000000079D
+t1280780259
+s1949
+i"FTSAppDelegate.h"
+i"FTSViewController.h"
+
+N/Users/Jared/Dropbox/FTS/Classes/FTSViewController.h
+c000000004C3697D1000000000000022E
+t1278646225
+s558
+i<UIKit/UIKit.h>
+i"Interpreter.h"
+
+N/Users/Jared/Dropbox/FTS/Classes/FTSViewController.m
+c000000004C38137E0000000000000896
+t1278743422
+s2198
+i"FTSViewController.h"
+i"Log.h"
+
+N/Users/Jared/Dropbox/FTS/Classes/Interpreter.h
+c000000004C3686DD00000000000001ED
+t1278641885
+s493
+i<Foundation/Foundation.h>
+i"Tokenizer.h"
+
+N/Users/Jared/Dropbox/FTS/Classes/Interpreter.m
+c000000004C3B3D4B0000000000001F94
+t1278950731
+s8084
+i"Interpreter.h"
+i"Log.h"
+i<objc/runtime.h>
+
+N/Users/Jared/Dropbox/FTS/Classes/Log.h
+c000000004C355ACC0000000000000142
+t1278565068
+s322
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/FTS/Classes/Log.m
+c000000004C355DF700000000000002E3
+t1278565879
+s739
+i"Log.h"
+
+N/Users/Jared/Dropbox/FTS/FTSViewController.xib
+c000000004C3936D200000000000073F4
+t1278818002
+s29684
+
+N/Users/Jared/Dropbox/FTS/FTS_Prefix.pch
+c000000004C329ADF00000000000000AF
+t1278384863
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/FTS/MainWindow.xib
+c000000004C329ADF0000000000004CE1
+t1278384863
+s19681
+
+N/Users/Jared/Dropbox/FTS/Tokenizer.h
+c000000004C3B4F3200000000000004D9
+t1278955314
+s1241
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/FTS/Tokenizer.m
+c000000004C5727C8000000000000328E
+t1280780232
+s12942
+i"Tokenizer.h"
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app
+t1280780233
+s238
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app.dSYM
+t1280780233
+s102
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS
+t1280780233
+s42160
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTSViewController.nib
+t1278818059
+s2042
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/Info.plist
+t1278741955
+s782
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/MainWindow.nib
+t1278643824
+s1115
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/PkgInfo
+t1278741955
+s8
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTS.LinkFileList
+c000000004C355EE7000000000000027A
+t1278566119
+s634
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSAppDelegate.o
+t1280780181
+s48136
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSViewController.o
+t1280780181
+s46284
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Interpreter.o
+t1280780181
+s26844
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Log.o
+t1278643825
+s10208
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Tokenizer.o
+t1280780232
+s29116
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/main.o
+t1278643824
+s7952
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Script-7FB47A8812076F8600477F87.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/FTSAppDelegate.plist
+t1278816372
+s276
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/FTSViewController.plist
+t1278816372
+s276
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/Interpreter.plist
+t1278816372
+s276
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/Log.plist
+t1278816372
+s276
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/Tokenizer.plist
+t1278816524
+s276
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/main.plist
+t1278816372
+s276
+
+N/Users/Jared/Dropbox/FTS/main.m
+c000000004C3573E30000000000000293
+t1278571491
+s659
+i<UIKit/UIKit.h>
+i<signal.h>
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch.gch
+t1278388081
+s13825936
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch.pth
+t1278816372
+s2129256
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fuyyvfbrippexaffpeguwzbsqlmi/FTS_Prefix.pch.pth
+t1278560773
+s2690332
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gikncjiheiqxewefanfdttftlrnd/FTS_Prefix.pch.gch
+t1278566121
+s15232016
+
+NFTS-Info.plist
+c000000004C329ADF00000000000004D6
+t1278384863
+s1238
+
+CAnalyze /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m
+s300509172.499379
+e300509172.605839
+r1
+xAnalyze
+x/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m
+lSLF07#2@57"Analyze /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m300509172#300509172#0(0"0(0#0#49"/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m8656096768#1704"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch --analyze /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/FTSAppDelegate.plist0#
+
+CAnalyze /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m
+s300509172.605932
+e300509172.745041
+r1
+xAnalyze
+x/Users/Jared/Dropbox/FTS/Classes/FTSViewController.m
+lSLF07#2@60"Analyze /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m300509172#300509172#0(0"0(0#0#52"/Users/Jared/Dropbox/FTS/Classes/FTSViewController.m8652122528#1710"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch --analyze /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/FTSViewController.plist0#
+
+CAnalyze /Users/Jared/Dropbox/FTS/Classes/Interpreter.m
+s300509172.745146
+e300509172.888980
+r1
+xAnalyze
+x/Users/Jared/Dropbox/FTS/Classes/Interpreter.m
+lSLF07#2@54"Analyze /Users/Jared/Dropbox/FTS/Classes/Interpreter.m300509172#300509172#0(0"0(0#0#46"/Users/Jared/Dropbox/FTS/Classes/Interpreter.m8645629024#1698"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch --analyze /Users/Jared/Dropbox/FTS/Classes/Interpreter.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/Interpreter.plist0#
+
+CAnalyze /Users/Jared/Dropbox/FTS/Classes/Log.m
+s300509172.609216
+e300509172.748091
+r1
+xAnalyze
+x/Users/Jared/Dropbox/FTS/Classes/Log.m
+lSLF07#2@46"Analyze /Users/Jared/Dropbox/FTS/Classes/Log.m300509172#300509172#0(0"0(0#0#38"/Users/Jared/Dropbox/FTS/Classes/Log.m8651280576#1682"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch --analyze /Users/Jared/Dropbox/FTS/Classes/Log.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/Log.plist0#
+
+CAnalyze /Users/Jared/Dropbox/FTS/Tokenizer.m
+s300509324.393959
+e300509324.615950
+r1
+xAnalyze
+x/Users/Jared/Dropbox/FTS/Tokenizer.m
+lSLF07#2@44"Analyze /Users/Jared/Dropbox/FTS/Tokenizer.m300509324#300509324#0(0"0(0#0#36"/Users/Jared/Dropbox/FTS/Tokenizer.m8652247744#1686"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch --analyze /Users/Jared/Dropbox/FTS/Tokenizer.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/Tokenizer.plist0#
+
+CAnalyze /Users/Jared/Dropbox/FTS/main.m
+s300509172.495629
+e300509172.608868
+r1
+xAnalyze
+x/Users/Jared/Dropbox/FTS/main.m
+lSLF07#2@39"Analyze /Users/Jared/Dropbox/FTS/main.m300509172#300509172#0(0"0(0#0#31"/Users/Jared/Dropbox/FTS/main.m8655649728#1676"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch --analyze /Users/Jared/Dropbox/FTS/main.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302473032#302473032#0(0"0(0#1#0"8610475904#0"0#
+
+CCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSAppDelegate.o /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302472980.979496
+e302472981.531306
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSAppDelegate.o
+x/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m302472981#302472981#0(0"0(0#0#49"/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m7809643567100341248#1695"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSAppDelegate.o0#
+
+CCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSViewController.o /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302472981.385056
+e302472981.532521
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSViewController.o
+x/Users/Jared/Dropbox/FTS/Classes/FTSViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m302472981#302472981#0(0"0(0#0#52"/Users/Jared/Dropbox/FTS/Classes/FTSViewController.m8611572896#1701"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTSViewController.o0#
+
+CCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Interpreter.o /Users/Jared/Dropbox/FTS/Classes/Interpreter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302472981.531508
+e302472981.657968
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Interpreter.o
+x/Users/Jared/Dropbox/FTS/Classes/Interpreter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Jared/Dropbox/FTS/Classes/Interpreter.m302472981#302472981#0(0"0(0#0#46"/Users/Jared/Dropbox/FTS/Classes/Interpreter.m8611046208#1689"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Classes/Interpreter.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Interpreter.o0#
+
+CCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Log.o /Users/Jared/Dropbox/FTS/Classes/Log.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300336625.056339
+e300336625.156625
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Log.o
+x/Users/Jared/Dropbox/FTS/Classes/Log.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/Jared/Dropbox/FTS/Classes/Log.m300336625#300336625#0(0"0(0#0#38"/Users/Jared/Dropbox/FTS/Classes/Log.m8640181952#1673"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Classes/Log.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Log.o0#
+
+CCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Tokenizer.o /Users/Jared/Dropbox/FTS/Tokenizer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302473032.693925
+e302473032.964117
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Tokenizer.o
+x/Users/Jared/Dropbox/FTS/Tokenizer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Jared/Dropbox/FTS/Tokenizer.m: In function '-[Tokenizer getAndMapKeyword:orIdentifier:withHandler:]':
+o/Users/Jared/Dropbox/FTS/Tokenizer.m:69: warning: control reaches end of non-void function
+o/Users/Jared/Dropbox/FTS/Tokenizer.m: In function '-[Tokenizer getNextIdentifierOrKeyword]':
+o/Users/Jared/Dropbox/FTS/Tokenizer.m:79: warning: control reaches end of non-void function
+lSLF07#2@44"Compile /Users/Jared/Dropbox/FTS/Tokenizer.m302473032#302473032#0(384"/Users/Jared/Dropbox/FTS/Tokenizer.m: In function '-[Tokenizer getAndMapKeyword:orIdentifier:withHandler:]':/Users/Jared/Dropbox/FTS/Tokenizer.m:69: warning: control reaches end of non-void function/Users/Jared/Dropbox/FTS/Tokenizer.m: In function '-[Tokenizer getNextIdentifierOrKeyword]':/Users/Jared/Dropbox/FTS/Tokenizer.m:79: warning: control reaches end of non-void function2(22@40"Control reaches end of non-void function302473032#109#91#0(6@36"/Users/Jared/Dropbox/FTS/Tokenizer.m302473032#69#0#69#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function302473032#293#91#0(6@36"/Users/Jared/Dropbox/FTS/Tokenizer.m302473032#79#0#79#0#40"control reaches end of non-void function0(0#0#36"/Users/Jared/Dropbox/FTS/Tokenizer.m8610038784#1677"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Tokenizer.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/Tokenizer.o0#
+
+CCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/main.o /Users/Jared/Dropbox/FTS/Classes/../main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/main.o /Users/Jared/Dropbox/FTS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300336624.445670
+e300336624.938433
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/main.o
+x/Users/Jared/Dropbox/FTS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /Users/Jared/Dropbox/FTS/main.m300336624#300336624#0(0"0(0#0#31"/Users/Jared/Dropbox/FTS/main.m8648357408#1667"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/main.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Jared/Dropbox/FTS/FTSViewController.xib
+s300510859.146170
+e300510859.651167
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/FTS/FTSViewController.xib
+lSLF07#2@32"CompileXIB FTSViewController.xib300510859#300510859#0(0"0(0#0#46"/Users/Jared/Dropbox/FTS/FTSViewController.xib8603956640#538"    cd /Users/Jared/Dropbox/FTS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTSViewController.nib /Users/Jared/Dropbox/FTS/FTSViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/Jared/Dropbox/FTS/MainWindow.xib
+s300336623.833567
+e300336624.313524
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/FTS/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib300336623#300336624#0(0"0(0#0#39"/Users/Jared/Dropbox/FTS/MainWindow.xib8640238272#524"    cd /Users/Jared/Dropbox/FTS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/MainWindow.nib /Users/Jared/Dropbox/FTS/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CGenerateDSYMFile /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app.dSYM /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS
+s302473033.246308
+e302473033.325547
+r1
+xGenerateDSYMFile
+x/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app.dSYM
+x/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/FTS.app.dSYM build/Debug-iphonesimulator/FTS.app/FTS302473033#302473033#0(0"0(0#0#64"/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS8611852256#329"    cd /Users/Jared/Dropbox/FTS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS -o /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app.dSYM0#
+
+CLd /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS normal i386
+s302473032.964211
+e302473033.246209
+r1
+xLd
+x/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS
+xnormal
+xi386
+lSLF07#2@69"Link /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS302473032#302473033#0(0"0(0#0#0"8611602560#810"    cd /Users/Jared/Dropbox/FTS    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -filelist /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Objects-normal/i386/FTS.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/FTS0#
+
+CPhaseScriptExecution "Run Script" /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/Script-7FB47A8812076F8600477F87.sh
+r0
+
+CProcessInfoPlistFile /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/Info.plist FTS-Info.plist
+s300434755.064068
+e300434755.073481
+r1
+xProcessInfoPlistFile
+x/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/Info.plist
+xFTS-Info.plist
+lSLF07#2@22"Process FTS-Info.plist300434755#300434755#0(0"0(0#0#39"/Users/Jared/Dropbox/FTS/FTS-Info.plist8651791808#425"    cd /Users/Jared/Dropbox/FTS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FTS-Info.plist -genpkginfo /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app/Info.plist0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch.gch FTS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s300080880.638939
+e300080881.445304
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch.gch
+xFTS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile FTS_Prefix.pch300080880#300080881#0(0"0(0#0#39"/Users/Jared/Dropbox/FTS/FTS_Prefix.pch8611696704#1577"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -c /Users/Jared/Dropbox/FTS/FTS_Prefix.pch -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dzokrsigvjsiwiajpfzmmckqthkk/FTS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch.pth FTS_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s300509171.582969
+e300509172.494691
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch.pth
+xFTS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@25"Precompile FTS_Prefix.pch300509171#300509172#0(0"0(0#0#39"/Users/Jared/Dropbox/FTS/FTS_Prefix.pch8652764832#1568"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -c /Users/Jared/Dropbox/FTS/FTS_Prefix.pch -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fmmntitjtaxrvdacxtyazvxfjeyn/FTS_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fuyyvfbrippexaffpeguwzbsqlmi/FTS_Prefix.pch.pth FTS_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s300253572.039184
+e300253573.127000
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fuyyvfbrippexaffpeguwzbsqlmi/FTS_Prefix.pch.pth
+xFTS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@25"Precompile FTS_Prefix.pch300253572#300253573#0(0"0(0#0#39"/Users/Jared/Dropbox/FTS/FTS_Prefix.pch8656629120#1568"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -c /Users/Jared/Dropbox/FTS/FTS_Prefix.pch -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-fuyyvfbrippexaffpeguwzbsqlmi/FTS_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gikncjiheiqxewefanfdttftlrnd/FTS_Prefix.pch.gch FTS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s300258920.475400
+e300258921.293389
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gikncjiheiqxewefanfdttftlrnd/FTS_Prefix.pch.gch
+xFTS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile FTS_Prefix.pch300258920#300258921#0(0"0(0#0#39"/Users/Jared/Dropbox/FTS/FTS_Prefix.pch8633115232#1577"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator -I/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources/i386 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphonesimulator/FTS.build/DerivedSources -c /Users/Jared/Dropbox/FTS/FTS_Prefix.pch -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gikncjiheiqxewefanfdttftlrnd/FTS_Prefix.pch.gch0#
+
+CTouch /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app
+s302473033.325636
+e302473033.328166
+r1
+xTouch
+x/Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app
+lSLF07#2@66"Touch /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app302473033#302473033#0(0"0(0#0#0"8611841600#246"    cd /Users/Jared/Dropbox/FTS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jared/Dropbox/FTS/build/Debug-iphonesimulator/FTS.app0#
+

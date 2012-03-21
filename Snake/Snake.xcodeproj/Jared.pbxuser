@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 7F611BE31130969400FB2941 /* Snake */;
+		activeTarget = 8D1107260486CEB800E47090 /* Snake */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Snake */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 7F611BF4113096A900FB2941 /* Code sense */;
+		executables = (
+			7F611BE31130969400FB2941 /* Snake */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					647,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288577942;
+			PBXWorkspaceStateSaveDate = 288577942;
+		};
+		perUserProjectItems = {
+			7F30D90E1132358400DE9B01 /* PBXTextBookmark */ = 7F30D90E1132358400DE9B01 /* PBXTextBookmark */;
+			7F366963113359CE00DFF806 /* PBXTextBookmark */ = 7F366963113359CE00DFF806 /* PBXTextBookmark */;
+			7F611CEC1130B40B00FB2941 /* PBXTextBookmark */ = 7F611CEC1130B40B00FB2941 /* PBXTextBookmark */;
+			7F611CEE1130B40B00FB2941 /* PBXTextBookmark */ = 7F611CEE1130B40B00FB2941 /* PBXTextBookmark */;
+			7F611CF01130B40B00FB2941 /* PBXTextBookmark */ = 7F611CF01130B40B00FB2941 /* PBXTextBookmark */;
+			7F611CF21130B40B00FB2941 /* PBXTextBookmark */ = 7F611CF21130B40B00FB2941 /* PBXTextBookmark */;
+			7F611CF41130B40B00FB2941 /* PBXTextBookmark */ = 7F611CF41130B40B00FB2941 /* PBXTextBookmark */;
+			7F611CF61130B40B00FB2941 /* PBXTextBookmark */ = 7F611CF61130B40B00FB2941 /* PBXTextBookmark */;
+			7F611CFA1130B40B00FB2941 /* PBXTextBookmark */ = 7F611CFA1130B40B00FB2941 /* PBXTextBookmark */;
+			7F611CFE1130B40B00FB2941 /* PBXTextBookmark */ = 7F611CFE1130B40B00FB2941 /* PBXTextBookmark */;
+			7F611D001130B40B00FB2941 /* PBXTextBookmark */ = 7F611D001130B40B00FB2941 /* PBXTextBookmark */;
+			7F611D3F1130B5A600FB2941 /* PBXTextBookmark */ = 7F611D3F1130B5A600FB2941 /* PBXTextBookmark */;
+			7F611D411130B5A600FB2941 /* PBXTextBookmark */ = 7F611D411130B5A600FB2941 /* PBXTextBookmark */;
+			7F611D551130B7F700FB2941 /* PBXTextBookmark */ = 7F611D551130B7F700FB2941 /* PBXTextBookmark */;
+			7F611E551130CC7A00FB2941 /* PBXTextBookmark */ = 7F611E551130CC7A00FB2941 /* PBXTextBookmark */;
+			7F611E891130D01400FB2941 /* PBXTextBookmark */ = 7F611E891130D01400FB2941 /* PBXTextBookmark */;
+			7F611E8A1130D01400FB2941 /* PBXTextBookmark */ = 7F611E8A1130D01400FB2941 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7F611BF3113096A900FB2941 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7F30D90E1132358400DE9B01 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611BF1113096A900FB2941 /* GameView.m */;
+		name = "GameView.m: 27";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 1875;
+		vrLoc = 0;
+	};
+	7F366963113359CE00DFF806 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611BF1113096A900FB2941 /* GameView.m */;
+		name = "GameView.m: 52";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 1895;
+		vrLoc = 0;
+	};
+	7F611BE31130969400FB2941 /* Snake */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Snake;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	7F611BF0113096A900FB2941 /* GameView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {825, 1045}}";
+			sepNavSelRange = "{603, 15}";
+			sepNavVisRange = "{0, 822}";
+		};
+	};
+	7F611BF1113096A900FB2941 /* GameView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {825, 1989}}";
+			sepNavSelRange = "{1160, 0}";
+			sepNavVisRange = "{0, 1895}";
+		};
+	};
+	7F611BF3113096A900FB2941 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7F611BF4113096A900FB2941 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7F611CEC1130B40B00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CED1130B40B00FB2941 /* NSTextField.h */;
+		name = "NSTextField.h: 14";
+		rLen = 9;
+		rLoc = 265;
+		rType = 0;
+		vrLen = 1785;
+		vrLoc = 0;
+	};
+	7F611CED1130B40B00FB2941 /* NSTextField.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSTextField.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSTextField.h;
+		sourceTree = "<absolute>";
+	};
+	7F611CEE1130B40B00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CEF1130B40B00FB2941 /* NSControl.h */;
+		name = "NSControl.h: 19";
+		rLen = 0;
+		rLoc = 395;
+		rType = 0;
+		vrLen = 2470;
+		vrLoc = 122;
+	};
+	7F611CEF1130B40B00FB2941 /* NSControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSControl.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSControl.h;
+		sourceTree = "<absolute>";
+	};
+	7F611CF01130B40B00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CF11130B40B00FB2941 /* stdlib.h */;
+		name = "stdlib.h: 176";
+		rLen = 17;
+		rLoc = 5825;
+		rType = 0;
+		vrLen = 2749;
+		vrLoc = 4508;
+	};
+	7F611CF11130B40B00FB2941 /* stdlib.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stdlib.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h;
+		sourceTree = "<absolute>";
+	};
+	7F611CF21130B40B00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CF31130B40B00FB2941 /* NSString.h */;
+		name = "NSString.h: 84";
+		rLen = 71;
+		rLoc = 3923;
+		rType = 0;
+		vrLen = 5109;
+		vrLoc = 14760;
+	};
+	7F611CF31130B40B00FB2941 /* NSString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSString.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSString.h;
+		sourceTree = "<absolute>";
+	};
+	7F611CF41130B40B00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CF51130B40B00FB2941 /* NSEvent.h */;
+		name = "NSEvent.h: 133";
+		rLen = 54;
+		rLoc = 5372;
+		rType = 0;
+		vrLen = 3410;
+		vrLoc = 7011;
+	};
+	7F611CF51130B40B00FB2941 /* NSEvent.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSEvent.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSEvent.h;
+		sourceTree = "<absolute>";
+	};
+	7F611CF61130B40B00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CF71130B40B00FB2941 /* NSDate.h */;
+		name = "NSDate.h: 11";
+		rLen = 31;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 1849;
+		vrLoc = 0;
+	};
+	7F611CF71130B40B00FB2941 /* NSDate.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSDate.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSDate.h;
+		sourceTree = "<absolute>";
+	};
+	7F611CF91130B40B00FB2941 /* NSTimer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSTimer.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSTimer.h;
+		sourceTree = "<absolute>";
+	};
+	7F611CFA1130B40B00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CFB1130B40B00FB2941 /* NSAnimation.h */;
+		name = "NSAnimation.h: 36";
+		rLen = 58;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 2324;
+		vrLoc = 0;
+	};
+	7F611CFB1130B40B00FB2941 /* NSAnimation.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSAnimation.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSAnimation.h;
+		sourceTree = "<absolute>";
+	};
+	7F611CFD1130B40B00FB2941 /* NSView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSView.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSView.h;
+		sourceTree = "<absolute>";
+	};
+	7F611CFE1130B40B00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CFF1130B40B00FB2941 /* NSResponder.h */;
+		name = "NSResponder.h: 12";
+		rLen = 8;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 3803;
+		vrLoc = 0;
+	};
+	7F611CFF1130B40B00FB2941 /* NSResponder.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSResponder.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSResponder.h;
+		sourceTree = "<absolute>";
+	};
+	7F611D001130B40B00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611D011130B40B00FB2941 /* NSObject.h */;
+		name = "NSObject.h: 13";
+		rLen = 19;
+		rLoc = 287;
+		rType = 0;
+		vrLen = 2232;
+		vrLoc = 1574;
+	};
+	7F611D011130B40B00FB2941 /* NSObject.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSObject.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSObject.h;
+		sourceTree = "<absolute>";
+	};
+	7F611D321130B55A00FB2941 /* NSColor.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSColor.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSColor.h;
+		sourceTree = "<absolute>";
+	};
+	7F611D3F1130B5A600FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611D401130B5A600FB2941 /* NSCell.h */;
+		name = "NSCell.h: 100";
+		rLen = 34;
+		rLoc = 2579;
+		rType = 0;
+		vrLen = 2591;
+		vrLoc = 1370;
+	};
+	7F611D401130B5A600FB2941 /* NSCell.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSCell.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSCell.h;
+		sourceTree = "<absolute>";
+	};
+	7F611D411130B5A600FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611D321130B55A00FB2941 /* NSColor.h */;
+		name = "NSColor.h: 106";
+		rLen = 20;
+		rLoc = 5944;
+		rType = 0;
+		vrLen = 4375;
+		vrLoc = 4629;
+	};
+	7F611D551130B7F700FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CF91130B40B00FB2941 /* NSTimer.h */;
+		name = "NSTimer.h: 29";
+		rLen = 20;
+		rLoc = 1071;
+		rType = 0;
+		vrLen = 1132;
+		vrLoc = 0;
+	};
+	7F611E551130CC7A00FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611BF0113096A900FB2941 /* GameView.h */;
+		name = "GameView.h: 37";
+		rLen = 15;
+		rLoc = 603;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	7F611E891130D01400FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611CFD1130B40B00FB2941 /* NSView.h */;
+		name = "NSView.h: 152";
+		rLen = 8;
+		rLoc = 5035;
+		rType = 0;
+		vrLen = 2625;
+		vrLoc = 3346;
+	};
+	7F611E8A1130D01400FB2941 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7F611E8B1130D01400FB2941 /* NSWindow.h */;
+		name = "NSWindow.h: 156";
+		rLen = 34;
+		rLoc = 5473;
+		rType = 0;
+		vrLen = 4829;
+		vrLoc = 8632;
+	};
+	7F611E8B1130D01400FB2941 /* NSWindow.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSWindow.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSWindow.h;
+		sourceTree = "<absolute>";
+	};
+	8D1107260486CEB800E47090 /* Snake */ = {
+		activeExec = 0;
+		executables = (
+			7F611BE31130969400FB2941 /* Snake */,
+		);
+	};
+}

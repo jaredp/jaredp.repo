@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+{% load humanize %}
+
+<style>
+
+iframe {
+  float: left;
+  margin-right: 12px;
+}
+
+hr {
+  clear: both;
+}
+
+</style>
+
+<a href="{% url BBCore.views.assignment_book section.pk %}">
+    <h1>{{ section.course.name }}</h1>
+</a>
+
+<div>
+DUE {{ duedate|naturalday:"l \t\h\e jS"|capfirst }}
+</div>
+
+{% for grade in grades %}
+<div class="grade" style="text-align: right">
+    You got {{ grade.points }}% on this assignment
+</div>
+{% endfor %}
+
+<br />
+
+<div class="post_contents">
+
+{{ post.html|safe }}
+
+</div>
+<div class="files">
+{% for upload in post.upload_set.all %}
+    <a href="{{ upload.file.url }}">{{ upload.file.filename }}</a><br/>
+{% endfor %}
+</div>
+
+{% include "BBCore/comments.html" with post=post %}
+
+{% endblock content %}

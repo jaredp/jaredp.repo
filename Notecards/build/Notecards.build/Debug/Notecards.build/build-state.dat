@@ -1,0 +1,856 @@
+TNotecards
+v7
+r0
+t344747136.438170
+cCheck dependencies
+cProcessInfoPlistFile /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Info.plist Notecards-Info.plist
+cCpResource build/Debug/Notecards.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+cCopyStringsFile /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Jared/Dropbox/development/Notecards/English.lproj/MainMenu.xib
+cCompileXIB /Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib
+cCpResource build/Debug/Notecards.app/Contents/Resources/voicedictationreciever.html voicedictationreciever.html
+cProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch.gch Notecards_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-bonckuazqgilmrddjyxjxjtcrsfw/Notecards_Prefix.pch.gch Notecards_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cppkfqliqectpxfyhuoyocemuonu/Notecards_Prefix.pch.gch Notecards_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/MyDocument.mom /Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel
+cCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o /Users/Jared/Dropbox/development/Notecards/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/main.o /Users/Jared/Dropbox/development/Notecards/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Source.o /Users/Jared/Dropbox/development/Notecards/Source.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Note.o /Users/Jared/Dropbox/development/Notecards/Note.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPSheetWindow.o /Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPMenuWithStaticItems.o /Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/VoiceServer.o /Users/Jared/Dropbox/development/Notecards/VoiceServer.mm normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/SocketServer.o /Users/Jared/Dropbox/development/Notecards/SocketServer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards normal x86_64
+cTouch /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B73FBEF000000000000043A
+t1265892335
+s1082
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004BBD2CC60000000000001533
+t1270688966
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ifaddrs.h
+c000000004BBD2CCE0000000000000782
+t1270688974
+s1922
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004C2399440000000000005414
+t1277401412
+s21524
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/objc/runtime.h
+c000000004C239B2C000000000000530A
+t1277401900
+s21258
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004C2399480000000000002905
+t1277401416
+s10501
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004CB3F2FA000000000000A5E0
+t1286861562
+s42464
+
+N/Users/Jared/Dropbox/Notecards/English.lproj/Credits.rtf
+c000000004ED1C81300000000000001B4
+t1322371091
+s436
+
+N/Users/Jared/Dropbox/Notecards/English.lproj/InfoPlist.strings
+c000000004ED1C813000000000000005A
+t1322371091
+s90
+
+N/Users/Jared/Dropbox/Notecards/English.lproj/MainMenu.xib
+c000000004ED1C81400000000000216CD
+t1322371092
+s136909
+
+N/Users/Jared/Dropbox/Notecards/English.lproj/MyDocument.xib
+c000000004ED1D681000000000001507C
+t1322374785
+s86140
+
+N/Users/Jared/Dropbox/Notecards/MyDocument.h
+c000000004ED1C81400000000000000D5
+t1322371092
+s213
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/Notecards/MyDocument.m
+c000000004ED1C8140000000000000221
+t1322371092
+s545
+i"MyDocument.h"
+
+N/Users/Jared/Dropbox/Notecards/MyDocument.xcdatamodel
+c000000004ED1C9730000000000000088
+t1322371443
+s136
+
+N/Users/Jared/Dropbox/Notecards/Notecards_Prefix.pch
+c000000004ED1C81400000000000000DD
+t1322371092
+s221
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app
+t1322374788
+s102
+
+N/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Info.plist
+t1322371687
+s2494
+
+N/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards
+t1322371689
+s10416
+
+N/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/PkgInfo
+t1322371687
+s8
+
+N/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/Credits.rtf
+t1322371687
+s436
+
+N/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1322371687
+s90
+
+N/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/MainMenu.nib
+t1322371687
+s30767
+
+N/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/MyDocument.nib
+t1322374788
+s16439
+
+N/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/MyDocument.mom
+t1322371689
+s1853
+
+N/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o
+t1322371689
+s19104
+
+N/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Notecards.LinkFileList
+c000000004ED1CA6700000000000000E7
+t1322371687
+s231
+
+N/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/main.o
+t1322371689
+s4976
+
+N/Users/Jared/Dropbox/Notecards/main.m
+c000000004ED1C81400000000000000F7
+t1322371092
+s247
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/development/Notecards/English.lproj/Credits.rtf
+c000000004ED2BB350000000000000115
+t1322433333
+s277
+
+N/Users/Jared/Dropbox/development/Notecards/English.lproj/InfoPlist.strings
+c000000004ED1C813000000000000005A
+t1322371091
+s90
+
+N/Users/Jared/Dropbox/development/Notecards/English.lproj/MainMenu.xib
+c000000004EDB03C700000000000280C8
+t1322976199
+s164040
+
+N/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib
+c000000004ECAA86D00000000000201F5
+t1321904237
+s131573
+
+N/Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.h
+c000000004ED30A8D000000000000022D
+t1322453645
+s557
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m
+c000000004EDB01EC0000000000000A37
+t1322975724
+s2615
+i"JPMenuWithStaticItems.h"
+i<objc/runtime.h>
+
+N/Users/Jared/Dropbox/development/Notecards/JPSheetWindow.h
+c000000004ED2C48F000000000000013D
+t1322435727
+s317
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m
+c000000004ED2C4F000000000000001C6
+t1322435824
+s454
+i"JPSheetWindow.h"
+
+N/Users/Jared/Dropbox/development/Notecards/MyDocument.h
+c000000004EDC236000000000000002D0
+t1323049824
+s720
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/development/Notecards/MyDocument.m
+c000000004EDC2379000000000000079A
+t1323049849
+s1946
+i"MyDocument.h"
+i"Source.h"
+i"Note.h"
+
+N/Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel
+c000000004ED298830000000000000088
+t1322424451
+s136
+
+N/Users/Jared/Dropbox/development/Notecards/Note.h
+c000000004ED2987C0000000000000176
+t1322424444
+s374
+i<CoreData/CoreData.h>
+
+N/Users/Jared/Dropbox/development/Notecards/Note.m
+c000000004ED2987C00000000000000FA
+t1322424444
+s250
+i"Note.h"
+i"Source.h"
+
+N/Users/Jared/Dropbox/development/Notecards/Notecards_Prefix.pch
+c000000004ED1C81400000000000000DD
+t1322371092
+s221
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/development/Notecards/SocketServer.cpp
+c000000004EDB066D00000000000008D7
+t1322976877
+s2263
+i"SocketServer.h"
+i<netinet/in.h>
+i<string>
+i<iostream>
+
+N/Users/Jared/Dropbox/development/Notecards/SocketServer.h
+c000000004EDB0655000000000000025F
+t1322976853
+s607
+i<string>
+
+N/Users/Jared/Dropbox/development/Notecards/Source.h
+c000000004ED298800000000000000104
+t1322424448
+s260
+i<CoreData/CoreData.h>
+
+N/Users/Jared/Dropbox/development/Notecards/Source.m
+c000000004ED2988100000000000000C4
+t1322424449
+s196
+i"Source.h"
+
+N/Users/Jared/Dropbox/development/Notecards/VoiceServer.h
+c000000004EDAFD8E0000000000000128
+t1322974606
+s296
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/development/Notecards/VoiceServer.m
+c000000004EDAFC9A00000000000001BB
+t1322974362
+s443
+i"VoiceServer.h"
+
+N/Users/Jared/Dropbox/development/Notecards/VoiceServer.mm
+c000000004EDC34FD0000000000000C97
+t1323054333
+s3223
+i"VoiceServer.h"
+i"SocketServer.h"
+i<sys/types.h>
+i<ifaddrs.h>
+i<netinet/in.h>
+i<string.h>
+i<arpa/inet.h>
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app
+t1323054336
+s102
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Info.plist
+t1322371687
+s2494
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards
+t1323054336
+s43312
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/PkgInfo
+t1322371687
+s8
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/Credits.rtf
+t1322453205
+s277
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1322371687
+s90
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/MainMenu.nib
+t1322976205
+s30870
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/MyDocument.nib
+t1321904243
+s25055
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/MyDocument.mom
+t1322453208
+s1853
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/index.php
+t2
+s0
+
+N/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/voicedictationreciever.html
+t1323053860
+s576
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPMenuWithStaticItems.o
+t1322975725
+s35040
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPSheetWindow.o
+t1322975403
+s14124
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o
+t1323049850
+s33040
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Note.o
+t1322975403
+s5876
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Notecards.LinkFileList
+c000000004EDB00A800000000000003E2
+t1322975400
+s994
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/SocketServer.o
+t1322976891
+s57556
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Source.o
+t1322975403
+s5672
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/VoiceServer.o
+t1323054336
+s42820
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/main.o
+t1322975403
+s5000
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/JPMenuWithStaticItems.plist
+t1322460856
+s276
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/JPSheetWindow.plist
+t1322460856
+s276
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/MyDocument-528B0CF58FE91DC2.plist
+t1322460856
+s7567
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/Note.plist
+t1322460856
+s276
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/Source.plist
+t1322460856
+s276
+
+N/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/main.plist
+t1322460856
+s276
+
+N/Users/Jared/Dropbox/development/Notecards/index.php
+c000000004EDAB17D000000000000017B
+t1322955133
+s379
+
+N/Users/Jared/Dropbox/development/Notecards/main.m
+c000000004ED1C81400000000000000F7
+t1322371092
+s247
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/development/Notecards/voicedictationreciever.html
+c000000004EDC33210000000000000240
+t1323053857
+s576
+
+N/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-bonckuazqgilmrddjyxjxjtcrsfw/Notecards_Prefix.pch.gch
+t1322975403
+s58648208
+
+N/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cisgoycwsfrkqjdnehzoybmjcusl/Notecards_Prefix.pch.gch
+t1322371689
+s54306576
+
+N/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cppkfqliqectpxfyhuoyocemuonu/Notecards_Prefix.pch.gch
+t1322975400
+s2523504
+
+N/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch.gch
+t1322453208
+s54306576
+
+N/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch.pth
+t1322460856
+s9005516
+
+NNotecards-Info.plist
+c000000004ED1C8140000000000000A6D
+t1322371092
+s2669
+
+CAnalyze /Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m
+s344153656.374690
+e344153656.467288
+r1
+xAnalyze
+x/Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m
+lSLF07#2@74"Analyze /Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m344153656#344153656#0(0"0(0#0#66"/Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m8639998048#1228"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch --analyze /Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/JPMenuWithStaticItems.plist0#
+
+CAnalyze /Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m
+s344153656.367462
+e344153656.489265
+r1
+xAnalyze
+x/Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m
+lSLF07#2@66"Analyze /Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m344153656#344153656#0(0"0(0#0#58"/Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m8644017440#1212"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch --analyze /Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/JPSheetWindow.plist0#
+
+CAnalyze /Users/Jared/Dropbox/development/Notecards/MyDocument.m
+s344153656.188032
+e344153656.432980
+r1
+xAnalyze
+x/Users/Jared/Dropbox/development/Notecards/MyDocument.m
+o/Users/Jared/Dropbox/development/Notecards/MyDocument.m:59:2:{59:3-59:10}: warning: Incorrect decrement of the reference count of an object that is not owned at this point by the caller
+o         [newnote release];
+o         ^~~~~~~~
+o1 warning generated.
+lSLF07#2@63"Analyze /Users/Jared/Dropbox/development/Notecards/MyDocument.m344153656#344153656#0(253"/Users/Jared/Dropbox/development/Notecards/MyDocument.m:59:2:{59:3-59:10}: warning: Incorrect decrement of the reference count of an object that is not owned at this point by the caller         [newnote release];         ^~~~~~~~1 warning generated.1(0@101"Incorrect decrement of the reference count of an object that is not owned at this point by the caller344153656#18446744073709551615#0#7(17@0"344153656#18446744073709551615#0#0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#0"0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#1(3@6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#45#2#45#2#6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#47#2#47#2#17@0"344153656#18446744073709551615#0#0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#0"0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#1(3@6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#47#2#47#2#6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#47#18#48#63#21@82"Method returns an Objective-C object with a +0 retain count (non-owning reference)344153656#18446744073709551615#0#0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#47#18#0#0#0"1(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#47#18#48#63#82"Method returns an Objective-C object with a +0 retain count (non-owning reference)17@0"344153656#18446744073709551615#0#0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#0"0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#1(3@6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#47#18#48#63#6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#51#2#51#2#17@0"344153656#18446744073709551615#0#0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#0"0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#1(3@6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#51#2#51#2#6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#58#2#58#2#17@0"344153656#18446744073709551615#0#0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#0"0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#0#0#0#0#1(3@6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#58#2#58#2#6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#59#2#59#18#21@101"Incorrect decrement of the reference count of an object that is not owned at this point by the caller344153656#18446744073709551615#0#0(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#59#2#0#0#0"1(6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#59#3#59#9#101"Incorrect decrement of the reference count of an object that is not owned at this point by the caller6@55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m344147116#59#2#0#0#36"Memory (Core Foundation/Objective-C)0(11"Bad release0#0#55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m8639315520#1223"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch --analyze /Users/Jared/Dropbox/development/Notecards/MyDocument.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/MyDocument-528B0CF58FE91DC2.plist0#
+
+CAnalyze /Users/Jared/Dropbox/development/Notecards/Note.m
+s344153656.189955
+e344153656.434096
+r1
+xAnalyze
+x/Users/Jared/Dropbox/development/Notecards/Note.m
+lSLF07#2@57"Analyze /Users/Jared/Dropbox/development/Notecards/Note.m344153656#344153656#0(0"0(0#0#49"/Users/Jared/Dropbox/development/Notecards/Note.m8636280032#1194"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch --analyze /Users/Jared/Dropbox/development/Notecards/Note.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/Note.plist0#
+
+CAnalyze /Users/Jared/Dropbox/development/Notecards/Source.m
+s344153656.189390
+e344153656.367388
+r1
+xAnalyze
+x/Users/Jared/Dropbox/development/Notecards/Source.m
+lSLF07#2@59"Analyze /Users/Jared/Dropbox/development/Notecards/Source.m344153656#344153656#0(0"0(0#0#51"/Users/Jared/Dropbox/development/Notecards/Source.m8636823072#1198"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch --analyze /Users/Jared/Dropbox/development/Notecards/Source.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/Source.plist0#
+
+CAnalyze /Users/Jared/Dropbox/development/Notecards/main.m
+s344153656.188822
+e344153656.374610
+r1
+xAnalyze
+x/Users/Jared/Dropbox/development/Notecards/main.m
+lSLF07#2@57"Analyze /Users/Jared/Dropbox/development/Notecards/main.m344153656#344153656#0(0"0(0#0#49"/Users/Jared/Dropbox/development/Notecards/main.m8637587168#1194"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch --analyze /Users/Jared/Dropbox/development/Notecards/main.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/StaticAnalyzer/normal/x86_64/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies344747136#344747136#0(0"0(0#1#0"8616574048#0"0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPMenuWithStaticItems.o /Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344668525.180099
+e344668525.619868
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPMenuWithStaticItems.o
+x/Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m344668525#344668525#0(0"0(0#0#66"/Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m8621320192#1174"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch -c /Users/Jared/Dropbox/development/Notecards/JPMenuWithStaticItems.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPMenuWithStaticItems.o0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPSheetWindow.o /Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344668203.372566
+e344668203.869604
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPSheetWindow.o
+x/Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m344668203#344668203#0(0"0(0#0#58"/Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m8619365120#1158"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch -c /Users/Jared/Dropbox/development/Notecards/JPSheetWindow.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/JPSheetWindow.o0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o /Users/Jared/Dropbox/Notecards/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344064489.796088
+e344064489.898816
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o
+x/Users/Jared/Dropbox/Notecards/MyDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/Jared/Dropbox/Notecards/MyDocument.m344064489#344064489#0(0"0(0#0#43"/Users/Jared/Dropbox/Notecards/MyDocument.m8631500480#1073"    cd /Users/Jared/Dropbox/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/Notecards/build/Debug -I/Users/Jared/Dropbox/Notecards/build/Debug/include -I/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cisgoycwsfrkqjdnehzoybmjcusl/Notecards_Prefix.pch -c /Users/Jared/Dropbox/Notecards/MyDocument.m -o /Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o /Users/Jared/Dropbox/development/Notecards/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344742649.875186
+e344742650.144403
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o
+x/Users/Jared/Dropbox/development/Notecards/MyDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Jared/Dropbox/development/Notecards/MyDocument.m344742649#344742650#0(0"0(0#0#55"/Users/Jared/Dropbox/development/Notecards/MyDocument.m8647838592#1169"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch -c /Users/Jared/Dropbox/development/Notecards/MyDocument.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Note.o /Users/Jared/Dropbox/development/Notecards/Note.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344668203.212541
+e344668203.373482
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Note.o
+x/Users/Jared/Dropbox/development/Notecards/Note.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Jared/Dropbox/development/Notecards/Note.m344668203#344668203#0(0"0(0#0#49"/Users/Jared/Dropbox/development/Notecards/Note.m8621739616#1140"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch -c /Users/Jared/Dropbox/development/Notecards/Note.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Note.o0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/SocketServer.o /Users/Jared/Dropbox/development/Notecards/SocketServer.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s344669690.867914
+e344669691.164582
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/SocketServer.o
+x/Users/Jared/Dropbox/development/Notecards/SocketServer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Jared/Dropbox/development/Notecards/SocketServer.cpp344669690#344669691#0(0"0(0#0#59"/Users/Jared/Dropbox/development/Notecards/SocketServer.cpp8617018688#1167"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cppkfqliqectpxfyhuoyocemuonu/Notecards_Prefix.pch -c /Users/Jared/Dropbox/development/Notecards/SocketServer.cpp -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/SocketServer.o0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Source.o /Users/Jared/Dropbox/development/Notecards/Source.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344668203.202795
+e344668203.373355
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Source.o
+x/Users/Jared/Dropbox/development/Notecards/Source.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Jared/Dropbox/development/Notecards/Source.m344668203#344668203#0(0"0(0#0#51"/Users/Jared/Dropbox/development/Notecards/Source.m8621854688#1144"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch -c /Users/Jared/Dropbox/development/Notecards/Source.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Source.o0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/VoiceServer.o /Users/Jared/Dropbox/development/Notecards/VoiceServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/VoiceServer.o /Users/Jared/Dropbox/development/Notecards/VoiceServer.mm normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+s344747136.025853
+e344747136.403451
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/VoiceServer.o
+x/Users/Jared/Dropbox/development/Notecards/VoiceServer.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Jared/Dropbox/development/Notecards/VoiceServer.mm344747136#344747136#0(0"0(0#0#57"/Users/Jared/Dropbox/development/Notecards/VoiceServer.mm8601460096#1174"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-bonckuazqgilmrddjyxjxjtcrsfw/Notecards_Prefix.pch -c /Users/Jared/Dropbox/development/Notecards/VoiceServer.mm -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/VoiceServer.o0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/main.o /Users/Jared/Dropbox/Notecards/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344064489.796718
+e344064489.892585
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/main.o
+x/Users/Jared/Dropbox/Notecards/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/Jared/Dropbox/Notecards/main.m344064489#344064489#0(0"0(0#0#37"/Users/Jared/Dropbox/Notecards/main.m8631224192#1044"    cd /Users/Jared/Dropbox/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/Notecards/build/Debug -I/Users/Jared/Dropbox/Notecards/build/Debug/include -I/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cisgoycwsfrkqjdnehzoybmjcusl/Notecards_Prefix.pch -c /Users/Jared/Dropbox/Notecards/main.m -o /Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/main.o /Users/Jared/Dropbox/development/Notecards/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344668203.202202
+e344668203.372482
+r1
+xCompileC
+xbuild/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/main.o
+x/Users/Jared/Dropbox/development/Notecards/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Jared/Dropbox/development/Notecards/main.m344668203#344668203#0(0"0(0#0#49"/Users/Jared/Dropbox/development/Notecards/main.m8622001664#1140"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch -c /Users/Jared/Dropbox/development/Notecards/main.m -o /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/Jared/Dropbox/Notecards/English.lproj/MainMenu.xib
+s344064487.472691
+e344064487.704964
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/Notecards/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib344064487#344064487#0(0"0(0#0#57"/Users/Jared/Dropbox/Notecards/English.lproj/MainMenu.xib8634729056#342"    cd /Users/Jared/Dropbox/Notecards    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Jared/Dropbox/Notecards/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/Jared/Dropbox/Notecards/English.lproj/MyDocument.xib
+s344067588.441507
+e344067588.682267
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/Notecards/English.lproj/MyDocument.xib
+lSLF07#2@39"CompileXIB English.lproj/MyDocument.xib344067588#344067588#0(0"0(0#0#59"/Users/Jared/Dropbox/Notecards/English.lproj/MyDocument.xib8634592768#346"    cd /Users/Jared/Dropbox/Notecards    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/MyDocument.nib /Users/Jared/Dropbox/Notecards/English.lproj/MyDocument.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/Jared/Dropbox/development/Notecards/English.lproj/MainMenu.xib
+s344669005.757198
+e344669006.001057
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/development/Notecards/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib344669005#344669006#0(0"0(0#0#69"/Users/Jared/Dropbox/development/Notecards/English.lproj/MainMenu.xib8616079584#378"    cd /Users/Jared/Dropbox/development/Notecards    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Jared/Dropbox/development/Notecards/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib
+s344155934.780029
+e344155935.579687
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:100027: warning: The 'nextKeyView' outlet of 'Table View (Source, Page #, Note)' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSView' as specified by the outlet type.
+o/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:-2: warning: The 'sourceSelector' outlet of 'File's Owner' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSPopUpButton' as specified by the outlet type.
+o/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:100050: warning: The 'nextKeyView' outlet of 'Bordered Scroll View (Text View)' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSView' as specified by the outlet type.
+o/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:100024: warning: The 'nextKeyView' outlet of 'Bordered Scroll View (Table View)' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSView' as specified by the outlet type.
+o/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:100234: warning: The 'nextKeyView' outlet of 'Pop Up Button intercepter' is connected to 'Text Field' but 'nextKeyView' is no longer defined on NSPopUpButton_intercepter.
+lSLF07#2@39"CompileXIB English.lproj/MyDocument.xib344155934#344155935#0(1420"/* com.apple.ibtool.document.warnings *//Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:100027: warning: The 'nextKeyView' outlet of 'Table View (Source, Page #, Note)' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSView' as specified by the outlet type./Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:-2: warning: The 'sourceSelector' outlet of 'File's Owner' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSPopUpButton' as specified by the outlet type./Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:100050: warning: The 'nextKeyView' outlet of 'Bordered Scroll View (Text View)' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSView' as specified by the outlet type./Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:100024: warning: The 'nextKeyView' outlet of 'Bordered Scroll View (Table View)' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSView' as specified by the outlet type./Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib:100234: warning: The 'nextKeyView' outlet of 'Pop Up Button intercepter' is connected to 'Text Field' but 'nextKeyView' is no longer defined on NSPopUpButton_intercepter.5(22@198"The 'nextKeyView' outlet of 'Table View (Source, Page #, Note)' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSView' as specified by the outlet type.344155935#18446744073709551615#0#0(6@71"/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib344155933#100027#0#100027#0#0"0(22@187"The 'sourceSelector' outlet of 'File's Owner' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSPopUpButton' as specified by the outlet type.344155935#18446744073709551615#0#0(6@71"/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib344155933#18446744073709551614#0#18446744073709551614#0#0"0(22@197"The 'nextKeyView' outlet of 'Bordered Scroll View (Text View)' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSView' as specified by the outlet type.344155935#18446744073709551615#0#0(6@71"/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib344155933#100050#0#100050#0#0"0(22@198"The 'nextKeyView' outlet of 'Bordered Scroll View (Table View)' is connected to 'Pop Up Button intercepter' but 'NSPopUpButton_intercepter' is not a kind of 'NSView' as specified by the outlet type.344155935#18446744073709551615#0#0(6@71"/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib344155933#100024#0#100024#0#0"0(22@153"The 'nextKeyView' outlet of 'Pop Up Button intercepter' is connected to 'Text Field' but 'nextKeyView' is no longer defined on NSPopUpButton_intercepter.344155935#18446744073709551615#0#0(6@71"/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib344155933#100234#0#100234#0#0"0(0#0#71"/Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib8641765600#382"    cd /Users/Jared/Dropbox/development/Notecards    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/MyDocument.nib /Users/Jared/Dropbox/development/Notecards/English.lproj/MyDocument.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s344064487.472198
+e344064487.634838
+r1
+xCopyStringsFile
+x/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings344064487#344064487#0(0"0(0#0#62"/Users/Jared/Dropbox/Notecards/English.lproj/InfoPlist.strings8636177856#352"    cd /Users/Jared/Dropbox/Notecards    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/Notecards.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+s344146005.585358
+e344146005.629492
+r1
+xCpResource
+xbuild/Debug/Notecards.app/Contents/Resources/English.lproj/Credits.rtf
+xEnglish.lproj/Credits.rtf
+lSLF07#2@30"Copy English.lproj/Credits.rtf344146005#344146005#0(0"0(0#0#68"/Users/Jared/Dropbox/development/Notecards/English.lproj/Credits.rtf8628102816#383"    cd /Users/Jared/Dropbox/development/Notecards    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Jared/Dropbox/development/Notecards/English.lproj/Credits.rtf /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/Notecards.app/Contents/Resources/index.php index.php
+r0
+
+CCpResource build/Debug/Notecards.app/Contents/Resources/voicedictationreciever.html voicedictationreciever.html
+s344746660.107413
+e344746660.110882
+r1
+xCpResource
+xbuild/Debug/Notecards.app/Contents/Resources/voicedictationreciever.html
+xvoicedictationreciever.html
+lSLF07#2@32"Copy voicedictationreciever.html344746660#344746660#0(0"0(0#0#70"/Users/Jared/Dropbox/development/Notecards/voicedictationreciever.html8616926464#371"    cd /Users/Jared/Dropbox/development/Notecards    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Jared/Dropbox/development/Notecards/voicedictationreciever.html /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources0#
+
+CDataModelCompile /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/MyDocument.mom /Users/Jared/Dropbox/Notecards/MyDocument.xcdatamodel
+s344064489.795481
+e344064489.916398
+r1
+xDataModelCompile
+x/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/MyDocument.mom
+x/Users/Jared/Dropbox/Notecards/MyDocument.xcdatamodel
+o/Users/Jared/Dropbox/Notecards/MyDocument.xcdatamodel:Note.source: warning: Note.source -- relationship does not have an inverse 
+lSLF07#2@61"Compile /Users/Jared/Dropbox/Notecards/MyDocument.xcdatamodel344064489#344064489#0(130"/Users/Jared/Dropbox/Notecards/MyDocument.xcdatamodel:Note.source: warning: Note.source -- relationship does not have an inverse 1(22@53"Note.source -- relationship does not have an inverse 344064489#18446744073709551615#0#0(6@53"/Users/Jared/Dropbox/Notecards/MyDocument.xcdatamodel344064243#0#0#0#0#0"0(0#0#53"/Users/Jared/Dropbox/Notecards/MyDocument.xcdatamodel8631695776#240"    cd /Users/Jared/Dropbox/Notecards    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/Jared/Dropbox/Notecards/MyDocument.xcdatamodel /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Resources/MyDocument.mom0#
+
+CDataModelCompile /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/MyDocument.mom /Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel
+s344146008.283312
+e344146008.340666
+r1
+xDataModelCompile
+x/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/MyDocument.mom
+x/Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel
+o/Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel:Note.source: warning: Note.source -- relationship does not have an inverse 
+lSLF07#2@73"Compile /Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel344146008#344146008#0(142"/Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel:Note.source: warning: Note.source -- relationship does not have an inverse 1(22@53"Note.source -- relationship does not have an inverse 344146008#18446744073709551615#0#0(6@65"/Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel344117251#0#0#0#0#0"0(0#0#65"/Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel8641462464#276"    cd /Users/Jared/Dropbox/development/Notecards    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/Jared/Dropbox/development/Notecards/MyDocument.xcdatamodel /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Resources/MyDocument.mom0#
+
+CLd /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards normal x86_64
+s344064489.898888
+e344064490.170763
+r1
+xLd
+x/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards
+xnormal
+xx86_64
+lSLF07#2@86"Link /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards344064489#344064490#0(0"0(0#0#0"8629633216#512"    cd /Users/Jared/Dropbox/Notecards    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Jared/Dropbox/Notecards/build/Debug -F/Users/Jared/Dropbox/Notecards/build/Debug -filelist /Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Notecards.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards0#
+
+CLd /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards normal x86_64
+s344747136.403519
+e344747136.436096
+r1
+xLd
+x/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards
+xnormal
+xx86_64
+lSLF07#2@98"Link /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards344747136#344747136#0(0"0(0#0#0"8617501280#572"    cd /Users/Jared/Dropbox/development/Notecards    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Jared/Dropbox/development/Notecards/build/Debug -F/Users/Jared/Dropbox/development/Notecards/build/Debug -filelist /Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Objects-normal/x86_64/Notecards.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/MacOS/Notecards0#
+
+CProcessInfoPlistFile /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Info.plist Notecards-Info.plist
+s344064487.467228
+e344064487.471457
+r1
+xProcessInfoPlistFile
+x/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Info.plist
+xNotecards-Info.plist
+lSLF07#2@28"Process Notecards-Info.plist344064487#344064487#0(0"0(0#0#51"/Users/Jared/Dropbox/Notecards/Notecards-Info.plist8636665248#292"    cd /Users/Jared/Dropbox/Notecards    builtin-infoPlistUtility Notecards-Info.plist -genpkginfo /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app/Contents/Info.plist Notecards-Info.plist
+r0
+
+CProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cisgoycwsfrkqjdnehzoybmjcusl/Notecards_Prefix.pch.gch Notecards_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344064487.719005
+e344064489.795294
+r1
+xProcessPCH
+x/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cisgoycwsfrkqjdnehzoybmjcusl/Notecards_Prefix.pch.gch
+xNotecards_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Notecards_Prefix.pch344064487#344064489#0(0"0(0#0#51"/Users/Jared/Dropbox/Notecards/Notecards_Prefix.pch8637023296#956"    cd /Users/Jared/Dropbox/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/Notecards/build/Debug -I/Users/Jared/Dropbox/Notecards/build/Debug/include -I/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -c /Users/Jared/Dropbox/Notecards/Notecards_Prefix.pch -o /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cisgoycwsfrkqjdnehzoybmjcusl/Notecards_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch.gch Notecards_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344146005.852793
+e344146008.283102
+r1
+xProcessPCH
+x/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch.gch
+xNotecards_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Notecards_Prefix.pch344146005#344146008#0(0"0(0#0#63"/Users/Jared/Dropbox/development/Notecards/Notecards_Prefix.pch8640186144#1040"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -c /Users/Jared/Dropbox/development/Notecards/Notecards_Prefix.pch -o /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-fqsfsjvgnmkbpkepcjhfejlwpoib/Notecards_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch.pth Notecards_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s344153655.385325
+e344153656.187393
+r1
+xProcessPCH
+x/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch.pth
+xNotecards_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@31"Precompile Notecards_Prefix.pch344153655#344153656#0(0"0(0#0#63"/Users/Jared/Dropbox/development/Notecards/Notecards_Prefix.pch8603828576#1076"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -c /Users/Jared/Dropbox/development/Notecards/Notecards_Prefix.pch -o /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-gihyafgtmbcxpmdwfimnfejzpnce/Notecards_Prefix.pch.pth0#
+
+CProcessPCH++ /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-bonckuazqgilmrddjyxjxjtcrsfw/Notecards_Prefix.pch.gch Notecards_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+s344668200.262662
+e344668203.201263
+r1
+xProcessPCH++
+x/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-bonckuazqgilmrddjyxjxjtcrsfw/Notecards_Prefix.pch.gch
+xNotecards_Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Notecards_Prefix.pch344668200#344668203#0(0"0(0#0#63"/Users/Jared/Dropbox/development/Notecards/Notecards_Prefix.pch8624746720#1059"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -c /Users/Jared/Dropbox/development/Notecards/Notecards_Prefix.pch -o /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-bonckuazqgilmrddjyxjxjtcrsfw/Notecards_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cppkfqliqectpxfyhuoyocemuonu/Notecards_Prefix.pch.gch Notecards_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s344668200.263277
+e344668200.442939
+r1
+xProcessPCH++
+x/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cppkfqliqectpxfyhuoyocemuonu/Notecards_Prefix.pch.gch
+xNotecards_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Notecards_Prefix.pch344668200#344668200#0(0"0(0#0#63"/Users/Jared/Dropbox/development/Notecards/Notecards_Prefix.pch8623443104#1049"    cd /Users/Jared/Dropbox/development/Notecards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/Notecards.hmap -F/Users/Jared/Dropbox/development/Notecards/build/Debug -I/Users/Jared/Dropbox/development/Notecards/build/Debug/include -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/development/Notecards/build/Notecards.build/Debug/Notecards.build/DerivedSources -c /Users/Jared/Dropbox/development/Notecards/Notecards_Prefix.pch -o /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Notecards_Prefix-cppkfqliqectpxfyhuoyocemuonu/Notecards_Prefix.pch.gch0#
+
+CTouch /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app
+s344067588.682819
+e344067588.684745
+r1
+xTouch
+x/Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app
+lSLF07#2@62"Touch /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app344067588#344067588#0(0"0(0#0#0"8636378016#117"    cd /Users/Jared/Dropbox/Notecards    /usr/bin/touch -c /Users/Jared/Dropbox/Notecards/build/Debug/Notecards.app0#
+
+CTouch /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app
+s344747136.436198
+e344747136.438036
+r1
+xTouch
+x/Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app
+lSLF07#2@74"Touch /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app344747136#344747136#0(0"0(0#0#0"8590394304#141"    cd /Users/Jared/Dropbox/development/Notecards    /usr/bin/touch -c /Users/Jared/Dropbox/development/Notecards/build/Debug/Notecards.app0#
+

@@ -1,0 +1,14 @@
+f6bb2230b81a762f586abbffc105f81d 0390e5c07bd46074341f7d2d9e8d070a ffffffffffffffffffffffffffffffff 340 /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app
+000000004c3936d200000000000073f4 65123dd711917b268301312ab06f4082 ffffffffffffffffffffffffffffffff 2042 /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTSViewController.nib
+000000004c329adf0000000000004ce1 c9fb41f55c73484bea918b755c901476 ffffffffffffffffffffffffffffffff 1115 /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/MainWindow.nib
+00000000000000000000000000000000 2e1bb05f19dea667670bdbe361d1ab26 ffffffffffffffffffffffffffffffff 8 /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/PkgInfo
+00000000000000000000000000000000 2e1bb05f19dea667670bdbe361d1ab26 ffffffffffffffffffffffffffffffff 857 /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/Info.plist
+00000000000000000000000000000000 3279dc983e9a6cbea6570bf7f3351f86 ffffffffffffffffffffffffffffffff 102 /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app.dSYM
+cbdc2f9f395e2c1417b40892d922fe01 918e718dccadc55b264e0932f4d86dfd ffffffffffffffffffffffffffffffff 41744 /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS
+d9235742ed7bd7ea1548ed28105f4589 fd0ef0d298c4d0e5cb2ff2594cd930c5 ffffffffffffffffffffffffffffffff 28208 /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o
+d9235742a68b0b1d1548ed28105f3bc5 6306ec570c5f8897c330544ad609fd27 ffffffffffffffffffffffffffffffff 26976 /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o
+d9235742ed17b82b1548ed28105f707f 4c231c8df33d2bbe0211f78ab4aa8d31 ffffffffffffffffffffffffffffffff 10680 /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o
+d9235742eabe99111548ed28105f749f 1c0d412798d6d9a9e45a66a24fd3e919 ffffffffffffffffffffffffffffffff 45164 /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o
+d9235742ead67aab1548ed28105f61c2 217d0a66f6d8b51bbc0e289a50cb1b9c ffffffffffffffffffffffffffffffff 46628 /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o
+d9235742eabdc89a1548ed28105f7f67 248764d67b33640545ee1733ea3df65e ffffffffffffffffffffffffffffffff 7920 /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o
+000000004c328deb0000000000001a75 d9235742eaba14421548ed28105f7afe ffffffffffffffffffffffffffffffff 9421460 /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch.gch

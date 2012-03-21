@@ -1,0 +1,713 @@
+TFTS
+v7
+r0
+t308002739.265500
+cCheck dependencies
+cProcessInfoPlistFile /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/Info.plist FTS-Info.plist
+cCompileXIB /Users/Jared/Dropbox/Development/FTS/MainWindow.xib
+cCompileXIB /Users/Jared/Dropbox/Development/FTS/FTSViewController.xib
+cProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch.gch FTS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o /Users/Jared/Dropbox/Development/FTS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o /Users/Jared/Dropbox/Development/FTS/Classes/FTSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o /Users/Jared/Dropbox/Development/FTS/Classes/FTSViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o /Users/Jared/Dropbox/Development/FTS/Classes/Log.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o /Users/Jared/Dropbox/Development/FTS/Classes/Interpreter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o /Users/Jared/Dropbox/Development/FTS/Tokenizer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS normal armv7
+cGenerateDSYMFile /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app.dSYM /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS
+cPhaseScriptExecution "Run Script" /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh
+cTouch /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004C5771690000000000000110
+t1280799081
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C005A1C00000000003B4B70
+t1275091484
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C005A45000000000036A640
+t1275091525
+s3581504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C005A310000000000001355
+t1275091505
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C00642C000000000000098F
+t1275094060
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0064A60000000002703220
+t1275094182
+s40907296
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/objc/runtime.h
+c000000004C004D6200000000000053F9
+t1275088226
+s21497
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/signal.h
+c000000004B9F135D00000000000014F0
+t1268716381
+s5360
+
+N/Users/Jared/Dropbox/Development/FTS/Classes/FTSAppDelegate.h
+c000000004C329ADF00000000000001CE
+t1278384863
+s462
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/Development/FTS/Classes/FTSAppDelegate.m
+c000000004C5727E3000000000000079D
+t1280780259
+s1949
+i"FTSAppDelegate.h"
+i"FTSViewController.h"
+
+N/Users/Jared/Dropbox/Development/FTS/Classes/FTSViewController.h
+c000000004C3697D1000000000000022E
+t1278646225
+s558
+i<UIKit/UIKit.h>
+i"Interpreter.h"
+
+N/Users/Jared/Dropbox/Development/FTS/Classes/FTSViewController.m
+c000000004C3805D80000000000000896
+t1278739928
+s2198
+i"FTSViewController.h"
+i"Log.h"
+
+N/Users/Jared/Dropbox/Development/FTS/Classes/Interpreter.h
+c000000004C3686DD00000000000001ED
+t1278641885
+s493
+i<Foundation/Foundation.h>
+i"Tokenizer.h"
+
+N/Users/Jared/Dropbox/Development/FTS/Classes/Interpreter.m
+c000000004C3B3D4B0000000000001F94
+t1278950731
+s8084
+i"Interpreter.h"
+i"Log.h"
+i<objc/runtime.h>
+
+N/Users/Jared/Dropbox/Development/FTS/Classes/Log.h
+c000000004C355ACC0000000000000142
+t1278565068
+s322
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/FTS/Classes/Log.m
+c000000004C355DF700000000000002E3
+t1278565879
+s739
+i"Log.h"
+
+N/Users/Jared/Dropbox/Development/FTS/FTSViewController.xib
+c000000004C3936D200000000000073F4
+t1278818002
+s29684
+
+N/Users/Jared/Dropbox/Development/FTS/FTS_Prefix.pch
+c000000004C329ADF00000000000000AF
+t1278384863
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/Development/FTS/MainWindow.xib
+c000000004C329ADF0000000000004CE1
+t1278384863
+s19681
+
+N/Users/Jared/Dropbox/Development/FTS/Tokenizer.h
+c000000004C3B4F3200000000000004D9
+t1278955314
+s1241
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/FTS/Tokenizer.m
+c000000004C5727C8000000000000328E
+t1280780232
+s12942
+i"Tokenizer.h"
+
+N/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app
+t1286309939
+s340
+
+N/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app.dSYM
+t1286309939
+s102
+
+N/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS
+t1286309938
+s41888
+
+N/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTSViewController.nib
+t1280784485
+s2042
+
+N/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/Info.plist
+t1280784485
+s857
+
+N/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/MainWindow.nib
+t1280784485
+s1115
+
+N/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/PkgInfo
+t1280784485
+s8
+
+N/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTS.LinkFileList
+c000000004CAB882E000000000000029E
+t1286309934
+s670
+
+N/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o
+t1286309938
+s46664
+
+N/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o
+t1286309938
+s45200
+
+N/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o
+t1286309938
+s27012
+
+N/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o
+t1286309938
+s10704
+
+N/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o
+t1286309938
+s28232
+
+N/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o
+t1286309938
+s7944
+
+N/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh
+c000000004C573865000000000000022C
+t1280784485
+s556
+
+N/Users/Jared/Dropbox/Development/FTS/main.m
+c000000004C3573E30000000000000293
+t1278571491
+s659
+i<UIKit/UIKit.h>
+i<signal.h>
+
+N/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.h
+c000000004C329ADF00000000000001CE
+t1278384863
+s462
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m
+c000000004C5727E3000000000000079D
+t1280780259
+s1949
+i"FTSAppDelegate.h"
+i"FTSViewController.h"
+
+N/Users/Jared/Dropbox/FTS/Classes/FTSViewController.h
+c000000004C3697D1000000000000022E
+t1278646225
+s558
+i<UIKit/UIKit.h>
+i"Interpreter.h"
+
+N/Users/Jared/Dropbox/FTS/Classes/FTSViewController.m
+c000000004C38137E0000000000000896
+t1278743422
+s2198
+i"FTSViewController.h"
+i"Log.h"
+
+N/Users/Jared/Dropbox/FTS/Classes/Interpreter.h
+c000000004C3686DD00000000000001ED
+t1278641885
+s493
+i<Foundation/Foundation.h>
+i"Tokenizer.h"
+
+N/Users/Jared/Dropbox/FTS/Classes/Interpreter.m
+c000000004C3B3D4B0000000000001F94
+t1278950731
+s8084
+i"Interpreter.h"
+i"Log.h"
+i<objc/runtime.h>
+
+N/Users/Jared/Dropbox/FTS/Classes/Log.h
+c000000004C355ACC0000000000000142
+t1278565068
+s322
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/FTS/Classes/Log.m
+c000000004C355DF700000000000002E3
+t1278565879
+s739
+i"Log.h"
+
+N/Users/Jared/Dropbox/FTS/FTSViewController.xib
+c000000004C3936D200000000000073F4
+t1278818002
+s29684
+
+N/Users/Jared/Dropbox/FTS/FTS_Prefix.pch
+c000000004C329ADF00000000000000AF
+t1278384863
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Jared/Dropbox/FTS/MainWindow.xib
+c000000004C329ADF0000000000004CE1
+t1278384863
+s19681
+
+N/Users/Jared/Dropbox/FTS/NSBundle+mainBundleLogging.h
+c000000004C5CA0BC00000000000000FD
+t1281138876
+s253
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/FTS/NSBundle+mainBundleLogging.m
+c000000004C5CA0BC00000000000000F7
+t1281138876
+s247
+i"NSBundle+mainBundleLogging.h"
+
+N/Users/Jared/Dropbox/FTS/Tokenizer.h
+c000000004C3B4F3200000000000004D9
+t1278955314
+s1241
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/FTS/Tokenizer.m
+c000000004C5727C8000000000000328E
+t1280780232
+s12942
+i"Tokenizer.h"
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app
+t1281294943
+s340
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app.dSYM
+t1281294658
+s102
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS
+t1281294658
+s47648
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTSViewController.nib
+t1280784485
+s2042
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/Info.plist
+t1280799272
+s857
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/MainWindow.nib
+t1280784485
+s1115
+
+N/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/PkgInfo
+t1280799272
+s8
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTS.LinkFileList
+c000000004C5738650000000000000256
+t1280784485
+s598
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o
+t1280784486
+s46628
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o
+t1280784486
+s45164
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o
+t1280784487
+s26976
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o
+t1280784486
+s10680
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/NSBundle+mainBundleLogging.o
+t2
+s0
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o
+t1280784487
+s28208
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o
+t1281294658
+s7920
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7F4AD4801207A99B00962D72.sh
+c000000004C577228000000000000022C
+t1280799272
+s556
+
+N/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh
+c000000004C573865000000000000022C
+t1280784485
+s556
+
+N/Users/Jared/Dropbox/FTS/main.m
+c000000004C5CA1BF0000000000000293
+t1281139135
+s659
+i<UIKit/UIKit.h>
+i<signal.h>
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch.gch
+t1286309937
+s9421460
+
+N/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch.gch
+t1280784486
+s9421460
+
+NFTS-Info.plist
+c000000004C329ADF00000000000004D6
+t1278384863
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies308002732#308002734#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o /Users/Jared/Dropbox/Development/FTS/Classes/FTSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308002737.972320
+e308002738.199066
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o
+x/Users/Jared/Dropbox/Development/FTS/Classes/FTSAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Jared/Dropbox/Development/FTS/Classes/FTSAppDelegate.m308002737#308002738#0(0"0(0#0#61"/Users/Jared/Dropbox/Development/FTS/Classes/FTSAppDelegate.m8603782272#1650"    cd /Users/Jared/Dropbox/Development/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch -c /Users/Jared/Dropbox/Development/FTS/Classes/FTSAppDelegate.m -o /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302477286.732922
+e302477286.876958
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o
+x/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m302477286#302477286#0(0"0(0#0#49"/Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m8600809472#1518"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Classes/FTSAppDelegate.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSAppDelegate.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o /Users/Jared/Dropbox/Development/FTS/Classes/FTSViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308002738.174657
+e308002738.327200
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o
+x/Users/Jared/Dropbox/Development/FTS/Classes/FTSViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Jared/Dropbox/Development/FTS/Classes/FTSViewController.m308002738#308002738#0(0"0(0#0#64"/Users/Jared/Dropbox/Development/FTS/Classes/FTSViewController.m8603492448#1656"    cd /Users/Jared/Dropbox/Development/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch -c /Users/Jared/Dropbox/Development/FTS/Classes/FTSViewController.m -o /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302477286.850763
+e302477286.998330
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o
+x/Users/Jared/Dropbox/FTS/Classes/FTSViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m302477286#302477286#0(0"0(0#0#52"/Users/Jared/Dropbox/FTS/Classes/FTSViewController.m8603075840#1524"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Classes/FTSViewController.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTSViewController.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o /Users/Jared/Dropbox/Development/FTS/Classes/Interpreter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308002738.278068
+e308002738.474774
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o
+x/Users/Jared/Dropbox/Development/FTS/Classes/Interpreter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Jared/Dropbox/Development/FTS/Classes/Interpreter.m308002738#308002738#0(0"0(0#0#58"/Users/Jared/Dropbox/Development/FTS/Classes/Interpreter.m8601895904#1644"    cd /Users/Jared/Dropbox/Development/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch -c /Users/Jared/Dropbox/Development/FTS/Classes/Interpreter.m -o /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o /Users/Jared/Dropbox/FTS/Classes/Interpreter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302477286.961860
+e302477287.138629
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o
+x/Users/Jared/Dropbox/FTS/Classes/Interpreter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Jared/Dropbox/FTS/Classes/Interpreter.m302477286#302477287#0(0"0(0#0#46"/Users/Jared/Dropbox/FTS/Classes/Interpreter.m8606525760#1512"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Classes/Interpreter.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Interpreter.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o /Users/Jared/Dropbox/Development/FTS/Classes/Log.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308002738.199179
+e308002738.277947
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o
+x/Users/Jared/Dropbox/Development/FTS/Classes/Log.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Jared/Dropbox/Development/FTS/Classes/Log.m308002738#308002738#0(0"0(0#0#50"/Users/Jared/Dropbox/Development/FTS/Classes/Log.m8602508448#1628"    cd /Users/Jared/Dropbox/Development/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch -c /Users/Jared/Dropbox/Development/FTS/Classes/Log.m -o /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o /Users/Jared/Dropbox/FTS/Classes/Log.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302477286.877053
+e302477286.961751
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o
+x/Users/Jared/Dropbox/FTS/Classes/Log.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/Jared/Dropbox/FTS/Classes/Log.m302477286#302477286#0(0"0(0#0#38"/Users/Jared/Dropbox/FTS/Classes/Log.m8605955424#1496"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Classes/Log.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Log.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/NSBundle+mainBundleLogging.o /Users/Jared/Dropbox/FTS/NSBundle+mainBundleLogging.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o /Users/Jared/Dropbox/Development/FTS/Tokenizer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308002738.327298
+e308002738.493005
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o
+x/Users/Jared/Dropbox/Development/FTS/Tokenizer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Jared/Dropbox/Development/FTS/Tokenizer.m: In function '-[Tokenizer getAndMapKeyword:orIdentifier:withHandler:]':
+o/Users/Jared/Dropbox/Development/FTS/Tokenizer.m:69: warning: control reaches end of non-void function
+o/Users/Jared/Dropbox/Development/FTS/Tokenizer.m: In function '-[Tokenizer getNextIdentifierOrKeyword]':
+o/Users/Jared/Dropbox/Development/FTS/Tokenizer.m:79: warning: control reaches end of non-void function
+lSLF07#2@56"Compile /Users/Jared/Dropbox/Development/FTS/Tokenizer.m308002738#308002738#0(432"/Users/Jared/Dropbox/Development/FTS/Tokenizer.m: In function '-[Tokenizer getAndMapKeyword:orIdentifier:withHandler:]':/Users/Jared/Dropbox/Development/FTS/Tokenizer.m:69: warning: control reaches end of non-void function/Users/Jared/Dropbox/Development/FTS/Tokenizer.m: In function '-[Tokenizer getNextIdentifierOrKeyword]':/Users/Jared/Dropbox/Development/FTS/Tokenizer.m:79: warning: control reaches end of non-void function2(22@40"Control reaches end of non-void function308002738#121#103#0(6@48"/Users/Jared/Dropbox/Development/FTS/Tokenizer.m302473032#69#0#69#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function308002738#329#103#0(6@48"/Users/Jared/Dropbox/Development/FTS/Tokenizer.m302473032#79#0#79#0#40"control reaches end of non-void function0(0#0#48"/Users/Jared/Dropbox/Development/FTS/Tokenizer.m8604181856#1632"    cd /Users/Jared/Dropbox/Development/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch -c /Users/Jared/Dropbox/Development/FTS/Tokenizer.m -o /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o /Users/Jared/Dropbox/FTS/Tokenizer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302477286.998416
+e302477287.139758
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o
+x/Users/Jared/Dropbox/FTS/Tokenizer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Jared/Dropbox/FTS/Tokenizer.m: In function '-[Tokenizer getAndMapKeyword:orIdentifier:withHandler:]':
+o/Users/Jared/Dropbox/FTS/Tokenizer.m:69: warning: control reaches end of non-void function
+o/Users/Jared/Dropbox/FTS/Tokenizer.m: In function '-[Tokenizer getNextIdentifierOrKeyword]':
+o/Users/Jared/Dropbox/FTS/Tokenizer.m:79: warning: control reaches end of non-void function
+lSLF07#2@44"Compile /Users/Jared/Dropbox/FTS/Tokenizer.m302477286#302477287#0(384"/Users/Jared/Dropbox/FTS/Tokenizer.m: In function '-[Tokenizer getAndMapKeyword:orIdentifier:withHandler:]':/Users/Jared/Dropbox/FTS/Tokenizer.m:69: warning: control reaches end of non-void function/Users/Jared/Dropbox/FTS/Tokenizer.m: In function '-[Tokenizer getNextIdentifierOrKeyword]':/Users/Jared/Dropbox/FTS/Tokenizer.m:79: warning: control reaches end of non-void function2(22@40"Control reaches end of non-void function302477287#109#91#0(6@36"/Users/Jared/Dropbox/FTS/Tokenizer.m302473032#69#0#69#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function302477287#293#91#0(6@36"/Users/Jared/Dropbox/FTS/Tokenizer.m302473032#79#0#79#0#40"control reaches end of non-void function0(0#0#36"/Users/Jared/Dropbox/FTS/Tokenizer.m8604415232#1500"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/Tokenizer.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/Tokenizer.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o /Users/Jared/Dropbox/Development/FTS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308002737.971376
+e308002738.174558
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o
+x/Users/Jared/Dropbox/Development/FTS/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/Jared/Dropbox/Development/FTS/main.m308002737#308002738#0(0"0(0#0#43"/Users/Jared/Dropbox/Development/FTS/main.m8604266112#1622"    cd /Users/Jared/Dropbox/Development/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch -c /Users/Jared/Dropbox/Development/FTS/main.m -o /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o /Users/Jared/Dropbox/FTS/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302987457.905746
+e302987458.273621
+r1
+xCompileC
+xbuild/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o
+x/Users/Jared/Dropbox/FTS/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /Users/Jared/Dropbox/FTS/main.m302987457#302987458#0(0"0(0#0#31"/Users/Jared/Dropbox/FTS/main.m8635795488#1490"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -include /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch -c /Users/Jared/Dropbox/FTS/main.m -o /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Jared/Dropbox/Development/FTS/FTSViewController.xib
+r0
+
+CCompileXIB /Users/Jared/Dropbox/Development/FTS/MainWindow.xib
+r0
+
+CCompileXIB /Users/Jared/Dropbox/FTS/FTSViewController.xib
+s302477285.064877
+e302477285.985020
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/FTS/FTSViewController.xib
+lSLF07#2@32"CompileXIB FTSViewController.xib302477285#302477285#0(0"0(0#0#46"/Users/Jared/Dropbox/FTS/FTSViewController.xib8603085920#510"    cd /Users/Jared/Dropbox/FTS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTSViewController.nib /Users/Jared/Dropbox/FTS/FTSViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCompileXIB /Users/Jared/Dropbox/FTS/MainWindow.xib
+s302477285.063082
+e302477285.748223
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/FTS/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302477285#302477285#0(0"0(0#0#39"/Users/Jared/Dropbox/FTS/MainWindow.xib8603534112#496"    cd /Users/Jared/Dropbox/FTS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/MainWindow.nib /Users/Jared/Dropbox/FTS/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CGenerateDSYMFile /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app.dSYM /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS
+s308002738.935510
+e308002739.106777
+r1
+xGenerateDSYMFile
+x/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app.dSYM
+x/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS
+lSLF07#2@83"GenerateDSYMFile build/Debug-iphoneos/FTS.app.dSYM build/Debug-iphoneos/FTS.app/FTS308002738#308002739#0(0"0(0#0#69"/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS8604031360#344"    cd /Users/Jared/Dropbox/Development/FTS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS -o /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app.dSYM0#
+
+CGenerateDSYMFile /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app.dSYM /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS
+s302987458.572280
+e302987458.617304
+r1
+xGenerateDSYMFile
+x/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app.dSYM
+x/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS
+lSLF07#2@83"GenerateDSYMFile build/Debug-iphoneos/FTS.app.dSYM build/Debug-iphoneos/FTS.app/FTS302987458#302987458#0(0"0(0#0#57"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS8632546176#308"    cd /Users/Jared/Dropbox/FTS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS -o /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app.dSYM0#
+
+CLd /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS normal armv7
+s308002738.493097
+e308002738.935408
+r1
+xLd
+x/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS
+xnormal
+xarmv7
+lSLF07#2@74"Link /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS308002738#308002738#0(0"0(0#0#0"32370099069714544#792"    cd /Users/Jared/Dropbox/Development/FTS    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos -F/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos -filelist /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTS.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/FTS0#
+
+CLd /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS normal armv7
+s302987458.273916
+e302987458.572185
+r1
+xLd
+x/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS
+xnormal
+xarmv7
+lSLF07#2@62"Link /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS302987458#302987458#0(0"0(0#0#0"8634406912#732"    cd /Users/Jared/Dropbox/FTS    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/Jared/Dropbox/FTS/build/Debug-iphoneos -F/Users/Jared/Dropbox/FTS/build/Debug-iphoneos -filelist /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTS.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/FTS0#
+
+CPhaseScriptExecution "Run Script" /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh
+s308002739.106877
+e308002739.146511
+r0
+xPhaseScriptExecution
+xRun Script
+x/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh
+o/bin/sh: /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh: Permission denied
+lSLF07#2@36"Run custom shell script 'Run Script'308002739#308002739#0(141"/bin/sh: /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh: Permission denied1(4@140"/bin/sh: /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh: Permission denied308002739#0#141#0(1@0"0(0#0#0"8603021152#16405"    cd /Users/Jared/Dropbox/Development/FTS    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP Jared    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Jared    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT "armv6 armv7"    setenv ARCHS_STANDARD_32_BIT "armv6 armv7"    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Jared/Dropbox/Development/FTS/build    setenv BUILD_ROOT /Users/Jared/Dropbox/Development/FTS/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED NO    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv CODE_SIGN_IDENTITY "Don't Code Sign"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH FTS.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/FTS.dst    setenv DWARF_DSYM_FILE_NAME FTS.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH FTS.app/Executables    setenv EXECUTABLE_FOLDER_PATH FTS.app    setenv EXECUTABLE_NAME FTS    setenv EXECUTABLE_PATH FTS.app/FTS    setenv FILE_LIST /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH FTS.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME FTS.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER FTS_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 501    setenv GROUP Jared    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE FTS-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH FTS.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/FTS.dst/Users/Jared/Applications    setenv INSTALL_GROUP Jared    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Jared    setenv INSTALL_PATH /Users/Jared/Applications    setenv INSTALL_ROOT /tmp/FTS.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH FTS.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-LinkMap-normal-armv7.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTS.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal    setenv OBJROOT /Users/Jared/Dropbox/Development/FTS/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH FTS.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/PkgInfo    setenv PKGINFO_PATH FTS.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH FTS.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH FTS.app/PrivateHeaders    setenv PRODUCT_NAME FTS    setenv PRODUCT_SETTINGS_PATH /Users/Jared/Dropbox/Development/FTS/FTS-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT FTS    setenv PROJECT_DERIVED_FILE_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/DerivedSources    setenv PROJECT_DIR /Users/Jared/Dropbox/Development/FTS    setenv PROJECT_FILE_PATH /Users/Jared/Dropbox/Development/FTS/FTS.xcodeproj    setenv PROJECT_NAME FTS    setenv PROJECT_TEMP_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH FTS.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH FTS.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk    setenv SDK_NAME iphoneos3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH FTS.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH FTS.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/Jared/Dropbox/Development/FTS    setenv SRCROOT /Users/Jared/Dropbox/Development/FTS    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SYMBOL_REPOSITORY_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/SymbolRepositories    setenv SYMROOT /Users/Jared/Dropbox/Development/FTS/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME FTS    setenv TARGET_BUILD_DIR /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos    setenv TARGET_NAME FTS    setenv TARGET_TEMP_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_FILES_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_FILE_DIR /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_ROOT /Users/Jared/Dropbox/Development/FTS/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH FTS.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER Jared    setenv USER_APPS_DIR /Users/Jared/Applications    setenv USER_LIBRARY_DIR /Users/Jared/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH FTS.app/version.plist    setenv VERSION_INFO_BUILDER Jared    setenv VERSION_INFO_FILE FTS_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:FTS  PROJECT:FTS-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME FTS.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh126#
+
+CPhaseScriptExecution "Run Script" /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7F4AD4801207A99B00962D72.sh
+s302492075.121904
+e302492076.069969
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7F4AD4801207A99B00962D72.sh
+o/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/: replacing existing signature
+lSLF07#2@36"Run custom shell script 'Run Script'302492075#302492076#0(85"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/: replacing existing signature1(13@85"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/: replacing existing signature302492075#0#85#0(1@0"0(0#0#0"8598786304#15877"    cd /Users/Jared/Dropbox/FTS    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP Jared    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Jared    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT "armv6 armv7"    setenv ARCHS_STANDARD_32_BIT "armv6 armv7"    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Jared/Dropbox/FTS/build    setenv BUILD_ROOT /Users/Jared/Dropbox/FTS/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Jared/Dropbox/FTS/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED NO    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv CODE_SIGN_IDENTITY "Don't Code Sign"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Jared/Dropbox/FTS/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH FTS.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/FTS.dst    setenv DWARF_DSYM_FILE_NAME FTS.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/Jared/Dropbox/FTS/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH FTS.app/Executables    setenv EXECUTABLE_FOLDER_PATH FTS.app    setenv EXECUTABLE_NAME FTS    setenv EXECUTABLE_PATH FTS.app/FTS    setenv FILE_LIST /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH FTS.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME FTS.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER FTS_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 501    setenv GROUP Jared    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE FTS-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH FTS.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/FTS.dst/Users/Jared/Applications    setenv INSTALL_GROUP Jared    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Jared    setenv INSTALL_PATH /Users/Jared/Applications    setenv INSTALL_ROOT /tmp/FTS.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH FTS.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-LinkMap-normal-armv7.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTS.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal    setenv OBJROOT /Users/Jared/Dropbox/FTS/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH FTS.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/PkgInfo    setenv PKGINFO_PATH FTS.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH FTS.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH FTS.app/PrivateHeaders    setenv PRODUCT_NAME FTS    setenv PRODUCT_SETTINGS_PATH /Users/Jared/Dropbox/FTS/FTS-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT FTS    setenv PROJECT_DERIVED_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/DerivedSources    setenv PROJECT_DIR /Users/Jared/Dropbox/FTS    setenv PROJECT_FILE_PATH /Users/Jared/Dropbox/FTS/FTS.xcodeproj    setenv PROJECT_NAME FTS    setenv PROJECT_TEMP_DIR /Users/Jared/Dropbox/FTS/build/FTS.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH FTS.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH FTS.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk    setenv SDK_NAME iphoneos3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH FTS.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH FTS.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/Jared/Dropbox/FTS    setenv SRCROOT /Users/Jared/Dropbox/FTS    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SYMBOL_REPOSITORY_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/SymbolRepositories    setenv SYMROOT /Users/Jared/Dropbox/FTS/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME FTS    setenv TARGET_BUILD_DIR /Users/Jared/Dropbox/FTS/build/Debug-iphoneos    setenv TARGET_NAME FTS    setenv TARGET_TEMP_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_FILES_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_ROOT /Users/Jared/Dropbox/FTS/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH FTS.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER Jared    setenv USER_APPS_DIR /Users/Jared/Applications    setenv USER_LIBRARY_DIR /Users/Jared/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH FTS.app/version.plist    setenv VERSION_INFO_BUILDER Jared    setenv VERSION_INFO_FILE FTS_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:FTS  PROJECT:FTS-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME FTS.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7F4AD4801207A99B00962D72.sh0#
+
+CPhaseScriptExecution "Run Script" /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh
+s302987756.259812
+e302987756.540869
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh
+o/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/: replacing existing signature
+lSLF07#2@36"Run custom shell script 'Run Script'302987756#302987756#0(85"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/: replacing existing signature1(13@85"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/: replacing existing signature302987756#0#85#0(1@0"0(0#0#0"8642746272#15877"    cd /Users/Jared/Dropbox/FTS    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP Jared    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Jared    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT "armv6 armv7"    setenv ARCHS_STANDARD_32_BIT "armv6 armv7"    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Jared/Dropbox/FTS/build    setenv BUILD_ROOT /Users/Jared/Dropbox/FTS/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Jared/Dropbox/FTS/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED NO    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv CODE_SIGN_IDENTITY "Don't Code Sign"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Jared/Dropbox/FTS/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH FTS.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/FTS.dst    setenv DWARF_DSYM_FILE_NAME FTS.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/Jared/Dropbox/FTS/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH FTS.app/Executables    setenv EXECUTABLE_FOLDER_PATH FTS.app    setenv EXECUTABLE_NAME FTS    setenv EXECUTABLE_PATH FTS.app/FTS    setenv FILE_LIST /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH FTS.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME FTS.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER FTS_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 501    setenv GROUP Jared    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE FTS-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH FTS.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/FTS.dst/Users/Jared/Applications    setenv INSTALL_GROUP Jared    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Jared    setenv INSTALL_PATH /Users/Jared/Applications    setenv INSTALL_ROOT /tmp/FTS.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH FTS.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-LinkMap-normal-armv7.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal/armv7/FTS.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Objects-normal    setenv OBJROOT /Users/Jared/Dropbox/FTS/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH FTS.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/PkgInfo    setenv PKGINFO_PATH FTS.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH FTS.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH FTS.app/PrivateHeaders    setenv PRODUCT_NAME FTS    setenv PRODUCT_SETTINGS_PATH /Users/Jared/Dropbox/FTS/FTS-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT FTS    setenv PROJECT_DERIVED_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/DerivedSources    setenv PROJECT_DIR /Users/Jared/Dropbox/FTS    setenv PROJECT_FILE_PATH /Users/Jared/Dropbox/FTS/FTS.xcodeproj    setenv PROJECT_NAME FTS    setenv PROJECT_TEMP_DIR /Users/Jared/Dropbox/FTS/build/FTS.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH FTS.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/Jared/Dropbox/FTS/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH FTS.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk    setenv SDK_NAME iphoneos3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH FTS.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH FTS.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/Jared/Dropbox/FTS    setenv SRCROOT /Users/Jared/Dropbox/FTS    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SYMBOL_REPOSITORY_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/SymbolRepositories    setenv SYMROOT /Users/Jared/Dropbox/FTS/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME FTS    setenv TARGET_BUILD_DIR /Users/Jared/Dropbox/FTS/build/Debug-iphoneos    setenv TARGET_NAME FTS    setenv TARGET_TEMP_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_FILES_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_FILE_DIR /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build    setenv TEMP_ROOT /Users/Jared/Dropbox/FTS/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH FTS.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER Jared    setenv USER_APPS_DIR /Users/Jared/Applications    setenv USER_LIBRARY_DIR /Users/Jared/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH FTS.app/version.plist    setenv VERSION_INFO_BUILDER Jared    setenv VERSION_INFO_FILE FTS_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:FTS  PROJECT:FTS-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME FTS.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/Script-7FB47A8812076F8600477F87.sh0#
+
+CProcessInfoPlistFile /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app/Info.plist FTS-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/Info.plist FTS-Info.plist
+s302492072.628010
+e302492072.654168
+r1
+xProcessInfoPlistFile
+x/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/Info.plist
+xFTS-Info.plist
+lSLF07#2@22"Process FTS-Info.plist302492072#302492072#0(0"0(0#0#39"/Users/Jared/Dropbox/FTS/FTS-Info.plist23644198694486136#397"    cd /Users/Jared/Dropbox/FTS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FTS-Info.plist -genpkginfo /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app/Info.plist0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch.gch FTS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s308002734.983632
+e308002737.971179
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch.gch
+xFTS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile FTS_Prefix.pch308002735#308002737#0(0"0(0#0#51"/Users/Jared/Dropbox/Development/FTS/FTS_Prefix.pch8676578743001571328#1526"    cd /Users/Jared/Dropbox/Development/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/Development/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -c /Users/Jared/Dropbox/Development/FTS/FTS_Prefix.pch -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-dccrzzqznnqxhtbcokpcmoqjewuz/FTS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch.gch FTS_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302477285.985310
+e302477286.731769
+r1
+xProcessPCH
+x/var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch.gch
+xFTS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile FTS_Prefix.pch302477285#302477286#0(0"0(0#0#39"/Users/Jared/Dropbox/FTS/FTS_Prefix.pch8606306752#1406"    cd /Users/Jared/Dropbox/FTS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-generated-files.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-own-target-headers.hmap -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-all-target-headers.hmap -iquote /Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/FTS-project-headers.hmap -F/Users/Jared/Dropbox/FTS/build/Debug-iphoneos -I/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/include -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources/armv7 -I/Users/Jared/Dropbox/FTS/build/FTS.build/Debug-iphoneos/FTS.build/DerivedSources -c /Users/Jared/Dropbox/FTS/FTS_Prefix.pch -o /var/folders/U2/U2cEwgiKHISdvFJpxdayE++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTS_Prefix-gbzfghalbbbmamgvpksvnfjsppko/FTS_Prefix.pch.gch0#
+
+CTouch /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app
+s308002739.146583
+e308002739.265295
+r1
+xTouch
+x/Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app
+lSLF07#2@71"Touch /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app308002739#308002739#0(0"0(0#0#0"8603275136#256"    cd /Users/Jared/Dropbox/Development/FTS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jared/Dropbox/Development/FTS/build/Debug-iphoneos/FTS.app0#
+
+CTouch /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app
+s302987459.663749
+e302987459.667681
+r1
+xTouch
+x/Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app
+lSLF07#2@59"Touch /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app302987459#302987459#0(0"0(0#0#0"8635590240#232"    cd /Users/Jared/Dropbox/FTS    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jared/Dropbox/FTS/build/Debug-iphoneos/FTS.app0#
+

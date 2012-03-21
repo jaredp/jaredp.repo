@@ -1,0 +1,437 @@
+                                                                                                            
+:Start[Start.png]:
+
+It is May 13, 1774. This morning you, Sheriff Jaylu of Boston were awoken by a messenger sent by your new deputy, who recently transferred to your district. There has been a murder, you recognize the name but can't seem to remember from where. 
+@:Next
+
+:Next[ThomasIsDead]:
+
+When you arrive at the scene of the crime, you ask the Deputy about the deceased,
+
+"Thomas Hutchinson was his name, surprised you don't know him--he's the royal governor around these parts. Can't say I much liked him though. Can't have liberty if you've got the crown watching your every move. Besides, it was only a matter of time before someone got around to finishing the job after all that stamp act business. The only evidence we found around him is this drawing of a skull and crossbones with the text, “This is the place to affix the stamp,” and a sheet of paper titled “Extraordinary Verses of Pope-Night.” Seems like some people were discontent with the Stamp Act among other things. Oh, on the way here, there was a strangely conspicuous trash can I saw nearby, you might want to take a look. I can think of a few people who probably had him at the top of their lists, if you'd like my two cents."
+
+@trash, trashcan, garbage, examine, look:Trashcan @suspects, your, list, listen, cents:DeputySuspects @:DeputySuspects
+
+ 
+
+:DeputySuspects[Start.png]:                            
+
+
+"Well, that Skull and Crossbones stamp may have been meant as some kind of twisted irony. If I remember correctly, Hutchinson seemed to support the English in the Stamp act of '65, and the Son of Liberty weren’t too happy about that. They burned down the poor man's house because of it! From what I understand of these ‘Sons of Liberty,’ there are some who, let's say...put liberty above the law, if you know what I mean. The prominent members I can think of right now would Samuel Adams, Paul Revere, John Adams and John Hancock. No matter whom you'd like to question, why don't you have a look at that trash bin? I have a strange feeling about it..."
+
+@:Trashcan
+
+ 
+
+:Trashcan[TrashCan.png]:
+Examining the trash can, you find nothing but a man's jacket. Searching the pockets, you find a single scrap of paper with a pine tree and a strange message printed on it, "Liberty Tree- An Appeal to God" Underneath the text are two numbers, 92 and 45. Upon closer examination, you realize that there is another hand-scrawled note attached to it, "Thanks my friend we're going to do it." You also find a piece of a seaman's chest–there's something written on it, but half is cut off, '-ERTY'. The deputy appears by your side, peering at the note, "Will ya look at that! Seems like this was more than just one man....I do believe we have a conspiracy on our hands."
+
+You decide to split the investigation with your deputy; one of you will head to the tavern to ask the commoners what they may have heard. The other will try to handle the bureaucracy in the capital. Which would you prefer?
+
+@tavern,bar,commoner,gossip,drink,drunk:GoTavern @capital,diplomat, bureaucracy,governor,law,legal:Capital
+
+  
+:Capital[CityHall]:
+
+Leaving your deputy, Mr. Smithson at the tavern, you decide to travel to state house and question those who would have the late governor – and his enemies- the best. Arriving at the capital, you notice a great congregation of people gathered outside.  As you peer into the center of the crowd, you see that in the center is a man in a bright red coat. You think that it would be prudent to ask someone who this man is.
+@ask, crowd, red coat, who:AskAround @: AskAround
+
+:AskAround[CityHall]:
+In the nicest way you can, you pull a man out of the crowd, and ask who the gentleman is. He answers you in kindly manner, saying, “Well ya’d have to be totally daft not ta know who the new royal governor is! It’s Thomas Gage, big fancy general. I’d advise that you stick on his good side. It seems that he’s had a rough reception by the, ah, lower elements of Boston society.” You could wait for the crowd to disperse to have a moment with the new governor, or you could proceed into the state house and question possible witnesses there.
+
+@wait, Gage, Thomas Gage:Gage @proceed, witness, state house:StateHouse @: StateHouse
+
+:Gage[CityHall_TGage]:
+
+Waiting for the proper moment, you see your opportunity to converse with the General and take it. After introducing yourself and telling the General about the murder, he stares at you aghast. Finally he says “I always knew that you provincials were violent, but I had never expected something like this. The late Mr. Hutchinson was against all of these taxes in the first place. Let’s see if your Sons of Liberty knew that!” You have a distinct feeling that your discussion with General Gates is over.
+
+@: StateHouse
+
+:StateHouse[CityHall_Rivington]:
+As you enter the State House, you notice a diminutive man screaming at anyone who will listen.
+“The Patriots are murderers! Traitors to the crown! The scum of the British Empire! They’ll just as soon kill you or me as they did to our former governor!” As he spots you, he loudly calls you over. “Ah! An officer of the law! Finally, someone who can take charge of this situation!” You hesitate to respond, as you overhear someone mention “Hutchinson” and “You’re to blame” in one of the side rooms of state house. Will you investigate the side room, or continue talking with Rivington?
+
+@continue, Rivington, talking: Evidence @investigate, room, explore: Wilkes @: Wilkes
+
+:Evidence[Evidence]:
+Ignoring the noise, you continue conversing with Rivington. “Well, before I can help you, I need you to help me,” you tell him. “Well, what could you possibly need?” Rivington asks. “I need you to tell me what you make of these bits of evidence found at the scene of the crime.” you respond. “Fair enough.” he says as he looks over each piece. “Well, obviously, we have an extreme patriot in our midst – or maybe two. 45 and 92 refer to some God-awful revolutionary sentiment that they have. Strange fixation on some pointless numbers if you ask me. Paul Revere, in particular, was very fond of them. These crude drawings would be carried around by of these violence-prone colonials. Cato’s Letters is just another piece of anti-royal twaddle. As for pope night, all of these intolerant fools have some prejudice against Catholics – especially the French. You’d think that they’d start another war, and refuse to pay for that one too.” “Is that all?” you ask. “Well, there remains the issue of ‘-berty’. What could it possibly mean? I’m afraid you’re on your own with that one, friend.” You thank him and leave. 
+
+@investigate, room, explore: Wilkes
+@: Wilkes
+
+:Wilkes[CityHall_JWilkes]:
+Silently sneaking up to the room, you carefully place your kick, opening the unlocked door. To your dismay, the room is empty, but it appears something has been left on the floor – a visitor’s pass to Parliament and a Tobacco Certificate! You place it inside of the many pockets of your ingenious CargoSkirt, and return just in time to discuss matters with Attorney General Sewall.
+
+@:Sewall
+
+:Sewall[CityHall_Sewall]:
+As you approach Sewall, you see that is involved in a heated argument with three people. The argument winds down, and two those involved, a man and a woman, leave. Before exiting the building, the man shouts “Mark my words, Jonathan, it can only get worse from here!” The other man that had not met introduces himself as Joseph Galloway, a member of the Pennsylvania Provincial assembly. You mention your desire to catch Hutchinson’s killer, and Sewall offers to help you in any way you can. You show him your last two pieces on evidence. After a moment of pondering, he tells you that there is only one person could have left these things behind – John Wilkes, a member of parliament who had an active interest in anti-British activity in the colonies. Doubtless he had something to do with this murder. Before you can ponder it any further, your deputy barges in and screams “There’s no time! We have to make it to the Hog’s Head tavern, and quickly! I’ll explain on the way!” 
+
+@:TavernCAPITAL
+
+:TavernCAPITAL[Tavern]:
+Your deputy explains that Wilkes, Paul Revere, and John Hancock had been connected in this conspiracy the entire time – Revere had a particular devotion to Wilkes’ 45th essay, leading to popularity of the number with the colonists. Hancock provided monetary support for Revere’s propaganda, and informed the two of where Hutchinson would be when no one else was around. Annoyed that your deputy has outsmarted you, you continue on to the tavern. On your way inside, you only make it up to the door before the door is pushed open once again, this time revealing none other than Paul Revere himself!
+
+@:WhoopsCAPITAL
+
+:WhoopsCAPITAL[Tavern_PaulRev]:
+
+He strides into the tavern, walking right past you. He turns to John Hancock and booms,
+
+ 
+
+"John! Did you get my message; it was on the back of the paper I gave you. I just wanted to thank you for agreeing to help me get through that list from Wilkes. I know we could probably get Alexander McDougall to take care of Rivington, but who is next on the list?"
+
+ 
+
+John Hancock has gone quite pale, but before you can even get in an "Ah ha!" Samuel Adams holds up a piece of paper,
+
+ 
+
+"Paul, John? Is this the list you speak of? Thomas Hutchinson, James Rivington.... My god, those are the first two names on the list of Loyalists Wilkes sent us!"
+
+ 
+
+A list of Loyalists from colony supporter John Wilkes, the "Thanks my friend" note, the numbers on the leaflet, the skull and crossbones picture-it's all coming together. It seems that John Hancock and Paul Revere acted alone. As you place the two of them under arrest, John Hancock defends his actions,
+
+ 
+
+"Wilkes didn't send that list for nothing! It's our job as defenders of freedom to remove anything or anyone that might be an inconvenience to us. The loyalists are worse than the British-they're traitors!"
+
+ 
+
+You put up with a lot of things here in Boston, but murder isn't one of them. You turn to Hancock,
+
+ 
+
+"Tar and feathers is bad enough! As sheriff I think it makes sense for me to draw the line at murder. "
+
+Glancing around the room, you notice whispering among the tavern's customers....you hope that these people value the law as much as you do. 
+@:NearEnd
+
+:NearEnd[Tavern]:
+
+
+As you are preparing for the worst, however, the door swings open yet again–this time, in walks your deputy and two other men! What convienient backup. Deputy Smithson tells you they came immediately from the capital as soon as they heard the news.
+
+@:JohnEndCAPITAL
+
+:JohnEndCAPITAL[Tavern_JohnAdams]:
+
+One of the men with him (you recognize him as John Adams) looks especially angry,
+
+"What terrible desecration of everything the Sons of Liberty stand for! I am almost ashamed to be one." Motioning at the third man, Adams now looks at you, "This is Daniel Lenoard–a friend of the deceased. You will likely find him a suitable prosecution for this unsavory event."
+
+@:EndCAPITAL
+
+:EndCAPITAL[Tavern]:
+
+What a day!
+
+You're glad you caught the conspirators before they could get any further through that terrible list, but it worries you that there was a list in the first place–tensions are rising quicker than ever between the colonies and the British. The last thing this country needs is inner hostility. America needs to be unified; killing sure isn't going to convince anyone either...
+
+After thinking long and hard, you realize that America needs a strong leader to bring all the colonies north and south under one command. Someone clever, patriotic, level-headed and quick-thinking...Someone who can solve a murder and drink two cups of coffee a single day just to spite the East India Trading Company.
+
+America needs Sheriff Jaylu.
+
+@:TheEnd
+
+:GoTavern[Tavern.png]:
+
+You decide to leave all the stiff politicians to Mr. Smithson (you felt that it was about time to ask your deputy for his name). Besides, you've always felt more at home among drunkards anyway.
+
+"Alrighty then, guess I'll start by talking to that group of foriegners–er, Virginians. Patrick Henry, Thomas Jefferson...there's a whole buncha them and they seem awful suspicious."
+
+On your way to the tavern, you are notice a rather unruly looking man holding a stack of small papers, handing them out to passerby. He looks somewhat tipsy, so you might want to stay away, but on the other hand, he's probably been on this street all day--he might have seen something. You hear the sounds of an angry mob coming from the direction of the ports, which are only a few minutes’ walk from here.
+
+@tavern, bar, continue, ignore, stay, Tavern:Tavern
+@talk, man, ask, seen, papers, ask, approach:Pamphletman
+@Mob, ports, port, angry:Ports
+@:Pamphletman
+
+ 
+
+
+:Pamphletman[Tavern.png]:
+
+You approach the man, but before you can even open your mouth, he shouts, "Paul Revere beseeches you, fight for liberty! Down with the British! Don't you want to be free!? JOIN THE SONS OF LIBERTY NOW." He shoves one of the little pamphlets into your hand; you can smell the alcohol on his breath as he proceeds to yell into your face, "92! 45! 92! 45!" You quickly back away, and the man, Paul Revere, loses interest, deciding to harass another pedestrian. You examine the paper in your hand...it's exactly the same as the one found on Hutchinson's body! The killer must have passed by this man before he found Hutchinson. From here you could continue on to the tavern, or you could head towards the mob that you heard before.
+@port, ports, mob:Ports @tavern, bar:Tavern @:Ports  
+ 
+
+:Ports[Port.png]:
+
+As you approach the port, the shouting of the crowd becomes clearer,
+
+ 
+
+"You have no right to keep our ships from using this port!"
+
+ 
+
+"Just because we didn't want to buy your tea doesn't mean you have the right to force it down our throats!"
+
+ 
+
+You see a ship with the Union Jack on its mast pulling in to dock. You could ask the people why they are demonstrating, or you could wait to see who is arriving from England.
+
+@wait, arriving, arrive, ship, england, England:WaitShip @ask, Ask, people, demonstrating, mob:AskPeople
+
+ 
+
+:AskPeople[Port_BRush]:
+
+You turn to your right, hoping to get some juicy information. You recognize the man as Benjamin Rush, an active member of the Sons of Liberty. He says,
+
+ 
+
+"This is absurd! There is no reason why action so extreme is necessary. The English are closing the ports of Boston all because of the silly 'Tea Party' show we put on a few months ago. Now I hear they're sending some type of Enforcer to deprive us of our freedom. Ah! Someone is leaving the ship, ready your tomatoes and we'll give him a piece of our mind!"
+
+ 
+
+A man in a long red jacket exits the foreign vessel...
+
+@:ThomasGage
+
+ 
+
+:WaitShip[Port]:
+
+The ship comes to a stop, docking only a short distance from where you stand. Perhaps this has something to do with the recent "Intolerable Acts" put into place by Parliament. In almost direct response to your question, a man in a long red jacket exits the foreign vessel...
+
+@:ThomasGage
+
+ 
+:ThomasGage[Port_TGage]:
+
+"Greetings, Ladies and Gentlemen of Boston. I am Thomas Gage. As you undoubtedly know, this colony has been less than cooperative with your mother-country in the last few years. As a result of these....misunderstandings, I have decided to relieve your good Governor Thomas Hutchinson of his duties. It is my hope that, as different as we may seem, we can meet eye to eye under the law."
+
+ 
+
+"From bad to worse!" Yells one member of the crowd.
+
+ 
+
+You realize that none of the people here, especially Gage, could be the murderer that you seek. In fact, they all still seem to be unaware of Hutchinson's untimely demise.
+
+ 
+
+As the crowd disbands, you follow them back to the tavern.
+
+@:Tavern
+
+ 
+
+:Tavern[Tavern]:
+
+The bells connected to the door jingle slightly as you enter. It is a rowdy place; people are singing, arguing, playing billiards and, of course, drinking. At the center of it all is a large table surrounded by well-dressed men. They seem to be listening intently to one man at the head of table who is giving some kind of speech. You wonder if you should move closer and listen to the man, or take a seat nearby and question him right now...
+
+@question, ask, sit, seat, interrogate:QuestionHim @listen, watch, wait, closer:Interrupted @:Interrupted
+
+ 
+
+:QuestionHim[Tavern_SamAdams]:
+
+You pull up a chair just beside the man, who you now identify as Samuel Adams (He has come to your office to complain about the British before). You decide a direct approach is necessary with this one,
+
+ 
+
+"Samuel Adams, where were you yesterday evening, the 12th of May?" you ask.
+
+ 
+
+"Sheriff? What are you doing in a place like this? Yesterday evening? Whatever do you mean? I was here in the tavern as usual, laughing at a rather crude British comic depicting a group American women and a dog relieving himself on a tea caddy, interesting how the English believe they can poke fun at our women, when they are most likely getting more done then we are down in South Carolina. In fact I was-"
+
+ 
+
+"YOU MONGREL"  
+
+ 
+
+With a crash, a middle aged man bursts through the tavern door setting off a chain reaction of ringing from the hanging bells. Pointing at Adams, he shouts,
+
+ 
+
+"You have crossed the line! I knew you were a violent man after that dreadful incident with the English soldiers 4 years ago, but simple, unprovoked murder? I thought you were a better man, Adams."
+
+ 
+
+Strangely, Adams looks thoroughly bewildered,
+
+ 
+
+"What in god's name are you talking about, Galloway? Murder?"
+
+ 
+
+"You know exactly what I am talking about. I just finished speaking with Deputy Smithson over at the courts. Thomas Hutchinson has been killed! Everybody knows that he and you didn't exactly get along. Furthermore, the deputy tells me that you practically signed your name at the scene of the crime-the numbers 92 and 45 were on a piece of paper! In fact, I see the Sheriff herself in this very establishment; surely she has come to arrest you."
+
+ 
+
+Suddenly, all eyes are on you. You say...
+
+@yes:Yes @no, nope, haven't, won't, can't:Nope
+
+ 
+:Interrupted[Tavern_JGalloway]:
+
+The man is practically shouting at this point,
+ 
+
+"...and we must prove to these pompous English rats that they cannot enslave us! This latest so called 'Law' is a disgrace! To close the ports of Boston is to deny the people free commerce. They will not do this or my name isn't Samuel Adams! However, before we deal with the external threat, we must handle those who wish to destroy us from within! I have with me a list of the ones known as 'Loyalists'; those who would deny us our freedom! The list was given to me by my good friend-
+
+ 
+
+'YOU MONGREL"  
+
+ 
+
+With a crash, a middle aged man bursts through the tavern door setting off a chain reaction of ringing from the hanging bells. Pointing at Adams, he shouts,
+
+ 
+
+"You have crossed the line! I knew you were a violent man after that dreadful incident with the English soldiers 4 years ago, but simple, unprovoked murder? I thought you were a better man, Adams."
+
+ 
+
+Strangely, Adams looks thoroughly bewildered,
+
+ 
+
+"What in god's name are you talking about, Galloway? Murder?"
+
+ 
+
+"You know exactly what I am talking about. I just finished speaking with Deputy Smithson over at the courts. Thomas Hutchinson has been killed! Everybody knows that he and you didn't exactly get along. Furthermore, The deputy tells me that you practically signed your name at the scene of the crime-the numbers 92 and 45 were on a piece of paper! In fact, I see the Sheriff herself in this very establishment; surely she has come to arrest you."
+
+ 
+
+Suddenly, all eyes are on you. You decide to say...
+
+@yes:Yes @no, nope, haven't, not, won't, can't:Nope @:Yes
+
+ 
+
+:Yes[Tavern_SamAdams]:
+
+You feel confident that Samuel Adams is your man. Before you even have a chance to speak, he stands up and proclaims,
+
+@:Notsam
+
+ 
+
+:Nope[Tavern_SamAdams]:
+
+Although the evidence seems to pointing towards the Sons of Liberty, it could have been any one of them. As you make your decision, Mr. Adams stands up and says,
+
+ 
+
+@:Notsam
+
+ 
+
+:Notsam[Tavern_SamAdams]:
+
+"What a preposterous accusation! Why, I only just returned from a trip to New York City where I met with my good friend Alexander McDougall about how we will deal with that dastardly printer, James Rivington. Besides, the paper of which you speak is one of many hundred being distributed by the loyal and patriotic Paul Revere! I would find it hard to believe that Paul knew that this man was going to kill somebody before he handed out that paper."
+
+ 
+
+A man at the far end of the table jumps up somewhat violently, you recognize his face from when the English accused him of smuggling wine in his ship, Liberty–hold on....the seaman's chest? Could it have read, 'LIBERTY'? As your curiosity grows, John Hancock begins to speak,
+
+ 
+
+"And it was certainly not Paul Revere; he hasn't a violent bone in him. He's done nothing but good for our cause. Allow me to prove his innocence-as well as mine, before you even ask. Last night Mr. Revere and I were in this very tavern reading aloud a letter from Londoner John Wilkes to Revere himself. I believe they felt a connection through the number 45. You see, Mr. Wilkes' 45th essay was highly patriotic and Mr. Revere crafted this punch bowl that we drink from right now. It weighs 45 ounces and carries 45 half-cups. You surely must understand that neither of us could have been shooting a man whilst reading a letter, do you not?"
+
+ 
+
+You take all of this in, yet something is not quite right about his story...you just don't know what. You decide to try and dig up more information. You wonder if you should question Mr. Hancock or go find Paul Revere himself back outside the pub handing out leaflets...
+
+@Paul, paul, Revere, revere, Revere:PaulReturns @John, hancock, Hancock, John:QuestionJohn
+
+ 
+
+:PaulReturns[Tavern]:
+
+On your way outside, you only make it up to the door before the door is pushed open once again, this time revealing none other than Paul Revere himself!
+
+@:Whoops
+
+ 
+
+:QuestionJohn[Tavern_Hancock]:
+
+Paul can wait; you want to know exactly what the letter said. Before you can finish the sentence, the door is pushed open once again, this time revealing none other than Paul Revere himself!
+
+@:Whoops
+
+ 
+
+ 
+
+:Whoops[Tavern_PaulRev]:
+
+He strides into the tavern, walking right past you. He turns to John Hancock and booms,
+
+ 
+
+"John! Did you get my message; it was on the back of the paper I gave you. I just wanted to thank you for agreeing to help me get through that list from Wilkes. I know we could probably get Alexander McDougall to take care of Rivington, but who is next on the list?"
+
+ 
+
+John Hancock has gone quite pale, but before you can even get in an "Ah ha!" Samuel Adams holds up a piece of paper,
+
+ 
+
+"Paul, John? Is this the list you speak of? Thomas Hutchinson, James Rivington.... My god, those are the first two names on the list of Loyalists Wilkes sent us!"
+
+ 
+
+A list of Loyalists from colony supporter John Wilkes, the "Thanks my friend" note, the numbers on the leaflet, the skull and crossbones picture-it's all coming together. It seems that John Hancock and Paul Revere acted alone. 
+
+@:HancockDefense
+
+
+:HancockDefense[Tavern_Hancock]:
+
+As you place the two of them under arrest, John Hancock defends his actions,
+
+ 
+
+"Wilkes didn't send that list for nothing! It's our job as defenders of freedom to remove anything or anyone that might be an inconvenience to us. The loyalists are worse than the British-they're traitors!"
+
+ 
+
+You put up with a lot of things here in Boston, but murder isn't one of them. You turn to Hancock,
+
+ 
+
+"Tar and feathers is bad enough! As sheriff I think it makes sense for me to draw the line at murder."
+
+@:NearEnd
+
+:NearEnd[Tavern]:
+
+Glancing around the room, you notice whispering among the tavern's customers....you hope that these people value the law as much as you do. 
+As you are preparing for the worst, however, the door swings open yet again–this time, in walks your deputy and two other men! What convienient backup. Deputy Smithson tells you they came immediately from the capital as soon as they heard the news.
+@:JohnEnd
+
+:JohnEnd[Tavern_JohnAdams]:
+
+One of the men with him (you recognize him as John Adams) looks especially angry,
+
+"What terrible desecration of everything the Sons of Liberty stand for! I am almost ashamed to be one." Motioning at the third man, Adams now looks at you, "This is Daniel Lenoard–a friend of the deceased. You will likely find him a suitable prosecution for this unsavory event."
+
+@:End
+
+:End[Tavern]:
+
+What a day!
+
+You're glad you caught the conspirators before they could get any further through that terrible list, but it worries you that there was a list in the first place–tensions are rising quicker than ever between the colonies and the British. The last thing this country needs is inner hostility. America needs to be unified; killing sure isn't going to convince anyone either...
+
+After thinking long and hard, you realize that America needs a strong leader to bring all the colonies north and south under one command. Someone clever, patriotic, level-headed and quick-thinking...Someone who can solve a murder and drink two cups of coffee a single day just to spite the East India Trading Company.
+
+America needs Sheriff Jaylu.
+
+@:TheEnd
+
+ 

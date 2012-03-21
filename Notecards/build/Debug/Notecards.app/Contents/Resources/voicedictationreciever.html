@@ -1,0 +1,26 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Notecards</title>
+</head>
+<body>
+
+<form id="theform" action="" method="post">
+<textarea type="text" name="content" id="content" x-webkit-speech>
+</textarea>
+<input type="submit" />
+</form>
+<script type="text/javascript">
+var content = document.getElementById('content'),
+i = setInterval(function () {
+	var value = content.value
+	if (value !== "") {
+		req = new XMLHttpRequest();;
+		req.open('POST', 'index.php', true);
+		req.send(value);
+		alert(value);
+		content.value = "";
+	}
+}, 1000);
+</script>
+</body>
+</html>

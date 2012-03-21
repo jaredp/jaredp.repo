@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Snake' target in the 'Snake' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

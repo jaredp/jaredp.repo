@@ -1,0 +1,117 @@
+TFIX Parser
+v7
+r0
+t292117062.571865
+cCheck dependencies
+cCompileC "build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/main.o" "/Users/Jared/Dropbox/FIX Parser/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/Datatable.o" "/Users/Jared/Dropbox/FIX Parser/Datatable.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/Jared/Dropbox/FIX Parser/build/Debug/FIX Parser" normal i386
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC326060000000000004174
+t1254303238
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC326060000000000002DF5
+t1254303238
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/omp.h
+c000000004AA754200000000000000AE9
+t1252480032
+s2793
+
+N/Users/Jared/Dropbox/FIX Parser/Datatable.cpp
+c000000004BB91C7B0000000000000C65
+t1270422651
+s3173
+i"Datatable.h"
+i<omp.h>
+i<cstdlib>
+
+N/Users/Jared/Dropbox/FIX Parser/Datatable.h
+c000000004BB9178E00000000000001CB
+t1270421390
+s459
+i<stdio.h>
+i"bulkallocator.h"
+
+N/Users/Jared/Dropbox/FIX Parser/build/Debug/FIX Parser
+t1270424262
+s1290196
+
+N/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/Datatable.o
+t1270424262
+s2511236
+
+N/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/FIX Parser.LinkFileList
+c000000004BB922C000000000000000D7
+t1270424256
+s215
+
+N/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/main.o
+t1270424256
+s10652
+
+N/Users/Jared/Dropbox/FIX Parser/bulkallocator.h
+c000000004BB91D08000000000000058F
+t1270422792
+s1423
+
+N/Users/Jared/Dropbox/FIX Parser/main.cpp
+c000000004BB92288000000000000048A
+t1270424200
+s1162
+i<stdio.h>
+i<stdlib.h>
+i<omp.h>
+i"Datatable.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies292117056#292117056#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC "build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/Datatable.o" "/Users/Jared/Dropbox/FIX Parser/Datatable.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s292117056.594364
+e292117062.336215
+r1
+xCompileC
+xbuild/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/Datatable.o
+x/Users/Jared/Dropbox/FIX Parser/Datatable.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/Jared/Dropbox/FIX Parser/Datatable.cpp: In member function 'int datatable::parse(char*, size_t, unsigned char)':
+o/Users/Jared/Dropbox/FIX Parser/Datatable.cpp:154: warning: control reaches end of non-void function
+lSLF07#2@53"Compile /Users/Jared/Dropbox/FIX Parser/Datatable.cpp292117056#292117062#0(221"/Users/Jared/Dropbox/FIX Parser/Datatable.cpp: In member function 'int datatable::parse(char*, size_t, unsigned char)':/Users/Jared/Dropbox/FIX Parser/Datatable.cpp:154: warning: control reaches end of non-void function3(22@111"The option '-D_GLIBCXX_DEBUG_PEDANTIC=1' should not be passed to GCC 4.2 and has been automatically suppressed.292117054#18446744073709551615#0#0(1@0"0(22@102"The option '-D_GLIBCXX_DEBUG=1' should not be passed to GCC 4.2 and has been automatically suppressed.292117054#18446744073709551615#0#0(1@0"0(22@40"Control reaches end of non-void function292117057#120#101#0(6@45"/Users/Jared/Dropbox/FIX Parser/Datatable.cpp292115451#154#0#154#0#40"control reaches end of non-void function0(0#0#45"/Users/Jared/Dropbox/FIX Parser/Datatable.cpp8319383698887823360#1303"    cd "/Users/Jared/Dropbox/FIX Parser"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fopenmp -iquote "/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/FIX Parser-generated-files.hmap" "-I/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/FIX Parser-own-target-headers.hmap" "-I/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/FIX Parser-all-target-headers.hmap" -iquote "/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/FIX Parser-project-headers.hmap" "-F/Users/Jared/Dropbox/FIX Parser/build/Debug" "-I/Users/Jared/Dropbox/FIX Parser/build/Debug/include" "-I/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/DerivedSources/i386" "-I/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/DerivedSources" -c "/Users/Jared/Dropbox/FIX Parser/Datatable.cpp" -o "/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/Datatable.o"0#
+
+CCompileC "build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/main.o" "/Users/Jared/Dropbox/FIX Parser/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s292117056.590038
+e292117056.694640
+r1
+xCompileC
+xbuild/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/main.o
+x/Users/Jared/Dropbox/FIX Parser/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Jared/Dropbox/FIX Parser/main.cpp292117056#292117056#0(0"2(22@111"The option '-D_GLIBCXX_DEBUG_PEDANTIC=1' should not be passed to GCC 4.2 and has been automatically suppressed.292117054#18446744073709551615#0#0(1@0"0(22@102"The option '-D_GLIBCXX_DEBUG=1' should not be passed to GCC 4.2 and has been automatically suppressed.292117054#18446744073709551615#0#0(1@0"0(0#0#40"/Users/Jared/Dropbox/FIX Parser/main.cpp8319383698887823360#1293"    cd "/Users/Jared/Dropbox/FIX Parser"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fopenmp -iquote "/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/FIX Parser-generated-files.hmap" "-I/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/FIX Parser-own-target-headers.hmap" "-I/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/FIX Parser-all-target-headers.hmap" -iquote "/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/FIX Parser-project-headers.hmap" "-F/Users/Jared/Dropbox/FIX Parser/build/Debug" "-I/Users/Jared/Dropbox/FIX Parser/build/Debug/include" "-I/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/DerivedSources/i386" "-I/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/DerivedSources" -c "/Users/Jared/Dropbox/FIX Parser/main.cpp" -o "/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/main.o"0#
+
+CLd "/Users/Jared/Dropbox/FIX Parser/build/Debug/FIX Parser" normal i386
+s292117062.336398
+e292117062.571798
+r1
+xLd
+x/Users/Jared/Dropbox/FIX Parser/build/Debug/FIX Parser
+xnormal
+xi386
+lSLF07#2@59"Link /Users/Jared/Dropbox/FIX Parser/build/Debug/FIX Parser292117062#292117062#0(0"0(0#0#0"4300911832#490"    cd "/Users/Jared/Dropbox/FIX Parser"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Jared/Dropbox/FIX Parser/build/Debug" "-F/Users/Jared/Dropbox/FIX Parser/build/Debug" -filelist "/Users/Jared/Dropbox/FIX Parser/build/FIX Parser.build/Debug/FIX Parser.build/Objects-normal/i386/FIX Parser.LinkFileList" -mmacosx-version-min=10.6 -fopenmp -o "/Users/Jared/Dropbox/FIX Parser/build/Debug/FIX Parser"0#
+

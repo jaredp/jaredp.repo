@@ -1,0 +1,552 @@
+TFinder
+v7
+r0
+t323511502.113718
+cCheck dependencies
+cProcessInfoPlistFile /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Info.plist Finder-Info.plist
+cCopyStringsFile /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Jared/Dropbox/Development/Odysseus/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch.gch Finder_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/main.o /Users/Jared/Dropbox/Development/Odysseus/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/OdysseusAppDelegate.o /Users/Jared/Dropbox/Development/Odysseus/OdysseusAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataCompressor.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataDecompressor.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataDecompressor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIFormDataRequest.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIInputStream.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/MacOS/Finder normal x86_64
+cTouch /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004B760CB1000000000007764C
+t1266027697
+s489036
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004864CDF300000000000002C0
+t1214565875
+s704
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004B760CC5000000000001F92C
+t1266027717
+s129324
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c0000000047BAC5050000000000001876
+t1203422469
+s6262
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004B760CDC00000000000371FC
+t1266027740
+s225788
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/Availability.h
+c000000004817F96800000000000014A1
+t1209530728
+s5281
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c0000000047BA98710000000000000DE2
+t1203411057
+s3554
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/dlfcn.h
+c00000000487581E60000000000000AC7
+t1215660518
+s2759
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/zlib.h
+c0000000047BABC0600000000000102A5
+t1203420166
+s66213
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/libz.1.2.3.dylib
+c000000004B760D050000000000006EE8
+t1266027781
+s28392
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004CB3F2FA000000000000A5E0
+t1286861562
+s42464
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASICacheDelegate.h
+c000000004D3B091C00000000000011D1
+t1295714588
+s4561
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataCompressor.h
+c000000004D3B091C000000000000072C
+t1295714588
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataCompressor.m
+c000000004D3B091C0000000000001AAE
+t1295714588
+s6830
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataDecompressor.h
+c000000004D3B091C00000000000006A3
+t1295714588
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataDecompressor.m
+c000000004D3B091C0000000000001969
+t1295714588
+s6505
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDownloadCache.h
+c000000004D3B091C0000000000000804
+t1295714588
+s2052
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDownloadCache.m
+c000000004D3B091C000000000000420D
+t1295714588
+s16909
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIFormDataRequest.h
+c000000004D3B091C0000000000000A6D
+t1295714588
+s2669
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIFormDataRequest.m
+c000000004D3B091C0000000000002B6A
+t1295714588
+s11114
+i"ASIFormDataRequest.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequest.h
+c000000004D3B091C000000000000A9CB
+t1295714588
+s43467
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequest.m
+c000000004D3B091C0000000000028476
+t1295714588
+s164982
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequestConfig.h
+c000000004D3B091C00000000000003B0
+t1295714588
+s944
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequestDelegate.h
+c000000004D3B091C000000000000063E
+t1295714588
+s1598
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIInputStream.h
+c000000004D3B091C00000000000003C9
+t1295714588
+s969
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIInputStream.m
+c000000004D3B091C0000000000000C14
+t1295714588
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASINetworkQueue.h
+c000000004D3B091C000000000000120D
+t1295714588
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASINetworkQueue.m
+c000000004D3B091C0000000000002C8D
+t1295714588
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIProgressDelegate.h
+c000000004D3B091C0000000000000678
+t1295714588
+s1656
+
+N/Users/Jared/Dropbox/Development/Odysseus/CLError.h
+c000000004D9816F60000000000000288
+t1301812982
+s648
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/CLLocation.h
+c000000004D98186B00000000000015A8
+t1301813355
+s5544
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/CLLocationManager.h
+c000000004D98182900000000000009F6
+t1301813289
+s2550
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/CLLocationManagerDelegate.h
+c000000004D9816F600000000000003DC
+t1301812982
+s988
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/CoreLocation.h
+c000000004D98196A0000000000000140
+t1301813610
+s320
+i"CLError.h"
+i"CLLocation.h"
+i"CLLocationManager.h"
+i"CLLocationManagerDelegate.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/English.lproj/InfoPlist.strings
+c000000004D4A4916000000000000002D
+t1296714006
+s45
+
+N/Users/Jared/Dropbox/Development/Odysseus/English.lproj/MainMenu.xib
+c000000004D982187000000000002BE8F
+t1301815687
+s179855
+
+N/Users/Jared/Dropbox/Development/Odysseus/Finder_Prefix.pch
+c000000004D4A49160000000000000093
+t1296714006
+s147
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/OdysseusAppDelegate.h
+c000000004D981E3D00000000000001D7
+t1301814845
+s471
+i<Cocoa/Cocoa.h>
+i"CoreLocation.h"
+
+N/Users/Jared/Dropbox/Development/Odysseus/OdysseusAppDelegate.m
+c000000004D9830ED000000000000125A
+t1301819629
+s4698
+i"OdysseusAppDelegate.h"
+i"ASIFormDataRequest.h"
+i<AddressBook/AddressBook.h>
+i<dlfcn.h>
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app
+t1301818702
+s102
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Info.plist
+t1301815703
+s958
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/MacOS/Finder
+t1301818702
+s380064
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/PkgInfo
+t1301815703
+s8
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1301815704
+s92
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Resources/English.lproj/MainMenu.nib
+t1301815704
+s33375
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataCompressor.o
+t1301815706
+s28004
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataDecompressor.o
+t1301815706
+s27972
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDownloadCache.o
+t1301815706
+s72488
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIFormDataRequest.o
+t1301815706
+s55992
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIHTTPRequest.o
+t1301815706
+s504484
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIInputStream.o
+t1301815706
+s33864
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASINetworkQueue.o
+t1301815706
+s79652
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/Finder.LinkFileList
+c000000004D982197000000000000044B
+t1301815703
+s1099
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/OdysseusAppDelegate.o
+t1301818702
+s36692
+
+N/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/main.o
+t1301815706
+s4992
+
+N/Users/Jared/Dropbox/Development/Odysseus/main.m
+c000000004D4A49160000000000000105
+t1296714006
+s261
+i<Cocoa/Cocoa.h>
+
+N/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch.gch
+t1301815705
+s51183920
+
+NFinder-Info.plist
+c000000004D98210E0000000000000435
+t1301815566
+s1077
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323511501#323511501#0(0"0(0#1#0"8603469152#0"0#
+
+CCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataCompressor.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataCompressor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323508506.016853
+e323508506.167130
+r1
+xCompileC
+xbuild/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataCompressor.o
+x/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataCompressor.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataCompressor.m323508506#323508506#0(0"0(0#0#76"/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataCompressor.m8637176896#1526"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch -c /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataCompressor.m -o /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataCompressor.o0#
+
+CCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataDecompressor.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataDecompressor.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323508506.017492
+e323508506.190038
+r1
+xCompileC
+xbuild/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataDecompressor.o
+x/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataDecompressor.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataDecompressor.m323508506#323508506#0(0"0(0#0#78"/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataDecompressor.m8634941568#1530"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch -c /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDataDecompressor.m -o /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDataDecompressor.o0#
+
+CCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323508506.131329
+e323508506.404138
+r1
+xCompileC
+xbuild/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDownloadCache.o
+x/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDownloadCache.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDownloadCache.m323508506#323508506#0(0"0(0#0#75"/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDownloadCache.m8633062304#1524"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch -c /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIDownloadCache.m -o /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIDownloadCache.o0#
+
+CCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIFormDataRequest.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323508506.155153
+e323508506.370392
+r1
+xCompileC
+xbuild/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIFormDataRequest.o
+x/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIFormDataRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIFormDataRequest.m323508506#323508506#0(0"0(0#0#77"/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIFormDataRequest.m8631756992#1528"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch -c /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIFormDataRequest.m -o /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIFormDataRequest.o0#
+
+CCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323508506.167210
+e323508506.933238
+r1
+xCompileC
+xbuild/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIHTTPRequest.o
+x/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequest.m323508506#323508506#0(0"0(0#0#73"/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequest.m8631218976#1520"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch -c /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIHTTPRequest.m -o /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIHTTPRequest.o0#
+
+CCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIInputStream.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323508506.190119
+e323508506.339557
+r1
+xCompileC
+xbuild/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIInputStream.o
+x/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIInputStream.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIInputStream.m323508506#323508506#0(0"0(0#0#73"/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIInputStream.m8630953824#1520"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch -c /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASIInputStream.m -o /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASIInputStream.o0#
+
+CCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323508506.339635
+e323508506.509763
+r1
+xCompileC
+xbuild/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASINetworkQueue.o
+x/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASINetworkQueue.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASINetworkQueue.m323508506#323508506#0(0"0(0#0#74"/Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASINetworkQueue.m8628278112#1522"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch -c /Users/Jared/Dropbox/Development/Odysseus/ASIHttpRequest/ASINetworkQueue.m -o /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/ASINetworkQueue.o0#
+
+CCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/OdysseusAppDelegate.o /Users/Jared/Dropbox/Development/Odysseus/OdysseusAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323511501.788439
+e323511502.063630
+r1
+xCompileC
+xbuild/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/OdysseusAppDelegate.o
+x/Users/Jared/Dropbox/Development/Odysseus/OdysseusAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Jared/Dropbox/Development/Odysseus/OdysseusAppDelegate.m323511501#323511502#0(0"0(0#0#63"/Users/Jared/Dropbox/Development/Odysseus/OdysseusAppDelegate.m8643897664#1515"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch -c /Users/Jared/Dropbox/Development/Odysseus/OdysseusAppDelegate.m -o /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/OdysseusAppDelegate.o0#
+
+CCompileC build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/main.o /Users/Jared/Dropbox/Development/Odysseus/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323508506.015508
+e323508506.131242
+r1
+xCompileC
+xbuild/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/main.o
+x/Users/Jared/Dropbox/Development/Odysseus/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/Jared/Dropbox/Development/Odysseus/main.m323508506#323508506#0(0"0(0#0#48"/Users/Jared/Dropbox/Development/Odysseus/main.m8638088032#1485"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch -c /Users/Jared/Dropbox/Development/Odysseus/main.m -o /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/Jared/Dropbox/Development/Odysseus/English.lproj/MainMenu.xib
+s323508504.007535
+e323508504.253787
+r1
+xCompileXIB
+x/Users/Jared/Dropbox/Development/Odysseus/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib323508504#323508504#0(0"0(0#0#68"/Users/Jared/Dropbox/Development/Odysseus/English.lproj/MainMenu.xib8643470208#372"    cd /Users/Jared/Dropbox/Development/Odysseus    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Jared/Dropbox/Development/Odysseus/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCopyStringsFile /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s323508504.004156
+e323508504.041004
+r1
+xCopyStringsFile
+x/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings323508504#323508504#0(0"0(0#0#73"/Users/Jared/Dropbox/Development/Odysseus/English.lproj/InfoPlist.strings8630556672#370"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Resources/English.lproj0#
+
+CLd /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/MacOS/Finder normal x86_64
+s323511502.063809
+e323511502.111093
+r1
+xLd
+x/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/MacOS/Finder
+xnormal
+xx86_64
+lSLF07#2@91"Link /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/MacOS/Finder323511502#323511502#0(0"0(0#0#0"8637502976#642"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/Jared/Dropbox/Development/Odysseus/build/Debug -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -filelist /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Objects-normal/x86_64/Finder.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework CoreServices -framework SystemConfiguration -lz.1.2.3 -framework AddressBook -o /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/MacOS/Finder0#
+
+CProcessInfoPlistFile /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Info.plist Finder-Info.plist
+s323508503.994464
+e323508504.004072
+r1
+xProcessInfoPlistFile
+x/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Info.plist
+xFinder-Info.plist
+lSLF07#2@25"Process Finder-Info.plist323508503#323508504#0(0"0(0#0#59"/Users/Jared/Dropbox/Development/Odysseus/Finder-Info.plist8631501824#316"    cd /Users/Jared/Dropbox/Development/Odysseus    builtin-infoPlistUtility Finder-Info.plist -genpkginfo /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch.gch Finder_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323508504.253948
+e323508506.015325
+r1
+xProcessPCH
+x/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch.gch
+xFinder_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Finder_Prefix.pch323508504#323508506#0(0"0(0#0#59"/Users/Jared/Dropbox/Development/Odysseus/Finder_Prefix.pch8631744640#1387"    cd /Users/Jared/Dropbox/Development/Odysseus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-generated-files.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/Finder-project-headers.hmap -F/Users/Jared/Dropbox/Development/Odysseus/build/Debug -I/Users/Jared/Dropbox/Development/Odysseus/build/Debug/include -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Odysseus/build/Odysseus.build/Debug/Finder.build/DerivedSources -c /Users/Jared/Dropbox/Development/Odysseus/Finder_Prefix.pch -o /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finder_Prefix-gdfpuyuutkrljqbelfjfayvwhyzb/Finder_Prefix.pch.gch0#
+
+CTouch /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app
+s323511502.111169
+e323511502.113684
+r1
+xTouch
+x/Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app
+lSLF07#2@70"Touch /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app323511502#323511502#0(0"0(0#0#0"8637327360#136"    cd /Users/Jared/Dropbox/Development/Odysseus    /usr/bin/touch -c /Users/Jared/Dropbox/Development/Odysseus/build/Debug/Finder.app0#
+

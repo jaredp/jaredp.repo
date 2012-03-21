@@ -1,0 +1,146 @@
+TRecords
+v7
+r0
+t326605381.590322
+cCheck dependencies
+cProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch Records_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o /Users/Jared/Dropbox/Development/Records/Records.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o /Users/Jared/Dropbox/Development/Records/JPModelObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D5B397F0000000000B3E980
+t1297824127
+s11790720
+
+N/Users/Jared/Dropbox/Development/Records/JPModelObject.h
+c000000004DC7621F0000000000000107
+t1304912415
+s263
+i<Cocoa/Cocoa.h>
+
+N/Users/Jared/Dropbox/Development/Records/JPModelObject.m
+c000000004DC7621D0000000000000373
+t1304912413
+s883
+i"JPModelObject.h"
+
+N/Users/Jared/Dropbox/Development/Records/Records.m
+c000000004DC762C30000000000000244
+t1304912579
+s580
+i<Foundation/Foundation.h>
+i"JPModelObject.h"
+
+N/Users/Jared/Dropbox/Development/Records/Records_Prefix.pch
+c000000004DC75E61000000000000009C
+t1304911457
+s156
+i<Foundation/Foundation.h>
+
+N/Users/Jared/Dropbox/Development/Records/build/Debug/Records
+t2
+s0
+
+N/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o
+t2
+s0
+
+N/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.LinkFileList
+c000000004DC762C300000000000000E8
+t1304912579
+s232
+
+N/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o
+t2
+s0
+
+N/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch
+t1304912581
+s41429776
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326605379#326605379#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o /Users/Jared/Dropbox/Development/Records/JPModelObject.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s326605381.401478
+e326605381.587073
+r0
+xCompileC
+xbuild/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o
+x/Users/Jared/Dropbox/Development/Records/JPModelObject.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Jared/Dropbox/Development/Records/JPModelObject.m: In function '-[JPModelObject forwardInvocation:]':
+o/Users/Jared/Dropbox/Development/Records/JPModelObject.m:19: error: 'selector' undeclared (first use in this function)
+o/Users/Jared/Dropbox/Development/Records/JPModelObject.m:19: error: (Each undeclared identifier is reported only once
+o/Users/Jared/Dropbox/Development/Records/JPModelObject.m:19: error: for each function it appears in.)
+o/Users/Jared/Dropbox/Development/Records/JPModelObject.m:31: error: expected ']' before 'setObject'
+o/Users/Jared/Dropbox/Development/Records/JPModelObject.m:31: error: array subscript is not an integer
+lSLF07#2@64"Compile /Users/Jared/Dropbox/Development/Records/JPModelObject.m326605381#326605381#0(650"/Users/Jared/Dropbox/Development/Records/JPModelObject.m: In function '-[JPModelObject forwardInvocation:]':/Users/Jared/Dropbox/Development/Records/JPModelObject.m:19: error: 'selector' undeclared (first use in this function)/Users/Jared/Dropbox/Development/Records/JPModelObject.m:19: error: (Each undeclared identifier is reported only once/Users/Jared/Dropbox/Development/Records/JPModelObject.m:19: error: for each function it appears in.)/Users/Jared/Dropbox/Development/Records/JPModelObject.m:31: error: expected ']' before 'setObject'/Users/Jared/Dropbox/Development/Records/JPModelObject.m:31: error: array subscript is not an integer3(4@50"'selector' undeclared (first use in this function)326605381#109#119#0(6@56"/Users/Jared/Dropbox/Development/Records/JPModelObject.m326605213#19#0#19#0#43"'*' undeclared (first use in this function)0(4@31"Expected ']' before 'setObject'326605381#448#100#0(6@56"/Users/Jared/Dropbox/Development/Records/JPModelObject.m326605213#31#0#31#0#19"expected * before *0(4@33"Array subscript is not an integer326605381#548#102#0(6@56"/Users/Jared/Dropbox/Development/Records/JPModelObject.m326605213#31#0#31#0#0"0(0#0#56"/Users/Jared/Dropbox/Development/Records/JPModelObject.m8644457824#1490"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch -c /Users/Jared/Dropbox/Development/Records/JPModelObject.m -o /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/JPModelObject.o1#
+
+CCompileC build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o /Users/Jared/Dropbox/Development/Records/Records.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s326605381.400815
+e326605381.590278
+r0
+xCompileC
+xbuild/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o
+x/Users/Jared/Dropbox/Development/Records/Records.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'name' requires method '-name' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'name' requires the method 'setName:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'title' requires method '-title' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'title' requires the method 'setTitle:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'kvp' requires method '-kvp' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'kvp' requires the method 'setKvp:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Jared/Dropbox/Development/Records/Records.m: In function 'main':
+o/Users/Jared/Dropbox/Development/Records/Records.m:19: warning: 'mymodel' may not respond to '+setName:'
+o/Users/Jared/Dropbox/Development/Records/Records.m:19: warning: (Messages without a matching method signature
+o/Users/Jared/Dropbox/Development/Records/Records.m:19: warning: will be assumed to return 'id' and accept
+o/Users/Jared/Dropbox/Development/Records/Records.m:19: warning: '...' as arguments.)
+o/Users/Jared/Dropbox/Development/Records/Records.m:20: error: accessing unknown 'setTitle:' class method
+o/Users/Jared/Dropbox/Development/Records/Records.m:20: error: object cannot be set - either readonly property or no setter found
+o/Users/Jared/Dropbox/Development/Records/Records.m:21: error: accessing unknown 'setKvp:' class method
+o/Users/Jared/Dropbox/Development/Records/Records.m:21: error: object cannot be set - either readonly property or no setter found
+o/Users/Jared/Dropbox/Development/Records/Records.m:18: warning: unused variable 'mod'
+o/Users/Jared/Dropbox/Development/Records/Records.m:24: error: accessing unknown 'kvp' class method
+o/Users/Jared/Dropbox/Development/Records/Records.m:24: error: accessing unknown 'title' class method
+o/Users/Jared/Dropbox/Development/Records/Records.m:24: error: accessing unknown 'name' class method
+lSLF07#2@58"Compile /Users/Jared/Dropbox/Development/Records/Records.m326605381#326605381#0(2437"/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'name' requires method '-name' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'name' requires the method 'setName:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'title' requires method '-title' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'title' requires the method 'setTitle:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'kvp' requires method '-kvp' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Jared/Dropbox/Development/Records/Records.m:12: warning: property 'kvp' requires the method 'setKvp:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Jared/Dropbox/Development/Records/Records.m: In function 'main':/Users/Jared/Dropbox/Development/Records/Records.m:19: warning: 'mymodel' may not respond to '+setName:'/Users/Jared/Dropbox/Development/Records/Records.m:19: warning: (Messages without a matching method signature/Users/Jared/Dropbox/Development/Records/Records.m:19: warning: will be assumed to return 'id' and accept/Users/Jared/Dropbox/Development/Records/Records.m:19: warning: '...' as arguments.)/Users/Jared/Dropbox/Development/Records/Records.m:20: error: accessing unknown 'setTitle:' class method/Users/Jared/Dropbox/Development/Records/Records.m:20: error: object cannot be set - either readonly property or no setter found/Users/Jared/Dropbox/Development/Records/Records.m:21: error: accessing unknown 'setKvp:' class method/Users/Jared/Dropbox/Development/Records/Records.m:21: error: object cannot be set - either readonly property or no setter found/Users/Jared/Dropbox/Development/Records/Records.m:18: warning: unused variable 'mod'/Users/Jared/Dropbox/Development/Records/Records.m:24: error: accessing unknown 'kvp' class method/Users/Jared/Dropbox/Development/Records/Records.m:24: error: accessing unknown 'title' class method/Users/Jared/Dropbox/Development/Records/Records.m:24: error: accessing unknown 'name' class method16(22@116"Property 'name' requires method '-name' to be defined - use @synthesize, @dynamic or provide a method implementation326605381#0#181#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#12#0#12#0#0"0(22@123"Property 'name' requires the method 'setName:' to be defined - use @synthesize, @dynamic or provide a method implementation326605381#181#188#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#12#0#12#0#0"0(22@118"Property 'title' requires method '-title' to be defined - use @synthesize, @dynamic or provide a method implementation326605381#369#183#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#12#0#12#0#0"0(22@125"Property 'title' requires the method 'setTitle:' to be defined - use @synthesize, @dynamic or provide a method implementation326605381#552#190#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#12#0#12#0#0"0(22@114"Property 'kvp' requires method '-kvp' to be defined - use @synthesize, @dynamic or provide a method implementation326605381#742#179#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#12#0#12#0#0"0(22@121"Property 'kvp' requires the method 'setKvp:' to be defined - use @synthesize, @dynamic or provide a method implementation326605381#921#186#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#12#0#12#0#0"0(22@40"'mymodel' may not respond to '+setName:'326605381#1179#105#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#19#0#19#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326605381#1284#110#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#19#0#19#0#0"0(4@42"Accessing unknown 'setTitle:' class method326605381#1585#105#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#20#0#20#0#0"0(4@66"Object cannot be set - either readonly property or no setter found326605381#1690#129#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#20#0#20#0#0"0(4@40"Accessing unknown 'setKvp:' class method326605381#1819#103#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#21#0#21#0#0"0(4@66"Object cannot be set - either readonly property or no setter found326605381#1922#129#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#21#0#21#0#0"0(22@21"Unused variable 'mod'326605381#2051#86#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#18#0#18#0#19"unused variable '*'0(4@36"Accessing unknown 'kvp' class method326605381#2137#99#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#24#0#24#0#0"0(4@38"Accessing unknown 'title' class method326605381#2236#101#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#24#0#24#0#0"0(4@37"Accessing unknown 'name' class method326605381#2337#100#0(6@50"/Users/Jared/Dropbox/Development/Records/Records.m326605379#24#0#24#0#0"0(0#0#50"/Users/Jared/Dropbox/Development/Records/Records.m8644729728#1478"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -include /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch -c /Users/Jared/Dropbox/Development/Records/Records.m -o /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Objects-normal/x86_64/Records.o1#
+
+CLd /Users/Jared/Dropbox/Development/Records/build/Debug/Records normal x86_64
+r0
+
+CProcessPCH /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch Records_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s326605379.805583
+e326605381.400679
+r1
+xProcessPCH
+x/var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch
+xRecords_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Records_Prefix.pch326605379#326605381#0(0"0(0#0#59"/Users/Jared/Dropbox/Development/Records/Records_Prefix.pch8823796808475829248#1376"    cd /Users/Jared/Dropbox/Development/Records    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-generated-files.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-own-target-headers.hmap -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-all-target-headers.hmap -iquote /Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/Records-project-headers.hmap -F/Users/Jared/Dropbox/Development/Records/build/Debug -I/Users/Jared/Dropbox/Development/Records/build/Debug/include -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources/x86_64 -I/Users/Jared/Dropbox/Development/Records/build/Records.build/Debug/Records.build/DerivedSources -c /Users/Jared/Dropbox/Development/Records/Records_Prefix.pch -o /var/folders/54/549AMRK1GAyxzhSU0fqLRk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Records_Prefix-cnyiemcrltzerxgbendymleyeaoj/Records_Prefix.pch.gch0#
+
