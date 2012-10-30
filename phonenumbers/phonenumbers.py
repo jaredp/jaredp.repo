@@ -1,4 +1,4 @@
-wordsfilelocation = '/Users/Jared/Desktop/words.txt'
+wordsfilelocation = 'words.txt'
 
 numbers_for_letter = {
 'a': 2, 'A': 2,
@@ -36,11 +36,14 @@ numbers_for_letter = {
 'z': 9, 'Z': 9
 }
 
-words_for_numberstrings = {}
+words_for_numberstrings = {'2': ['A']}
 
 wordsfile = open(wordsfilelocation)
 for line in wordsfile:
     word = line[:-1]
+    if len(word) < 2:
+       continue
+	
     letters = list(word)
     def number_of_letter(l):
         if l in numbers_for_letter:
@@ -80,11 +83,17 @@ def possibles_for_phone(number):
     return ns.results ^ set([number])
 
 def print_possiblilities_for_phone(number_as_string):
-    for result in sorted(possibles_for_phone(number_as_string)):
-        print result
+	alpha = [chr(c) for c in range(ord('A'), ord('Z') + 1)]
+	def numletters(str):
+		return len(filter(lambda c: c in alpha, str))
+		
+	potentials = possibles_for_phone(number_as_string)
+	results = sorted(potentials, key=numletters, reverse=True)
+	for result in results:
+		print result
 
 
-print 'just type "exit" to quit'
+print 'type "exit" to quit'
 while True:
     print 'Phone number:',
     input = raw_input()

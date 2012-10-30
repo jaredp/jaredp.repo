@@ -123,7 +123,7 @@
 }
 
 @end
-
+/*
 @interface NSControl (hacking)
 @end
 
@@ -135,5 +135,5 @@
 }
 
 @end
-
+*/
 
