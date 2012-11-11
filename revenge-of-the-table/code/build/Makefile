@@ -57,8 +57,7 @@ parser.ml parser.mli : parser.mly
 
 .PHONY : clean
 clean :
-	rm -f la-mesa parser.ml parser.mli scanner.ml testall.log \
-	*.cmo *.cmi *.out *.diff
+	rm -f rtc *.ml *.mly *.mll *.mli *.cmo *.cmi *.out *.diff
 
 .PHONY : tests
 tests : la-mesa
