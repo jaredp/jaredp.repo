@@ -1,0 +1,18 @@
+
+MakeMoneyCard(@"You must pay a bribe to stop the police from reporting your party", -100, -50)
+MakeMoneyCard(@"You decide to throw a party" , -300, -100)
+MakeMoneyCard(@"You decide to donate money, because you can", -75, -25)
+MakeMoneyCard(@"Wreck your car drunk driving and pay for damages", -50, -50)
+MakeMoneyCard(@"Refill your car’s gas tank", -20, -10)
+MakeMoneyCard(@"Pay your party servers" , -125, -75)
+MakeMoneyCard(@"You must pay your wait staff" , -150, -100)
+MakeMoneyCard(@"Reline your pool", -100, -50)
+
+MakeMoneyCard(@"Engaged in seedy business dealings", 100, 200)
+MakeMoneyCard(@"Receive a gift", 50, 100)
+MakeMoneyCard(@"Sell the extra boat that's just been taking up space in your dock", 200, 300)
+MakeMoneyCard(@"Know a guy who makes bathtub gin", 100, 200)
+MakeMoneyCard(@"Make friends with your neighbor who happens to know how to make you some quick cash", 50, 100)
+MakeMoneyCard(@"Win a bet with a friend", 25, 75)
+MakeMoneyCard(@"Win a golf tournament", 75, 125)
+MakeMoneyCard(@"Win a friendly tennis match", 25, 50)

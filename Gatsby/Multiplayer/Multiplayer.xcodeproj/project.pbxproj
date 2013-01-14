@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1FA711154126210053E178 /* title-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1FA710154126210053E178 /* title-screen.png */; };
+		7F7425F215406F9400EE2D5F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7425F115406F9400EE2D5F /* MainViewController.m */; };
+		7F7425F61540746E00EE2D5F /* JPNSDataStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7425F51540746E00EE2D5F /* JPNSDataStream.m */; };
+		7FA10A721540B8D900874F8D /* TradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA10A711540B8D900874F8D /* TradeViewController.m */; };
+		7FF164D4153794A0009F91A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF164D3153794A0009F91A6 /* UIKit.framework */; };
+		7FF164D6153794A1009F91A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF164D5153794A0009F91A6 /* Foundation.framework */; };
+		7FF164D8153794A1009F91A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF164D7153794A1009F91A6 /* CoreGraphics.framework */; };
+		7FF164DE153794A1009F91A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF164DC153794A1009F91A6 /* InfoPlist.strings */; };
+		7FF164E0153794A1009F91A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF164DF153794A1009F91A6 /* main.m */; };
+		7FF164E4153794A1009F91A6 /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF164E3153794A1009F91A6 /* JPAppDelegate.m */; };
+		7FF164E7153794A1009F91A6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF164E5153794A1009F91A6 /* MainStoryboard_iPhone.storyboard */; };
+		7FF164F715379B24009F91A6 /* iPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF164F615379B24009F91A6 /* iPhoneViewController.m */; };
+		7FF164F915379DD5009F91A6 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF164F815379DD5009F91A6 /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F1FA710154126210053E178 /* title-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title-screen.png"; sourceTree = "<group>"; };
+		7F7425F015406F9400EE2D5F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7F7425F115406F9400EE2D5F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7F7425F41540746E00EE2D5F /* JPNSDataStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNSDataStream.h; sourceTree = "<group>"; };
+		7F7425F51540746E00EE2D5F /* JPNSDataStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNSDataStream.m; sourceTree = "<group>"; };
+		7FA10A701540B8D900874F8D /* TradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeViewController.h; sourceTree = "<group>"; };
+		7FA10A711540B8D900874F8D /* TradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeViewController.m; sourceTree = "<group>"; };
+		7FF164CF153794A0009F91A6 /* Multiplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF164D3153794A0009F91A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FF164D5153794A0009F91A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FF164D7153794A1009F91A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FF164DB153794A1009F91A6 /* Multiplayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multiplayer-Info.plist"; sourceTree = "<group>"; };
+		7FF164DD153794A1009F91A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FF164DF153794A1009F91A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FF164E1153794A1009F91A6 /* Multiplayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multiplayer-Prefix.pch"; sourceTree = "<group>"; };
+		7FF164E2153794A1009F91A6 /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
+		7FF164E3153794A1009F91A6 /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
+		7FF164E6153794A1009F91A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7FF164F515379B24009F91A6 /* iPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneViewController.h; sourceTree = "<group>"; };
+		7FF164F615379B24009F91A6 /* iPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneViewController.m; sourceTree = "<group>"; };
+		7FF164F815379DD5009F91A6 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FF164CC153794A0009F91A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF164F915379DD5009F91A6 /* GameKit.framework in Frameworks */,
+				7FF164D4153794A0009F91A6 /* UIKit.framework in Frameworks */,
+				7FF164D6153794A1009F91A6 /* Foundation.framework in Frameworks */,
+				7FF164D8153794A1009F91A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F7425F315406F9800EE2D5F /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				7F7425F015406F9400EE2D5F /* MainViewController.h */,
+				7F7425F115406F9400EE2D5F /* MainViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		7F7425F71540747100EE2D5F /* JPNSDataStream */ = {
+			isa = PBXGroup;
+			children = (
+				7F7425F41540746E00EE2D5F /* JPNSDataStream.h */,
+				7F7425F51540746E00EE2D5F /* JPNSDataStream.m */,
+			);
+			name = JPNSDataStream;
+			sourceTree = "<group>";
+		};
+		7FA10A741540B8DE00874F8D /* Trade View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FA10A701540B8D900874F8D /* TradeViewController.h */,
+				7FA10A711540B8D900874F8D /* TradeViewController.m */,
+			);
+			name = "Trade View Controller";
+			sourceTree = "<group>";
+		};
+		7FF164C41537949F009F91A6 = {
+			isa = PBXGroup;
+			children = (
+				7FF164E5153794A1009F91A6 /* MainStoryboard_iPhone.storyboard */,
+				7F7425F71540747100EE2D5F /* JPNSDataStream */,
+				7FA10A741540B8DE00874F8D /* Trade View Controller */,
+				7F7425F315406F9800EE2D5F /* Main View */,
+				7FF164F315379A94009F91A6 /* iPhone */,
+				7FF164D9153794A1009F91A6 /* Multiplayer */,
+				7FF164D2153794A0009F91A6 /* Frameworks */,
+				7FF164D0153794A0009F91A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF164D0153794A0009F91A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF164CF153794A0009F91A6 /* Multiplayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FF164D2153794A0009F91A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FF164F815379DD5009F91A6 /* GameKit.framework */,
+				7FF164D3153794A0009F91A6 /* UIKit.framework */,
+				7FF164D5153794A0009F91A6 /* Foundation.framework */,
+				7FF164D7153794A1009F91A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FF164D9153794A1009F91A6 /* Multiplayer */ = {
+			isa = PBXGroup;
+			children = (
+				7FF164E2153794A1009F91A6 /* JPAppDelegate.h */,
+				7FF164E3153794A1009F91A6 /* JPAppDelegate.m */,
+				7FF164DA153794A1009F91A6 /* Supporting Files */,
+			);
+			path = Multiplayer;
+			sourceTree = "<group>";
+		};
+		7FF164DA153794A1009F91A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F1FA710154126210053E178 /* title-screen.png */,
+				7FF164DB153794A1009F91A6 /* Multiplayer-Info.plist */,
+				7FF164DC153794A1009F91A6 /* InfoPlist.strings */,
+				7FF164DF153794A1009F91A6 /* main.m */,
+				7FF164E1153794A1009F91A6 /* Multiplayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FF164F315379A94009F91A6 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				7FF164F515379B24009F91A6 /* iPhoneViewController.h */,
+				7FF164F615379B24009F91A6 /* iPhoneViewController.m */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FF164CE153794A0009F91A6 /* Multiplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF164F0153794A1009F91A6 /* Build configuration list for PBXNativeTarget "Multiplayer" */;
+			buildPhases = (
+				7FF164CB153794A0009F91A6 /* Sources */,
+				7FF164CC153794A0009F91A6 /* Frameworks */,
+				7FF164CD153794A0009F91A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Multiplayer;
+			productName = Multiplayer;
+			productReference = 7FF164CF153794A0009F91A6 /* Multiplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FF164C6153794A0009F91A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JP;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Devclub;
+			};
+			buildConfigurationList = 7FF164C9153794A0009F91A6 /* Build configuration list for PBXProject "Multiplayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FF164C41537949F009F91A6;
+			productRefGroup = 7FF164D0153794A0009F91A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FF164CE153794A0009F91A6 /* Multiplayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FF164CD153794A0009F91A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF164DE153794A1009F91A6 /* InfoPlist.strings in Resources */,
+				7FF164E7153794A1009F91A6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7F1FA711154126210053E178 /* title-screen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FF164CB153794A0009F91A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF164E0153794A1009F91A6 /* main.m in Sources */,
+				7FF164E4153794A1009F91A6 /* JPAppDelegate.m in Sources */,
+				7FF164F715379B24009F91A6 /* iPhoneViewController.m in Sources */,
+				7F7425F215406F9400EE2D5F /* MainViewController.m in Sources */,
+				7F7425F61540746E00EE2D5F /* JPNSDataStream.m in Sources */,
+				7FA10A721540B8D900874F8D /* TradeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FF164DC153794A1009F91A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF164DD153794A1009F91A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FF164E5153794A1009F91A6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF164E6153794A1009F91A6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = Multiplayer;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FD8B5A81541235400288FC8 /* Archive */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Archive;
+		};
+		7FD8B5A91541235400288FC8 /* Archive */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multiplayer/Multiplayer-Prefix.pch";
+				INFOPLIST_FILE = "Multiplayer/Multiplayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Archive;
+		};
+		7FF164EE153794A1009F91A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FF164EF153794A1009F91A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FF164F1153794A1009F91A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multiplayer/Multiplayer-Prefix.pch";
+				INFOPLIST_FILE = "Multiplayer/Multiplayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FF164F2153794A1009F91A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multiplayer/Multiplayer-Prefix.pch";
+				INFOPLIST_FILE = "Multiplayer/Multiplayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FF164C9153794A0009F91A6 /* Build configuration list for PBXProject "Multiplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF164EE153794A1009F91A6 /* Debug */,
+				7FF164EF153794A1009F91A6 /* Release */,
+				7FD8B5A81541235400288FC8 /* Archive */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF164F0153794A1009F91A6 /* Build configuration list for PBXNativeTarget "Multiplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF164F1153794A1009F91A6 /* Debug */,
+				7FF164F2153794A1009F91A6 /* Release */,
+				7FD8B5A91541235400288FC8 /* Archive */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FF164C6153794A0009F91A6 /* Project object */;
+}
